@@ -1,43 +1,36 @@
-_s
-===
+Portfolio Theme - WP
+=======
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+A simple wordpress portfolio theme.
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+Features:
+---
 
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A sample custom header implementation in `inc/custom-header.php` that can be activated by uncommenting one line in functions.php and adding the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/extras.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample CSS layouts in `layouts` for a sidebar on either side of your content.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+* Gallery
+• Thumbnails
+• zoom to image
+• SASS and COMPASS ready and integrated
+• BAsed on http://underscores.me
 
-Getting Started
----------------
+Prerequisites
+-------------
 
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
+You will need to have Sass installed, if you don't already have it. (If you're new to Sass, start here: http://sass-lang.com/tutorial.html and here: http://www.alistapart.com/articles/getting-started-with-sass/)
 
-If you want to set things up manually, download `_s` from github. The first thing you want to do is copy the `_s` directory and change the name to something else - Like, say, `megatherium` - then you'll need to do a five-step find and replace on the name in all the templates.
+You'll also need a fresh copy of Underscores for each new project. I strongly recommend using http://underscores.me to set up a customized copy for your project.
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
+Now, clone me.
+--------------
 
-OR
+1. Drop the entire sassy_s folder into your theme folder.
 
-* Search for: `'_s'` and replace with: `'megatherium'`
-* Search for: `_s_` and replace with: `megatherium_`
-* Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium` in style.css.
-* Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium</code>
-* Search for: `_s-` and replace with: `megatherium-`
+2. *Before you start editing*, copy the header from your customized Underscores style.css to sassy_s/style.scss
 
-Then, update the stylesheet header in style.css and the links in footer.php with your own information. Next, update or delete this readme.
+3. From the command line:
 
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
+	    cd path/to/your/theme
+	    sass --watch sassy_s/style.scss:style.css
 
-Good luck!
+	(Or use your preferred Sass GUI to set your input to the sassy_s directory and your output to the main stylesheet.)
+
+4. sassy_s comes with a few examples of variables and mixins to get you started.
