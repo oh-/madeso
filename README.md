@@ -1,6 +1,7 @@
 Portfolio Theme - WP
 =======
 
+A wordpress portfolio theme. Simple, non intrusive design.
 A simple wordpress portfolio theme.
 
 Features:
