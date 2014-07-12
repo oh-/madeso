@@ -527,32 +527,6 @@ textarea {
   width: 98%;
 }
 
-/* line 20, sass/_layout.scss */
-.content-area {
-  float: right;
-  margin: 0 0 0 -25%;
-  width: 100%;
-}
-
-/* line 25, sass/_layout.scss */
-.site-main {
-  margin: 0 0 0 25%;
-}
-
-/* line 28, sass/_layout.scss */
-.site-content .widget-area {
-  /* Sidebar 1 */
-  float: left;
-  overflow: hidden;
-  width: 25%;
-}
-
-/* line 36, sass/_layout.scss */
-.site-footer {
-  clear: both;
-  width: 100%;
-}
-
 /* =Menu
 ----------------------------------------------- */
 /* line 4, sass/_menu.scss */

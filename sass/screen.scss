@@ -4,3 +4,27 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+
+// configure the style from settings
+@import 'settings';
+
+/*
+base
+*/
+
+header#masthead {
+	width: 100%;
+	min-height: 50px;
+	border: solid 3px black;
+	clear: both;
+	.site-branding {
+		height: $sash-height;
+		width: 25%;
+		background-color: yellow;
+		float: left;
+	}
+	nav {
+		margin: -$sash-height 0 0 25%;
+		line-height: $sash-height;
+	}
+}

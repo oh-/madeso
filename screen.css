@@ -66,3 +66,26 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/*
+base
+*/
+/* line 15, sass/screen.scss */
+header#masthead {
+  width: 100%;
+  min-height: 50px;
+  border: solid 3px black;
+  clear: both;
+}
+/* line 20, sass/screen.scss */
+header#masthead .site-branding {
+  height: 90px;
+  width: 25%;
+  background-color: yellow;
+  float: left;
+}
+/* line 26, sass/screen.scss */
+header#masthead nav {
+  margin: -90px 0 0 25%;
+  line-height: 90px;
+}

@@ -14,5 +14,8 @@ $link-visited: purple;
 
 // Supported Values for $layout:
 //  null | content-sidebar | sidebar-content
-$layout: sidebar-content;
+$layout: null;
 $vspacing: 1.5em;
+
+// heading height
+$sash-height: 90px;
