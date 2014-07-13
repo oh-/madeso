@@ -17,7 +17,7 @@
 
 <link href="<?php echo get_stylesheet_directory_uri(); ?>/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <!--[if IE]>
-<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="<?php echo get_stylesheet_directory_uri(); ?>/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 <![endif]-->
 
 <?php wp_head(); ?>
@@ -29,8 +29,13 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" title="<?php bloginfo( 'name' ); ?>" class="site-logo-img" />
+			</div> <!-- /.logo -->
+			<div class="logo-text">
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			</div> <!-- /.logo-text -->
+			
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">

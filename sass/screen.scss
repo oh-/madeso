@@ -9,19 +9,30 @@
 @import 'settings';
 
 /*
-base
+header navigation
 */
+
 
 header#masthead {
 	width: 100%;
-	min-height: 50px;
-	border: solid 3px black;
+	border-bottom: solid 3px lightgrey;
 	clear: both;
+	background-color: darkgrey;
 	.site-branding {
 		height: $sash-height;
 		width: 25%;
 		background-color: yellow;
 		float: left;
+		.logo, .logo-text {
+			float: left;
+		}
+		logo-text{
+			line-height: $sash-height;
+		}
+		
+		.site-logo-img {
+			height: $sash-height;
+		}
 	}
 	nav {
 		margin: -$sash-height 0 0 25%;

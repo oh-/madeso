@@ -128,3 +128,101 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/*
+	Widgets
+
+class SiteLogoW extends WP_Widget {
+
+	function SiteLogoW() {
+		// Instantiate the parent object
+		parent::__construct( false, 'Site Logo' );
+	}
+
+	function widget( $args, $instance ) {
+		// Widget output
+	}
+
+	function update( $new_instance, $old_instance ) {
+		// Save widget options
+	}
+
+	function form( $instance ) {
+		// Output admin widget options form
+	}
+}
+
+function portfolio_register_widgets() {
+	register_widget( 'SiteLogoW' );
+}
+
+add_action( 'widgets_init', 'portfolio_register_widgets' );
+*/
+
+function remove_sl_widget() {
+	unregister_widget('SiteLogoW');
+}
+
+add_action( 'widgets_init', 'remove_sl_widget' );
+
+
+// Creating the widget 
+class sitelogow extends WP_Widget {
+
+function __construct() {
+parent::__construct(
+// Base ID of your widget
+'sitelogow', 
+
+// Widget name will appear in UI
+__('WPBeginner Widget', 'portfolio'), 
+
+// Widget description
+array( 'description' => __( 'Sample widget based on WPBeginner Tutorial', 'portfolio' ), ) 
+);
+}
+
+// Creating widget front-end
+// This is where the action happens
+public function widget( $args, $instance ) {
+$title = apply_filters( 'widget_title', $instance['title'] );
+// before and after widget arguments are defined by themes
+echo $args['before_widget'];
+if ( ! empty( $title ) )
+echo $args['before_title'] . $title . $args['after_title'];
+
+// This is where you run the code and display the output
+echo __( 'Hello, World!', 'wpb_widget_domain' );
+echo $args['after_widget'];
+}
+		
+// Widget Backend 
+public function form( $instance ) {
+if ( isset( $instance[ 'title' ] ) ) {
+$title = $instance[ 'title' ];
+}
+else {
+$title = __( 'New title', 'portfolio' );
+}
+// Widget admin form
+?>
+<p>
+<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
+<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
+</p>
+<?php 
+}
+	
+// Updating widget replacing old instances with new
+public function update( $new_instance, $old_instance ) {
+$instance = array();
+$instance['title'] = ( ! empty( $new_instance['title'] ) ) ? strip_tags( $new_instance['title'] ) : '';
+return $instance;
+}
+} // Class wpb_widget ends here
+
+// Register and load the widget
+function portfolio_load_widget() {
+	register_widget( 'sitelogow' );
+}
+add_action( 'widgets_init', 'portfolio_load_widget' );
