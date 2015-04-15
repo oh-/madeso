@@ -1,0 +1,19 @@
+{
+  "name": "madeso",
+  "version": "0.0.0",
+  "homepage": "madeso.uk",
+  "authors": [
+    "Samuel Overington <so@madeso.uk>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.2"
+  }
+}
