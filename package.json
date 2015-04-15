@@ -7,7 +7,10 @@
     "gulp": "^3.8.11",
     "gulp-ruby-sass": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.6.4",
+    "gulp-ruby-sass": "^1.0.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
