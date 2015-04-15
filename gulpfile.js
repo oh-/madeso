@@ -10,26 +10,26 @@ var reload = browserSync.reload;
 
 
 gulp.task('sass', function() {
-	return sass('scss/')
+	return sass('app/theme/sass/')
 		.on('error', function (err) {
 			console.error('Error! (sass)', err.message);
 		})
-		.pipe(gulp.dest('wp/'))
+		.pipe(gulp.dest('app/theme'))
 		.pipe(reload({ stream:true }))
 });
 
 //  browsersync config
 var config = {
-	files: ['wp/style.css', 'wp/*.php'],
-	proxy: "localhost/ecostage/?$",
+	files: ['app/theme/style.css', 'app/theme/*.php'],
+	proxy: "localhost/madeso/",
 	notify: "false"
 };
 
 gulp.task('serve', function() {
 	browserSync(config);
-	gulp.watch('scss/**.scss', ['sass']);
+	gulp.watch('app/theme/**.scss', ['sass']);
 });
 
 gulp.task('default', ['sass', 'serve'], function() {
-	gulp.watch("scss/**/*.scss", ['sass']);
+	gulp.watch('app/theme/**.scss', ['sass']);
 });
