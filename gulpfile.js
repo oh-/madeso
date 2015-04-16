@@ -1,22 +1,41 @@
 var gulp = require('gulp');
-var sass = require('gulp-ruby-sass');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
 // var del = require('del');
 // var fs = require('fs');
 
+var SassFiles = {
+	soc: 'app/theme/sass/style.scss',
+	dst: 'app/theme/'
+};
 
-
-
+// Gulp Sass Task 
 gulp.task('sass', function() {
-	return sass('app/theme/sass/')
-		.on('error', function (err) {
-			console.error('Error! (sass)', err.message);
-		})
-		.pipe(gulp.dest('app/theme'))
-		.pipe(reload({ stream:true }))
-});
+  gulp.src('./scss/{,*/}*.{scss,sass}')
+    .pipe(sourcemaps.init())
+    .pipe(sass({
+      errLogToConsole: true
+    }))
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('./css'));
+})
+
+
+
+// gulp-ruby-sass task info for sass
+// gulp.task('sass', function() {
+// 	// Sass watch
+// 	// var watcher = gulp.watch('SassFiles(src)', [sass])
+// 	return sass('app/theme/sass/', {sass }
+// 		.on('error', function (err) {
+// 			console.error('Error! (sass)', err.message);
+// 		})
+// 		.pipe(gulp.dest('app/theme'))
+// 		.pipe(reload({ stream:true }))
+// });
 
 //  browsersync config
 var config = {
