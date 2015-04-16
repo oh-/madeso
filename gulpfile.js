@@ -14,13 +14,13 @@ var SassFiles = {
 
 // Gulp Sass Task 
 gulp.task('sass', function() {
-  gulp.src('./scss/{,*/}*.{scss,sass}')
+  gulp.src('./app/theme/sass/{,*/}*.{scss,sass}')
     .pipe(sourcemaps.init())
     .pipe(sass({
       errLogToConsole: true
     }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./app/theme'));
 })
 
 
