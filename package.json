@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^3.8.11",
-    "gulp-ruby-sass": "^1.0.1"
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-watch": "^4.2.4"
   },
   "devDependencies": {
     "browser-sync": "^2.6.4",

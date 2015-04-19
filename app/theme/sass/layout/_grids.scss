@@ -1,0 +1,12 @@
+@import "../../../../bower_components/susy/sass/susy";
+
+#page {
+	background-color: blue;
+	@include container(80rem);
+};
+#content {
+	@include span(5 of 5 inside);
+	padding-left: auto;
+	padding-right: auto;
+	background-color: white;
+}
