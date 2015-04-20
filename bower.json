@@ -15,5 +15,9 @@
   ],
   "dependencies": {
     "susy": "~2.2.2"
+  },
+  "devDependencies": {
+    "vertical-rhythms-without-compass": "~1.0.1",
+    "breakpoint": "~4.6.4"
   }
 }
