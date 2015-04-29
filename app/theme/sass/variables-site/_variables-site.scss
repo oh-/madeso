@@ -1,3 +1,40 @@
+@import "imports";
 @import "colors";
 @import "typography";
 @import "structure";
+
+
+//[Susy default settings]
+$susy: (
+  flow: ltr,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: auto,
+  container-position: center,
+  columns: 16,
+  gutters: 0.05,
+  column-width: false,
+  global-box-sizing: border-box,
+  last-flow: to,
+  debug: (
+    image: show,
+    color: rgba(red, .25),
+    output: overlay,
+    toggle: bottom right,
+  ),
+  use-custom: (
+    background-image: true,
+    background-options: false,
+    box-sizing: true,
+    clearfix: false,
+    rem: true,
+  )
+);
+
+// [breakpoint vars]
+$breakpoint-to-rems: true;
+$mobile: 640px;
+$screen: 680px;
+$largescreen: 880px;
+//$bp-mobile-s: max-width 60rem;

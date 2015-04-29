@@ -1,12 +1,21 @@
-@import "../../../../bower_components/susy/sass/susy";
+@import "site-vars";
 
 #page {
-	background-color: blue;
-	@include container(80rem);
+		@include container($susy);
+		background: $color__background-screen;
 };
-#content {
-	@include span(5 of 5 inside);
-	padding-left: auto;
-	padding-right: auto;
-	background-color: white;
+.menu {
+	@include page;
+	background: $color__blue;
+}
+header#masthead, footer#colophon {
+	@include page;
+	background: $color__blue;
+}
+article {
+	@include page;
+}
+
+.site-branding {
+	@include span(12 of 16);
 }
