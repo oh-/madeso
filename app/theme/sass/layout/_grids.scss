@@ -1,12 +1,32 @@
-@import "../../../../bower_components/susy/sass/susy";
+@import "site-vars";
 
 #page {
-	background-color: blue;
-	@include container(80rem);
+		@include container($susy);
+		background: $color__background-screen;
 };
-#content {
-	@include span(5 of 5 inside);
-	padding-left: auto;
-	padding-right: auto;
-	background-color: white;
+.menu {
+	@include page;
+	background: $color__ecoblue;
+}
+header#masthead, footer#colophon {
+	@include page;
+	background: $color__ecoblue;
+}
+article {
+	@include page;
+}
+
+
+// image
+.site-logo-wrapper {
+	height: 200px;
+	.site-logo {@include span(2 of 12)}
+	#sitetitle2 {
+		height: 200px;
+		a {line-height: 150px;}
+		@include span(8 of 12)}
+}
+
+.site-branding {
+	@include span(12 of 16);
 }

@@ -21,3 +21,9 @@
 @mixin clearfix-after() {
 	clear: both;
 }
+
+@mixin page {
+	@include span(16);
+	padding-left: span(1 of 16);
+	padding-right: span(1 of 16);
+}
