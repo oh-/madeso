@@ -11,11 +11,10 @@ var reload = browserSync.reload;
 
 
 var paths = {
-       	SassFiles : {
-		soc: 'app/theme/sass/style.scss',
-		dst: 'app/theme/',
-		sf: './app/theme/sass/{,*/}*.{scss,sass}'
-	},
+	site : {
+		       local: 'localhost/madeso/',
+	       },
+
 	styles: {
 		src: './app/theme/sass/{,*/}*.{scss,sass}',
 		sass: './app/theme/sass/',
@@ -67,16 +66,15 @@ gulp.task('compass', function() {
 //  browsersync config
 var config = {
 	files: ['app/theme/style.css', 'app/theme/*.php'],
-	proxy: "localhost/ecostage/",
+	proxy: paths.site.local,
 	notify: "false"
 };
 
 gulp.task('serve', function() {
 	browserSync(config);
-	gulp.watch('app/theme/**.scss', ['sass']);
+	gulp.watch('app/theme/**.scss', ['compass']);
 });
 
 gulp.task('default', ['compass', 'serve'], function() {
 	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
-	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
 });
