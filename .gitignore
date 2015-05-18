@@ -29,3 +29,10 @@ node_modules
 
 # app - to not follow symlink
 app/temp
+# Vim swap data
+*.swp
+*.swo
+*~
+
+# Sass Map files from built theme
+app/theme/*.css.map
