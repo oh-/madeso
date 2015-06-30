@@ -36,7 +36,7 @@ gulp.task('compass', function() {
     .pipe(compass({
 		import_path: paths.styles.bower,
 		config_file: './config.rb',
-		require: 'susy',
+		// require: 'susy',
 		css: paths.styles.dest ,
 		sass: paths.styles.sass
     }))

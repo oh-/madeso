@@ -42,19 +42,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Galleries
 --------------------------------------------------------------*/
 @media (min-width: 0) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_core\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_core\.scss}line{font-family:\000039}}
   body::before {
     content: '{ "current" : "small", "all" : [small], "position" : 0 }';
     display: none;
   }
 }
 /*! Grid based on https://github.com/necolas/griddle by Nicolas Gallagher (@necolas) */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\000034}}
 body {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\000038}}
 .wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -62,17 +62,17 @@ body {
   padding-right: 1.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000316}}
 img {
   max-width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000317}}
 .no-js .responsive-image {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000321}}
 .grid {
   display: block;
   padding: 0;
@@ -82,20 +82,20 @@ img {
   text-rendering: optimizespeed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000336}}
 .opera:-o-prefocus,
 .grid {
   word-spacing: -0.43em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000343}}
 .grid > .grid {
   overflow: hidden;
   margin-right: 0;
   margin-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000352}}
 .grid__cell {
   width: 100%;
   display: -moz-inline-stack;
@@ -118,12 +118,12 @@ img {
   text-rendering: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000381}}
 .grid--center {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/breakpoint\/breakpoint\/_grid\.scss}line{font-family:\0000386}}
 .grid__cell--center {
   display: block;
   margin: 0 auto;
@@ -132,19 +132,19 @@ img {
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000031}}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000037}}
 body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000311}}
 article,
 aside,
 details,
@@ -160,7 +160,7 @@ summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000326}}
 audio,
 canvas,
 progress,
@@ -169,63 +169,63 @@ video {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000334}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000339}}
 [hidden],
 template {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000344}}
 a {
   background-color: transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000348}}
 a:active,
 a:hover {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000353}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000357}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000362}}
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000366}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000371}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000376}}
 small {
   font-size: 80%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000380}}
 sub,
 sup {
   font-size: 75%;
@@ -234,43 +234,43 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000388}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000392}}
 sub {
   bottom: -0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000396}}
 img {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003100}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003104}}
 figure {
   margin: 1em 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003108}}
 hr {
   box-sizing: content-box;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003113}}
 pre {
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003117}}
 code,
 kbd,
 pre,
@@ -279,7 +279,7 @@ samp {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003125}}
 button,
 input,
 optgroup,
@@ -290,18 +290,18 @@ textarea {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003135}}
 button {
   overflow: visible;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003139}}
 button,
 select {
   text-transform: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003144}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -310,79 +310,79 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003152}}
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003157}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003163}}
 input {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003167}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003173}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003178}}
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003183}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003188}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003194}}
 legend {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003199}}
 textarea {
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003203}}
 optgroup {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003207}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003212}}
 td,
 th {
   padding: 0;
@@ -391,7 +391,7 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_typography\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_typography\.scss}line{font-family:\000031}}
 body,
 button,
 input,
@@ -404,32 +404,32 @@ textarea {
   line-height: 1.5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_headings\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_headings\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000031}}
 p {
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000035}}
 dfn, cite, em, i {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000039}}
 blockquote {
   margin: 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000313}}
 address {
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000317}}
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -442,26 +442,26 @@ pre {
   padding: 1.6em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000328}}
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000333}}
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000338}}
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000343}}
 big {
   font-size: 125%;
 }
@@ -469,12 +469,12 @@ big {
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000031}}
 html {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000035}}
 *,
 *:before,
 *:after {
@@ -482,22 +482,22 @@ html {
   box-sizing: inherit;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000311}}
 body {
   background: #0095DD;
   /* Fallback for when there is no custom background color defined. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000315}}
 blockquote, q {
   quotes: "" "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000318}}
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000324}}
 hr {
   background-color: #ccc;
   border: 0;
@@ -505,39 +505,39 @@ hr {
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000031}}
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000035}}
 ul {
   list-style: disc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000039}}
 ol {
   list-style: decimal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000313}}
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000319}}
 dt {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000323}}
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000333}}
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -545,7 +545,7 @@ img {
   /* Adhere to container width. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/elements\/_tables\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/elements\/_tables\.scss}line{font-family:\000031}}
 table {
   margin: 0 0 1.5em;
   width: 100%;
@@ -554,7 +554,7 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\000031}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -571,7 +571,7 @@ input[type="submit"] {
   padding: .6em 1em .4em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000316}}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -579,7 +579,7 @@ input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000321}}
 button:active, button:focus,
 input[type="button"]:active,
 input[type="button"]:focus,
@@ -591,7 +591,7 @@ input[type="submit"]:focus {
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\000031}}
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -602,7 +602,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000311}}
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -612,7 +612,7 @@ textarea:focus {
   color: #111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000316}}
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -621,7 +621,7 @@ input[type="search"] {
   padding: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000324}}
 textarea {
   padding-left: 3px;
   width: 100%;
@@ -633,23 +633,23 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000031}}
 a {
   color: royalblue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000034}}
 a:visited {
   color: purple;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000037}}
 a:hover, a:focus, a:active {
   color: midnightblue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000312}}
 a:focus {
   outline: thin dotted;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000315}}
 a:hover, a:active {
   outline: 0;
 }
@@ -657,21 +657,21 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000031}}
 .main-navigation {
   clear: both;
   display: block;
   float: left;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000037}}
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000313}}
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -680,68 +680,68 @@ a:hover, a:active {
   left: -999em;
   z-index: 99999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000321}}
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000327}}
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000333}}
 .main-navigation ul ul a {
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000346}}
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000351}}
 .main-navigation li {
   float: left;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000359}}
 .main-navigation a {
   display: block;
   text-decoration: none;
 }
 
 /* Small menu. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000371}}
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
 @media screen and (min-width: 37.5em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000377}}
   .menu-toggle {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000380}}
   .main-navigation ul {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000389}}
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000394}}
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000399}}
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -754,7 +754,7 @@ a:hover, a:active {
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000032}}
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -762,7 +762,7 @@ a:hover, a:active {
   width: 1px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000039}}
 .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
@@ -787,21 +787,21 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000031}}
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000037}}
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\0000313}}
 .aligncenter {
   display: block;
   margin-left: auto;
@@ -811,7 +811,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\000031}}
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -828,7 +828,7 @@ a:hover, a:active {
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\0000316}}
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -841,18 +841,18 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000031}}
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000035}}
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\0000311}}
 .widget_search .search-submit {
   display: none;
 }
@@ -860,135 +860,92 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000035}}
 #page {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI5NS4yMzgxJSIgc3RvcC1jb2xvcj0iI2ZmNGQ0ZCIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI5NS4yMzgxJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(255, 0, 0, 0.25)), color-stop(95.2381%, rgba(255, 77, 77, 0.25)), color-stop(95.2381%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -moz-linear-gradient(left, rgba(255, 0, 0, 0.25), rgba(255, 77, 77, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: -webkit-linear-gradient(left, rgba(255, 0, 0, 0.25), rgba(255, 77, 77, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.25), rgba(255, 77, 77, 0.25) 95.2381%, rgba(0, 0, 0, 0) 95.2381%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
+  background-size: 6.26866%, 100% 24px;
+  background-origin: content-box, border-box;
+  background-clip: content-box, border-box;
+  background-position: left top;
   background: #f1f1f1;
+  min-height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
 #page:after {
   content: " ";
   display: block;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_background\.scss}line{font-family:\0000365}}
-head {
-  display: block;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  z-index: 999;
-  color: #333;
-  background: rgba(255, 255, 255, 0.25);
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_background\.scss}line{font-family:\0000366}}
-head:before {
-  content: "|||";
-  display: block;
-  padding: 5px 10px;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_background\.scss}line{font-family:\0000367}}
-head:hover {
-  background: rgba(255, 255, 255, 0.5);
-  color: red;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_background\.scss}line{font-family:\0000371}}
-head:hover ~ #page, head:hover ~ body #page {
-  position: relative;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_background\.scss}line{font-family:\0000374}}
-head:hover ~ #page:before, head:hover ~ body #page:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  content: " ";
-  z-index: 998;
-  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.25), rgba(255, 77, 77, 0.25) 95.2381%, transparent 95.2381%);
-  background-size: 6.26866%;
-  background-origin: content-box;
-  background-clip: content-box;
-  background-position: left top;
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000310}}
+footer#colophon, article {
+  padding-left: 6.26866%;
+  padding-right: 6.26866%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000037}}
-.menu {
-  width: 100%;
-  float: left;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 5.97015%;
-  padding-right: 5.97015%;
-  background: #0095DD;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000315}}
+#masthead {
+  background-color: rgba(0, 149, 221, 0.7);
+  padding-left: 6.26866%;
+  padding-right: 6.26866%;
+  height: 100vh;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000311}}
-header#masthead, footer#colophon {
-  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000319}}
+#masthead #site-navigation {
+  width: 28.32765%;
   float: left;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 5.97015%;
-  padding-right: 5.97015%;
-  background: #0095DD;
+  margin-right: 0.3413%;
+  background-color: #4EABF0;
 }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000315}}
-article {
-  width: 100%;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000323}}
+#masthead #site-navigation {
+  width: 28.32765%;
   float: left;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 5.97015%;
-  padding-right: 5.97015%;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000319}}
-.site-branding {
-  width: 74.92537%;
-  float: left;
-  margin-right: 0.29851%;
+  margin-right: 0.3413%;
+  background-color: #4EABF0;
 }
 
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000031}}
 .sticky {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000035}}
 .hentry {
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000039}}
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000314}}
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000319}}
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000325}}
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -997,7 +954,7 @@ article {
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_asides\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_asides\.scss}line{font-family:\000031}}
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -1006,12 +963,12 @@ article {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000031}}
 .comment-content a {
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000034}}
 .bypostauthor {
   display: block;
 }
@@ -1020,7 +977,7 @@ article {
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000032}}
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -1028,7 +985,7 @@ article {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000038}}
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -1036,7 +993,7 @@ article {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\000031}}
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1047,7 +1004,7 @@ article {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\0000311}}
 embed,
 iframe,
 object {
@@ -1057,23 +1014,23 @@ object {
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000031}}
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000035}}
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000039}}
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\0000314}}
 .wp-caption-text {
   text-align: center;
 }
@@ -1081,52 +1038,52 @@ object {
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000031}}
 .gallery {
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000035}}
 .gallery-item {
   display: inline-block;
   text-align: center;
   vertical-align: top;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000311}}
 .gallery-columns-2 .gallery-item {
   max-width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000315}}
 .gallery-columns-3 .gallery-item {
   max-width: 33.33%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
 .gallery-columns-4 .gallery-item {
   max-width: 25%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000323}}
 .gallery-columns-5 .gallery-item {
   max-width: 20%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000327}}
 .gallery-columns-6 .gallery-item {
   max-width: 16.66%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000331}}
 .gallery-columns-7 .gallery-item {
   max-width: 14.28%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000335}}
 .gallery-columns-8 .gallery-item {
   max-width: 12.5%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000339}}
 .gallery-columns-9 .gallery-item {
   max-width: 11.11%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/ecostage\/theme\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000344}}
 .gallery-caption {
   display: block;
 }

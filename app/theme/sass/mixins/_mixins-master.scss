@@ -23,7 +23,21 @@
 }
 
 @mixin page {
-	@include span(16);
-	padding-left: span(1 of 16);
-	padding-right: span(1 of 16);
+	padding-left: span(1) + gutter();
+	padding-right: span(1) + gutter();
+//	@include breakpoint($mobile) {
+//		@include span(16);
+//		padding-left: span(1 of 16);
+//		padding-right: span(1 of 16);
+//	}
+//	@include breakpoint($screen) {
+//		@include span(16);
+//		padding-left: span(2 of 16);
+//		padding-right: span(2 of 16);
+//	}
+//	@include breakpoint($largescreen) {
+//		@include span(16);
+//		padding-left: span(4 of 16);
+//		padding-right: span(4 of 16);
+//	}
 }

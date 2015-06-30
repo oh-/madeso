@@ -1,21 +1,28 @@
 @import "site-vars";
 
+// Basic site layout template
+
 #page {
 		@include container($susy);
 		background: $color__background-screen;
+		min-height: 100%;
 };
-.menu {
-	@include page;
-	background: $color__blue;
-}
-header#masthead, footer#colophon {
-	@include page;
-	background: $color__blue;
-}
-article {
+footer#colophon, article {
 	@include page;
 }
 
-.site-branding {
-	@include span(12 of 16);
+// Header
+#masthead {
+	background-color: rgba($color__blue, 0.7);
+	@include page;
+	height: 100vh;
+	#site-navigation {
+		@include span(4 of 14);
+		background-color: $color__blue-d;
+	}
+	#site-navigation {
+		@include span(4 of 14);
+		background-color: $color__blue-d;
+	}
 }
+

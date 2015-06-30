@@ -20,7 +20,7 @@ $susy: (
   debug: (
     image: show,
     color: rgba(red, .25),
-    output: overlay,
+    output: background,
     toggle: bottom right,
   ),
   use-custom: (
@@ -33,8 +33,8 @@ $susy: (
 );
 
 // [breakpoint vars]
-$breakpoint-to-rems: true;
-$mobile: 640px;
-$screen: 680px;
-$largescreen: 880px;
+$breakpoint-to-rems: false;
+$mobile: 60rem; // 640px;
+$screen: 70rem; //680px;
+$largescreen: 80rem; // 880px;
 //$bp-mobile-s: max-width 60rem;
