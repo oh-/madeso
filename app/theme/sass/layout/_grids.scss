@@ -13,16 +13,10 @@ footer#colophon, article {
 
 // Header
 #masthead {
-	background-color: rgba($color__blue, 0.7);
 	@include page;
 	height: 100vh;
 	#site-navigation {
 		@include span(4 of 14);
-		background-color: $color__blue-d;
-	}
-	#site-navigation {
-		@include span(4 of 14);
-		background-color: $color__blue-d;
 	}
 }
 

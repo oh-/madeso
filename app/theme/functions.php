@@ -124,7 +124,7 @@ add_action( 'wp_enqueue_scripts', '_s_scripts' );
 /**
  * Implement the Custom Header feature.
  */
-//require get_template_directory() . '/inc/custom-header.php';
+require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
@@ -140,6 +140,23 @@ require get_template_directory() . '/inc/extras.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/*
+ * Customizer css renderer
+ */
+function _s_customizer_css() {
+	$address = get_stylesheet_directory_uri();
+	$bgimguri = get_theme_mod('_s_header_bg_image', $address.'img/bgheader.jpg');
+	$format = '%1$s';
+	$_s_header_bg_img_uri = sprintf($format, $bgimguri);
+
+?>
+	<style type="text/css">
+	header#masthead {background: url(<?php echo $_s_header_bg_img_uri; ?>);}
+	</style>
+<?php
+}
+add_action( 'wp_head', '_s_customizer_css');
 
 /**
  * Load Jetpack compatibility file.

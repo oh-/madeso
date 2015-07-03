@@ -893,24 +893,15 @@ footer#colophon, article {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000315}}
 #masthead {
-  background-color: rgba(0, 149, 221, 0.7);
   padding-left: 6.26866%;
   padding-right: 6.26866%;
   height: 100vh;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000318}}
 #masthead #site-navigation {
   width: 28.32765%;
   float: left;
   margin-right: 0.3413%;
-  background-color: #4EABF0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000323}}
-#masthead #site-navigation {
-  width: 28.32765%;
-  float: left;
-  margin-right: 0.3413%;
-  background-color: #4EABF0;
 }
 
 /*--------------------------------------------------------------

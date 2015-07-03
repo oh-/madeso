@@ -14,6 +14,35 @@ function _s_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
+        /*
+	 * header
+         */
+	$wp_customize->add_section('_s_header', array(
+		'title' => __('Header Options', '_s'),
+		'description' => __('Text for Theme Call to Action, or main heading', '_s')
+	));
+	$_s_header_bg_img_uri = get_stylesheet_directory_uri() . '/img/bgheader.jpg';
+	$wp_customize->add_setting('_s_header_bg_image', array(
+		'default' => $_s_header_bg_img_uri,
+	));
+	$wp_customize->add_control(
+	       new WP_Customize_Image_Control(
+	                  $wp_customize,
+	              'logo',
+               array(
+		       'label'      => __( 'Upload a background image for the header', '_s' ),
+               'section'    => '_s_header',
+               'settings'   => '_s_header_bg_image',
+		   )
+		)
+	);       
+	// $wp_customize->add_control( new WP_Customize_Control($wp_customize, '_s_cta_link', array(
+	// 	'label' => __('enter the link where you would like the button to go', '_s'),
+	// 	'section' => '_s_cta',
+	// 	'setting' => '_s_cta_link',
+	// 	'type' => 'text'
+	// ) ));
+
 }
 add_action( 'customize_register', '_s_customize_register' );
 
