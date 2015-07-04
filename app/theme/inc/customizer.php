@@ -21,6 +21,7 @@ function _s_customize_register( $wp_customize ) {
 		'title' => __('Header Options', '_s'),
 		'description' => __('Text for Theme Call to Action, or main heading', '_s')
 	));
+	// defautlt header background image
 	$_s_header_bg_img_uri = get_stylesheet_directory_uri() . '/img/bgheader.jpg';
 	$wp_customize->add_setting('_s_header_bg_image', array(
 		'default' => $_s_header_bg_img_uri,
@@ -36,13 +37,15 @@ function _s_customize_register( $wp_customize ) {
 		   )
 		)
 	);       
-	// $wp_customize->add_control( new WP_Customize_Control($wp_customize, '_s_cta_link', array(
-	// 	'label' => __('enter the link where you would like the button to go', '_s'),
-	// 	'section' => '_s_cta',
-	// 	'setting' => '_s_cta_link',
-	// 	'type' => 'text'
-	// ) ));
 
+        /*
+	 * set various properties of the background image:
+	 * 	fit content to width / static size content
+	 *	static / fixed
+         */
+	$wp_customize->add_setting('_s_header_bg_image_settings', array(
+		'default' => $_s_header_bg_img_uri,
+	));
 }
 add_action( 'customize_register', '_s_customize_register' );
 

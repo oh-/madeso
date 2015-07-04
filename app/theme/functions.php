@@ -152,7 +152,7 @@ function _s_customizer_css() {
 
 ?>
 	<style type="text/css">
-	header#masthead {background: url(<?php echo $_s_header_bg_img_uri; ?>);}
+	header#masthead {background: url(<?php echo $_s_header_bg_img_uri; ?>) fixed center no-repeat;background-size:cover; min-width:1000px;}
 	</style>
 <?php
 }
@@ -162,3 +162,12 @@ add_action( 'wp_head', '_s_customizer_css');
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/*
+* Author info
+ */
+function _s_theme_info(){
+	$author_name = "Samuel Overington";
+	$author_address = "http://madeso.uk/";
+	echo sprintf('C 8H 10N 4O 2, WP & %1$s', $author_name);
+}
