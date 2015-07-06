@@ -3,9 +3,9 @@
 // Basic site layout template
 
 #page {
-		@include container($susy);
-		background: $color__background-screen;
-		min-height: 100%;
+	@include container($susy);
+	background: $color__background-screen;
+	min-height: 100%;
 };
 footer#colophon, article {
 	@include page;
@@ -14,9 +14,14 @@ footer#colophon, article {
 // Header
 #masthead {
 	@include page;
+	position: absolute;
 	height: 100vh;
 	#site-navigation {
-		@include span(4 of 14);
+		position: relative;
+		top: 0;
 	}
 }
 
+.site-footer {
+	@include rhythm-padding(2,4);
+}

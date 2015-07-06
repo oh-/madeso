@@ -661,17 +661,16 @@ a:hover, a:active {
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000036}}
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000312}}
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -680,37 +679,37 @@ a:hover, a:active {
   left: -999em;
   z-index: 99999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000320}}
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000326}}
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000332}}
 .main-navigation ul ul a {
   width: 200px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000345}}
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000350}}
 .main-navigation li {
   float: left;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000358}}
 .main-navigation a {
   display: block;
   text-decoration: none;
 }
 
 /* Small menu. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000370}}
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
@@ -725,23 +724,24 @@ a:hover, a:active {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000380}}
   .main-navigation ul {
     display: block;
+    background-color: red !important;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000390}}
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000395}}
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003100}}
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -887,21 +887,29 @@ a:hover, a:active {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000310}}
 footer#colophon, article {
-  padding-left: 6.26866%;
-  padding-right: 6.26866%;
+  width: 100%;
+  padding-left: 12.53731%;
+  padding-right: 12.53731%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000315}}
 #masthead {
-  padding-left: 6.26866%;
-  padding-right: 6.26866%;
+  width: 100%;
+  padding-left: 12.53731%;
+  padding-right: 12.53731%;
+  position: absolute;
   height: 100vh;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000319}}
 #masthead #site-navigation {
-  width: 28.32765%;
-  float: left;
-  margin-right: 0.3413%;
+  position: relative;
+  top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/madeso\.uk\/themes\/madeso\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000325}}
+.site-footer {
+  padding-top: 3em;
+  padding-bottom: 6em;
 }
 
 /*--------------------------------------------------------------

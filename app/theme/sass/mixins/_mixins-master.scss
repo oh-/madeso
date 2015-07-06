@@ -21,23 +21,40 @@
 @mixin clearfix-after() {
 	clear: both;
 }
-
+// testing mixin - sets background-color: $col !important; 
+@mixin test($col: red) {
+	background-color: $col !important; 
+}
+@mixin page-squeeze($num: 2) {
+	@include pad($num);
+}
 @mixin page {
-	padding-left: span(1) + gutter();
-	padding-right: span(1) + gutter();
-//	@include breakpoint($mobile) {
-//		@include span(16);
-//		padding-left: span(1 of 16);
-//		padding-right: span(1 of 16);
-//	}
-//	@include breakpoint($screen) {
-//		@include span(16);
-//		padding-left: span(2 of 16);
-//		padding-right: span(2 of 16);
-//	}
-//	@include breakpoint($largescreen) {
-//		@include span(16);
-//		padding-left: span(4 of 16);
-//		padding-right: span(4 of 16);
-//	}
+	width: span(full);
+	@include page-squeeze;
+}
+@mixin navtabs($corner: 1em) {
+	ul li {
+		border-top: 8px solid $color__8th-b3;
+		//background-color: $color__8th-b2;
+		//@include colgen($color__ecoblue, $color__8th-light, $color__8th-b3); 
+		@include border-radius($corner);
+	}
+}
+@mixin nolink() {
+	text-decoration: none;
+	background-color: clear !important; 
+}
+@mixin button($butcol: $color__background-button) {
+	@include contrasted($butcol);
+	&:hover {@include contrasted(adjust-lightness($butcol, 20));}
+	@include adjust-font-size-to(1.5em);
+	@include nolink;
+	padding: 1.2rem;
+	@include border-radius(2em);
+}
+//colour generator
+@mixin colgen($base, $light: white, $dark: black){
+	&:nth-child(3n) {background-color: $base;}
+	&:nth-child(3n+1) {background-color: complement($base);}
+	&:nth-child(3n+2) {background-color: mix($base, complement($base), 30);}
 }
