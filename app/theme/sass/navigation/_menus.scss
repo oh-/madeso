@@ -1,14 +1,14 @@
 .main-navigation {
-	clear: both;
-	display: block;
-	width: 100%;
-
+	> div {float: right;}
+	@include navtabs(0 0 6px 6px);
+	position: absolute;
+	right: 0;
 	ul {
 		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
-
+		background-color: $color__background-menu;
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 			float: left;
@@ -49,22 +49,36 @@
 	}
 	li {
 		float: left;
-		position: relative;
-
+		margin-left: 1rem; // space between
+		@include pad(1rem);
+		background-color: $color__background-menu-item;
+		&:hover, 
+		&.focus {
+			border-top:10px solid $color__background-menu-hover;
+		}
 		&:hover > a,
 		&.focus > a {
+			//only the link
 		}
 	}
 	a {
 		display: block;
 		text-decoration: none;
+		color: $color__text-menu;
 	}
 
 	.current_page_item > a,
 	.current-menu-item > a,
 	.current_page_ancestor > a {
 	}
+	.current-menu-item,
+	.current_page_item {
+		//current menu item
+		background-color: $color__background-menu-select;
+		border-top: 8px solid $color__8th-light;
+	}
 }
+
 
 /* Small menu. */
 .menu-toggle,
@@ -72,18 +86,15 @@
 	display: block;
 }
 
-@media screen and (min-width: 37.5em) {
-// @include breakpoint(min-width $mobile) {
+@include breakpoint(min-width $mobile) {
 	.menu-toggle {
 		display: none;
 	}
 	.main-navigation ul {
 		display: block;
-		background-color: red !important;
 	}
 }
 
-.comment-navigation,
 .posts-navigation,
 .post-navigation {
 
