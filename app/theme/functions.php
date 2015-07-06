@@ -168,6 +168,8 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 function _s_theme_info(){
 	$author_name = "Samuel Overington";
+	$author_co = "made<strong>so</strong>";
 	$author_address = "http://madeso.uk/";
-	echo sprintf('C 8H 10N 4O 2, WP & %1$s', $author_name);
+	$seperator = "<span class='sep'> | </span>";
+	echo sprintf('<a href="%3$s" rel="designer">%2$s</a> %4$s %1$s', $author_name, $author_co, $author_address, $seperator);
 }
