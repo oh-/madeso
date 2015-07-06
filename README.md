@@ -1,4 +1,9 @@
-# ecostage
-WP bundle for ecostage
+#_s with a few tweeks
+WP starter theme bundle
 
-here is new text
+##Mixins for quick use
+* ###navtabs
+* ###testing (set bg color to get a quick reference)
+* ###page / page squeeze
+* ###Nolink (hide link attributes)
+* ###button (create link into a button)

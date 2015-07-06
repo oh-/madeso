@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "vertical-rhythms-without-compass": "~1.0.1",
-    "breakpoint": "~4.6.4"
+    "breakpoint": "~4.6.4",
+    "gulp-susy-starter": "git://github.com/zellwk/gulp-susy-starter.git"
   }
 }

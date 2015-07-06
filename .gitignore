@@ -27,5 +27,12 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 
-# app - to not follow symlink
+# Temporary files
 app/temp
+# Vim swap data
+*.swp
+*.swo
+*~
+
+# Sass Map files from built theme
+app/theme/*.css.map
