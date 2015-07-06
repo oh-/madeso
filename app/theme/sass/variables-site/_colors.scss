@@ -1,28 +1,58 @@
 // Site Colour Scheme
-$color__blue: #0095DD;
-$color__blue-d: #4EABF0;
+
+$color__base-1:#9c7fa1;
+  // light pink
+
+$color__base-2:#ff7fa1;
+  // vibrant pink 
+ 
+$color__base-3:#2c1c41;
+  // dark opurple
+ 
+$color__base-4:#007fa1;
+  // bluegreen
+
+$color__blue: $color__base-1;
+$color__blue-d: $color__base-2;
 
 
 
+$color__background-header: $color__blue;
 $color__background-body: $color__blue;
+$color__background-footer: $color__base-3;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
 $color__background-menu: clear;
-$color__background-menu-item: red;
+$color__background-menu-item: $color__base-3;
 $color__background-menu-select: clear;
+$color__background-menu-hover: $color__base-2;
 
-$color__text-screen: #21759b;
-$color__text-alt: white;
+/*
+ * The Originals
+ * 
+ * $color__text-screen: #21759b;
+ * $color__text-alt: white;
+ * $color__text-input: #666;
+ * $color__text-input-focus: #111;
+ * $color__link: royalblue;
+ * $color__link-visited: purple;
+ * $color__link-hover: midnightblue;
+ * $color__text-main: #404040;
+ * $color__text-menu: white;
+ */
+
+$color__text-screen: $color__base-1;
+$color__text-alt: $color__base-4;
 $color__text-input: #666;
 $color__text-input-focus: #111;
-$color__link: royalblue;
-$color__link-visited: purple;
+$color__link: $color__base-1;
+$color__link-visited: lighten($color__base-1, 10);
 $color__link-hover: midnightblue;
-$color__text-main: #404040;
-$color__text-menu: white;
+$color__text-main: $color__base-4;
+$color__text-menu: $color__text-alt;
 
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;

@@ -1,6 +1,6 @@
 .main-navigation {
 	> div {float: right;}
-	@include navtabs(0 0 6px 6px);
+	@include navtabs(0);
 	position: absolute;
 	right: 0;
 	ul {
@@ -49,12 +49,10 @@
 	}
 	li {
 		float: left;
-		margin-left: 1rem; // space between
-		@include pad(1rem);
 		background-color: $color__background-menu-item;
 		&:hover, 
 		&.focus {
-			border-top:10px solid $color__background-menu-hover;
+			background-color:$color__background-menu-hover;
 		}
 		&:hover > a,
 		&.focus > a {
@@ -75,7 +73,7 @@
 	.current_page_item {
 		//current menu item
 		background-color: $color__background-menu-select;
-		border-top: 8px solid $color__8th-light;
+		border-top: 8px solid $color__base-2;
 	}
 }
 

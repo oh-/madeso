@@ -1,26 +1,30 @@
 @import "site-vars";
 
-// Basic site layout template
-
-#page {
-	@include container($susy);
-	background: $color__background-screen;
-	min-height: 100%;
-};
-footer#colophon, article {
-	@include page;
-}
-
 // Header
 #masthead {
 	@include page;
-	position: absolute;
+	position: relative;
 	height: 100vh;
 	#site-navigation {
 		position: relative;
 		top: 0;
 	}
 }
+
+// Basic site layout template
+
+#page {
+	@include container($susy);
+	background: $color__background-screen;
+};
+#content {
+	position: absolute;
+}
+footer#colophon, article {
+	@include page;
+	background-color: $color__background-footer;
+}
+
 
 .site-footer {
 	@include rhythm-padding(2,4);

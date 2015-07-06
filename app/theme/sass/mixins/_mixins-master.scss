@@ -34,10 +34,10 @@
 }
 @mixin navtabs($corner: 1em) {
 	ul li {
-		border-top: 8px solid $color__8th-b3;
-		//background-color: $color__8th-b2;
-		//@include colgen($color__ecoblue, $color__8th-light, $color__8th-b3); 
+		border-top: 8px solid $color__base-1;
 		@include border-radius($corner);
+		margin-left: 1rem; // space between
+		@include pad(1rem);
 	}
 }
 @mixin nolink() {

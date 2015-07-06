@@ -173,3 +173,15 @@ function _s_theme_info(){
 	$seperator = "<span class='sep'> | </span>";
 	echo sprintf('<a href="%3$s" rel="designer">%2$s</a> %4$s %1$s', $author_name, $author_co, $author_address, $seperator);
 }
+
+/*
+ * insert the menu as a function
+ */
+function _s_menu() {
+?>
+<nav id="site-navigation" class="main-navigation" role="navigation">
+	<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', '_s' ); ?></button>
+	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+</nav><!-- #site-navigation -->
+<?php
+}
