@@ -3,12 +3,15 @@ button,
 input,
 select,
 textarea {
-	color: $color__text-main;
+	color: $color__text-screen;
 	font-family: $font__main;
 	@include font-size(1);
 	line-height: $font__line-height-body;
 }
 
+.alt, .site-footer {
+	color: $color__text-alt;
+}
 @import "headings";
 
 @import "copy";

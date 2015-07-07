@@ -12,6 +12,14 @@ $color__base-3:#2c1c41;
 $color__base-4:#007fa1;
   // bluegreen
 
+/*
+ * Colours with descriptive words.
+ */
+
+$color__indigo: #201f25;
+
+$color__lightgrey: #d1d4d8;
+
 $color__blue: $color__base-1;
 $color__blue-d: $color__base-2;
 
@@ -19,7 +27,7 @@ $color__blue-d: $color__base-2;
 
 $color__background-header: $color__blue;
 $color__background-body: $color__blue;
-$color__background-footer: $color__base-3;
+$color__background-footer: $color__indigo;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
@@ -30,27 +38,14 @@ $color__background-menu-item: $color__base-3;
 $color__background-menu-select: clear;
 $color__background-menu-hover: $color__base-2;
 
-/*
- * The Originals
- * 
- * $color__text-screen: #21759b;
- * $color__text-alt: white;
- * $color__text-input: #666;
- * $color__text-input-focus: #111;
- * $color__link: royalblue;
- * $color__link-visited: purple;
- * $color__link-hover: midnightblue;
- * $color__text-main: #404040;
- * $color__text-menu: white;
- */
 
-$color__text-screen: $color__base-1;
-$color__text-alt: $color__base-4;
+$color__text-screen: $color__indigo;
+$color__text-alt: $color__lightgrey;
 $color__text-input: #666;
 $color__text-input-focus: #111;
 $color__link: $color__base-1;
-$color__link-visited: lighten($color__base-1, 10);
-$color__link-hover: midnightblue;
+$color__link-visited: darken($color__base-1, 10);
+$color__link-hover: lighten($color__base-1, 10);
 $color__text-main: $color__base-4;
 $color__text-menu: $color__text-alt;
 
@@ -59,3 +54,4 @@ $color__border-button-hover: #ccc #bbb #aaa;
 $color__border-button-focus: #aaa #bbb #bbb;
 $color__border-input: #ccc;
 $color__border-abbr: #666;
+
