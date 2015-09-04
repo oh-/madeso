@@ -18,6 +18,28 @@ var paths = {
 		build: './app/temp/'
 		}
 };
+//  browsersync config
+var config = {
+	files: ['app/theme/style.css', 'app/theme/*.php'],
+    proxy: 'base.theme', // change this to your site url
+    notify: 'false',
+    browser: "FirefoxDeveloperEdition",
+    open: false,
+    ghostMode: false
+// : {
+//     clicks: true,
+//     forms: true,
+//     scroll: false
+// }
+};
+var configo = {
+	files: ['app/theme/style.css', 'app/theme/*.php'],
+    proxy: 'base.theme', // change this to your site url
+    notify: 'false',
+    browser: "FirefoxDeveloperEdition",
+    open: true,
+    ghostMode: false
+};
 
 
 gulp.task('compass', function() {
@@ -31,8 +53,8 @@ gulp.task('compass', function() {
     .pipe(compass({
 		import_path: paths.styles.bower,
 		config_file: './config.rb',
-		// require: 'susy',
-		// require: 'breakpoint',
+		require: 'susy',
+		require: 'breakpoint',
 		css: paths.styles.dest,
 		sass: paths.styles.sass,
 		sourcemap: 'true'
@@ -46,7 +68,7 @@ gulp.task('compass', function() {
 
 
 
-// // Gulp Sass Task
+// // Gulp Sass Task - if you would prefer Sass to Compass
 // gulp.task('sass', function() {
 //   gulp.src('./app/theme/sass/{,*/}*.{scss,sass}')
 //    	.pipe(sourcemaps.init())
@@ -60,16 +82,19 @@ gulp.task('compass', function() {
 
 
 
-//  browsersync config
-var config = {
-	files: ['app/theme/style.css', 'app/theme/*.php'],
-	proxy: "localhost",
-	notify: 'false'
-};
 
 gulp.task('serve', function() {
 	browserSync(config);
 	gulp.watch('paths.styles.src', ['compass']);
+});
+gulp.task('serveo', function() {
+	browserSync(configo);
+	gulp.watch('paths.styles.src', ['compass']);
+});
+
+gulp.task('o', ['compass', 'serveo'], function() {
+	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
+	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
 });
 
 gulp.task('default', ['compass', 'serve'], function() {
