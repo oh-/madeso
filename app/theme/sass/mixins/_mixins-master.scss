@@ -1,3 +1,7 @@
+@mixin box-sizing($value) {
+-moz-box-sizing: $value;
+box-sizing: $value;
+}
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
 	font-size: ($sizeValue * 16) * 1px;
@@ -21,40 +25,113 @@
 @mixin clearfix-after() {
 	clear: both;
 }
-// testing mixin - sets background-color: $col !important; 
-@mixin test($col: red) {
-	background-color: $col !important; 
+
+/*
+ * Development helpers
+ */
+@mixin testing($colour: red) {
+	background-color: $colour !important;
 }
-@mixin page-squeeze($num: 2) {
-	@include pad($num);
-}
+@mixin size($colour: red) {
+	#showsize {
+		position: fixed;
+		@include pad(15px);
+		top: 0;
+		@include span(isolate 5 at 6 of 12);
+		z-index: 9999999;
+		@include border-radius(10px);
+		&:hover{ @include opacity(0.8);}
+		@include breakpoint($smartphone-portrait) {
+		&::after {	
+			content: '$smartphone-portrait';
+		}
+		};
+		@include breakpoint($smartphone-landscape) {
+		&::after {	
+			content: '$smartphone-landscape';
+		}
+		};
+		@include breakpoint($tablet-portrait) {
+		&::after {	
+			content: '$tablet-portrait';
+			width: span(2 of 16);
+			left: span(2 of 16);
+			top:  span(2 of 16);
+		}
+		};
+		@include breakpoint($tablet-landscape) {
+		&::after {	
+			content: '$tablet-landscape';
+		}
+		};
+		@include breakpoint($desktop) {
+		&::after {	
+			content: '$desktop';
+		}
+		};
+	};
+}	
+
+/*
+ * Page layout mixins
+ */
 @mixin page {
-	width: span(full);
-	@include page-squeeze;
-}
-@mixin navtabs($corner: 1em) {
-	ul li {
-		border-top: 8px solid $color__8th-b3;
-		//background-color: $color__8th-b2;
-		//@include colgen($color__ecoblue, $color__8th-light, $color__8th-b3); 
-		@include border-radius($corner);
+	@include span(full);
+	//up to tablet landscap
+	@include breakpoint($tablet-portrait) {
+		// Tablet-portrait and up
+		@include span(14 of 16 nest);
+		@include squish(1 of 16);
+	};
+	@include breakpoint($tablet-landscape) {
+		// Tablet-portrait and up
+		@include span(14 of 16 nest);
+		@include squish(1 of 16);
+	};
+	@include breakpoint($desktop) {
+		@include span(16 of 16 nest);
+		@include pad(0.5 of 16);
 	}
 }
+
+/*
+ * extra styling mixins
+ */
+@mixin radgrad($fadefrom: black, $fadeto: white, $side: top) {
+	position: absolute;
+	content: "";
+	@if $side == "right" {
+		top: 3px;
+		right: 3px;
+		bottom: 3px;
+		width: 2px
+	    } @else if $side == "left" {
+		top: 3px;
+		left: 3px;
+		bottom: 3px;
+		width: 2px
+	    } @else if $side == "top" {
+		height: 2px;
+		top: 3px;
+		left:3px;
+		right:3px;
+	    } @else if $side == "bottom" {
+		height: 2px;
+		bottom:3px;
+		left:3px;
+		right:3px;
+	}
+	@if $fadeto == "clear" {
+		$fadeto : rgba(0,0,0,0.03);
+	    }
+	@if $fadefrom == "clear" {
+		$fadefrom : rgba(0,0,0,0.05);
+	    }
+	
+	@include background-image(radial-gradient($fadeto, $fadefrom 65%));
+}
+
 @mixin nolink() {
 	text-decoration: none;
 	background-color: clear !important; 
-}
-@mixin button($butcol: $color__background-button) {
-	@include contrasted($butcol);
-	&:hover {@include contrasted(adjust-lightness($butcol, 20));}
-	@include adjust-font-size-to(1.5em);
-	@include nolink;
-	padding: 1.2rem;
-	@include border-radius(2em);
-}
-//colour generator
-@mixin colgen($base, $light: white, $dark: black){
-	&:nth-child(3n) {background-color: $base;}
-	&:nth-child(3n+1) {background-color: complement($base);}
-	&:nth-child(3n+2) {background-color: mix($base, complement($base), 30);}
 }

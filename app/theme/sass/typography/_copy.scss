@@ -40,6 +40,9 @@ mark, ins {
 	text-decoration: none;
 }
 
+strong, b {
+	font-weight: $font__weight-bold;
+}
 big {
 	font-size: 125%;
 }

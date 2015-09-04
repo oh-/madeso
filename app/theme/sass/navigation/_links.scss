@@ -1,13 +1,14 @@
 a {
-	color: $color__link;
+	text-align: center;
+	color: $color__text-menu;
 
 	&:visited {
-		color: $color__link-visited;
+		color: darken($color__text-menu, 15);
 	}
 	&:hover,
 	&:focus,
 	&:active {
-		color: $color__link-hover;
+		color: $color__text-menu-hover;
 	}
 	&:focus {
 		outline: thin dotted;
@@ -17,3 +18,10 @@ a {
 		outline: 0;
 	}
 }
+.theme-auth {
+	@include nolink;
+	color: scale-lightness($color__background-footer, 17);
+	&:visited { color: scale-lightness($color__background-footer, 17); }
+	&:hover {color: scale-lightness($color__background-footer, 30) !important }
+} 
+
