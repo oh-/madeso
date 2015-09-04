@@ -32,6 +32,5 @@
   },
   "_source": "git://github.com/lesjames/breakpoint.git",
   "_target": "~4.6.4",
-  "_originalSource": "breakpoint",
-  "_direct": true
+  "_originalSource": "breakpoint"
 }

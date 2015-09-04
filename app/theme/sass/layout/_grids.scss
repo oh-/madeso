@@ -1,11 +1,5 @@
 @import "site-vars";
-#buddypress {
-  @import "buddypress";
-}
 
-li.bp-single-member {
-  @include testing(red);
-}
 .line {
 	// float: left;
 	border-top: solid 5px black;
