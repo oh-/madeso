@@ -1,19 +1,19 @@
 /*
-Theme Name: _s
-Theme URI: http://underscores.me/
-Author: Automattic
-Author URI: http://automattic.com/
-Description: Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
-Version: 1.0.0
+Theme Name: Miagoa
+Theme URI: http://madeso.uk/theme/miagoa
+Author: madeso
+Author URI: http://madeso.uk
+Description: Miagoa theme MIAGOA.com
+Version: 0.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: _s
+Text Domain: miagoa
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-_s is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Miagoa is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
@@ -41,175 +41,319 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+@import url("//fonts.googleapis.com/css?family=Oswald%3A300%2C400%2C700");
+/*
+ * Development helpers
+ */
+/*
+ * Page layout mixins
+ */
+/*
+ * extra styling mixins
+ */
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000031}}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000037}}
 body {
-  margin: 0; }
+  margin: 0;
+}
 
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000311}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
 
-audio, canvas, progress, video {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000326}}
+audio,
+canvas,
+progress,
+video {
   display: inline-block;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000334}}
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
-[hidden], template {
-  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000339}}
+[hidden],
+template {
+  display: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000344}}
 a {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
-a:active, a:hover {
-  outline: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000348}}
+a:active,
+a:hover {
+  outline: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000353}}
 abbr[title] {
-  border-bottom: 1px dotted; }
+  border-bottom: 1px dotted;
+}
 
-b, strong {
-  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000357}}
+b,
+strong {
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000362}}
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000366}}
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000371}}
 mark {
   background: #ff0;
-  color: #000; }
+  color: #000;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000376}}
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
-sub, sup {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000380}}
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000388}}
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000392}}
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000396}}
 img {
-  border: 0; }
+  border: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003100}}
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003104}}
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003108}}
 hr {
   box-sizing: content-box;
-  height: 0; }
+  height: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003113}}
 pre {
-  overflow: auto; }
+  overflow: auto;
+}
 
-code, kbd, pre, samp {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003117}}
+code,
+kbd,
+pre,
+samp {
   font-family: monospace, monospace;
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-button, input, optgroup, select, textarea {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003125}}
+button,
+input,
+optgroup,
+select,
+textarea {
   color: inherit;
   font: inherit;
-  margin: 0; }
+  margin: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003135}}
 button {
-  overflow: visible; }
+  overflow: visible;
+}
 
-button, select {
-  text-transform: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003139}}
+button,
+select {
+  text-transform: none;
+}
 
-button, html input[type="button"], input[type="reset"], input[type="submit"] {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003144}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   -webkit-appearance: button;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
-button[disabled], html input[disabled] {
-  cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003152}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003157}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003163}}
 input {
-  line-height: normal; }
+  line-height: normal;
+}
 
-input[type="checkbox"], input[type="radio"] {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003167}}
+input[type="checkbox"],
+input[type="radio"] {
   box-sizing: border-box;
-  padding: 0; }
+  padding: 0;
+}
 
-input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003173}}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003178}}
 input[type="search"] {
   -webkit-appearance: textfield;
-  box-sizing: content-box; }
+  box-sizing: content-box;
+}
 
-input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003183}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003188}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003194}}
 legend {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003199}}
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003203}}
 optgroup {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003207}}
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
-td, th {
-  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003212}}
+td,
+th {
+  padding: 0;
+}
 
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-body, button, input, select, textarea {
-  color: #404040;
-  font-family: sans-serif;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_typography\.scss}line{font-family:\000037}}
+body,
+button,
+input,
+select,
+textarea {
+  color: white;
+  font-family: Oswald;
+  line-height: 1.5;
+  font-weight: 300;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_headings\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5, h6 {
-  clear: both; }
+  clear: both;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000031}}
 p {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000035}}
 dfn, cite, em, i {
-  font-style: italic; }
+  font-style: italic;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000039}}
 blockquote {
-  margin: 0 1.5em; }
+  margin: 0 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000313}}
 address {
-  margin: 0 0 1.5em; }
+  margin: 0 0 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000317}}
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -219,82 +363,131 @@ pre {
   margin-bottom: 1.6em;
   max-width: 100%;
   overflow: auto;
-  padding: 1.6em; }
+  padding: 1.6em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000328}}
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
-  font-size: 0.9375rem; }
+  font-size: 0.9375rem;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000333}}
 abbr, acronym {
   border-bottom: 1px dotted #666;
-  cursor: help; }
+  cursor: help;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000338}}
 mark, ins {
   background: #fff9c0;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000343}}
+strong, b {
+  font-weight: 400;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000346}}
 big {
-  font-size: 125%; }
+  font-size: 125%;
+}
 
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000031}}
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
-*, *:before, *:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000035}}
+*,
+*:before,
+*:after {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000311}}
 body {
-  background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  background: black;
+  /* Fallback for when there is no custom background color defined. */
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000315}}
 blockquote, q {
-  quotes: "" ""; }
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: ""; }
+  quotes: "" "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000318}}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000324}}
 hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000031}}
 ul, ol {
-  margin: 0 0 1.5em 3em; }
+  margin: 0 0 1.5em 3em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000035}}
 ul {
-  list-style: disc; }
+  list-style: disc;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000039}}
 ol {
-  list-style: decimal; }
+  list-style: decimal;
+}
 
-li > ul, li > ol {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000313}}
+li > ul,
+li > ol {
   margin-bottom: 0;
-  margin-left: 1.5em; }
+  margin-left: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000319}}
 dt {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000323}}
 dd {
-  margin: 0 1.5em 1.5em; }
+  margin: 0 1.5em 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000333}}
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
   max-width: 100%;
-  /* Adhere to container width. */ }
+  /* Adhere to container width. */
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_tables\.scss}line{font-family:\000031}}
 table {
   margin: 0 0 1.5em;
-  width: 100%; }
+  width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-button, input[type="button"], input[type="reset"], input[type="submit"] {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\000031}}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -305,27 +498,63 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   font-size: 0.75rem;
   line-height: 1;
   padding: .6em 1em .4em;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
-  button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
-    border-color: #ccc #bbb #aaa;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
-  button:active, button:focus, input[type="button"]:active, input[type="button"]:focus, input[type="reset"]:active, input[type="reset"]:focus, input[type="submit"]:active, input[type="submit"]:focus {
-    border-color: #aaa #bbb #bbb;
-    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000316}}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  border-color: #ccc #bbb #aaa;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000321}}
+button:active, button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+  border-color: #aaa #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
 
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\000031}}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
   color: #666;
   border: 1px solid #ccc;
-  border-radius: 3px; }
-  input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, textarea:focus {
-    color: #111; }
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000311}}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+  color: #111;
+}
 
-input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"] {
-  padding: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000316}}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+  padding: 3px;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000324}}
 textarea {
   padding-left: 3px;
-  width: 100%; }
+  width: 100%;
+}
 
 /*--------------------------------------------------------------
 # Navigation
@@ -333,278 +562,1318 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000031}}
 a {
-  color: royalblue; }
-  a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
+  text-align: center;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000035}}
+a:visited {
+  color: #d9d9d9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000038}}
+a:hover, a:focus, a:active {
+  color: lightblue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000313}}
+a:focus {
+  outline: thin dotted;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000316}}
+a:hover, a:active {
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000321}}
+.theme-auth {
+  text-decoration: none;
+  background-color: clear !important;
+  color: #2b2b2b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000324}}
+.theme-auth:visited {
+  color: #2b2b2b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000325}}
+.theme-auth:hover {
+  color: #4d4d4d !important;
+}
 
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000031}}
 .main-navigation {
+  background-color: black;
   clear: both;
   display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000036}}
+.main-navigation ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000313}}
+.main-navigation ul ul {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
-  width: 100%; }
-  .main-navigation ul {
-    display: none;
-    list-style: none;
-    margin: 0;
-    padding-left: 0; }
-    .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5em;
-      left: -999em;
-      z-index: 99999; }
-      .main-navigation ul ul ul {
-        left: -999em;
-        top: 0; }
-      .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
-    .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
-      left: auto; }
-  .main-navigation li {
-    float: left;
-    position: relative; }
-  .main-navigation a {
-    display: block;
-    text-decoration: none; }
+  position: absolute;
+  left: -999em;
+  z-index: 99999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000321}}
+.main-navigation ul ul ul {
+  left: -999em;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000326}}
+.main-navigation ul ul li {
+  background-color: #1a1a1a;
+  padding-left: 0%;
+  padding-right: 0%;
+  position: absolute;
+  left: 0;
+  width: 73.68421%;
+  float: left;
+  margin-left: 10px;
+  margin-left: 0.625rem;
+  margin-right: -100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000332}}
+.main-navigation ul ul li a {
+  border: solid 1px #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000334}}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+  left: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000352}}
+.main-navigation ul li:hover > ul,
+.main-navigation ul li.focus > ul {
+  left: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000357}}
+.main-navigation li {
+               /*
+		 * All menu items, including submenu items (li) 
+                */
+  background-color: black;
+  position: relative;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 5.26316%;
+  padding-right: 15.78947%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000375}}
+.main-navigation a {
+  border: solid 1px #333333;
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 32px;
+  line-height: 2rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000388}}
+.main-navigation li.current-menu-item {
+  position: relative;
+}
 
 /* Small menu. */
-.menu-toggle, .main-navigation.toggled ul {
-  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000396}}
+.menu-toggle,
+.main-navigation.toggled ul {
+  display: block;
+}
 
-@media screen and (min-width: 37.5em) {
-  .menu-toggle {
-    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003101}}
+.menu-toggle {
+  width: 40px;
+  background: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  border: none;
+  margin-left: 30px;
+  margin-left: 1.875rem;
+  margin-right: 30px;
+  margin-right: 1.875rem;
+}
+
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003115}}
+  #masthead {
+    margin-top: 0px;
+    margin-top: 0rem;
+    margin-bottom: 64px;
+    margin-bottom: 4rem;
+    /*pushes the main content underneath the #masthead to make space for the height of the menu */
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003116}}
+  .main-navigation {
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003121}}
+  .main-navigation .menu > li {
+                        /*
+			 * Hopefully only the top level menu
+                         */
+    width: 16.66667%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .main-navigation .menu > li:nth-child(5n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .main-navigation .menu > li:nth-child(5n + 2) {
+    margin-left: 20.83333%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .main-navigation .menu > li:nth-child(5n + 3) {
+    margin-left: 41.66667%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .main-navigation .menu > li:nth-child(5n + 4) {
+    margin-left: 62.5%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .main-navigation .menu > li:nth-child(5n + 5) {
+    margin-left: 83.33333%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003127}}
+  .main-navigation li {
+                        /*
+			 * All menu items, tablet-portrait size and up including submenu
+                         */
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003132}}
+  .main-navigation li > a {
+    margin-top: 0px;
+    margin-top: 0rem;
+    padding-top: 0px;
+    padding-top: 0rem;
+    padding-bottom: 0px;
+    padding-bottom: 0rem;
+    margin-bottom: 0px;
+    margin-bottom: 0rem;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003134}}
+  .main-navigation .menu > li > ul::before {
+    content: "^";
+    position: absolute;
+    top: -0.6rem;
+    z-index: 9999;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003141}}
+  .main-navigation .sub-menu > li {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003144}}
   .main-navigation ul {
-    display: block; } }
+    clear: both;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003152}}
+  .main-navigation a {
+    border: none;
+  }
 
-.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003154}}
+  .menu-toggle {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003157}}
+  .main-navigation ul {
+    display: block;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003166}}
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
   margin: 0 0 1.5em;
-  overflow: hidden; }
-.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003171}}
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
   float: left;
-  width: 50%; }
-.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+  width: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003176}}
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
   float: right;
   text-align: right;
-  width: 50%; }
+  width: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003182}}
+#site-navigation {
+  padding-top: 16px;
+  padding-top: 1rem;
+  padding-bottom: 16px;
+  padding-bottom: 1rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003184}}
+#site-navigation:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNjUlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: -webkit-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  z-index: 1000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003185}}
+#site-navigation:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNjUlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: -webkit-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  z-index: 1000;
+}
 
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000032}}
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
   height: 1px;
   width: 1px;
-  overflow: hidden; }
-  .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
-    background-color: #f1f1f1;
-    border-radius: 3px;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-    clip: auto !important;
-    color: #21759b;
-    display: block;
-    font-size: 14px;
-    font-size: 0.875rem;
-    font-weight: bold;
-    height: auto;
-    left: 5px;
-    line-height: normal;
-    padding: 15px 23px 14px;
-    text-decoration: none;
-    top: 5px;
-    width: auto;
-    z-index: 100000;
-    /* Above WP toolbar. */ }
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000039}}
+.screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+  background-color: black;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: white;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
 
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000031}}
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1.5em; }
+  margin-right: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000037}}
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1.5em; }
+  margin-left: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\0000313}}
 .aligncenter {
   display: block;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-.clear:before, .clear:after, .entry-content:before, .entry-content:after, .comment-content:before, .comment-content:after, .site-header:before, .site-header:after, .site-content:before, .site-content:after, .site-footer:before, .site-footer:after {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\000031}}
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
-.clear:after, .entry-content:after, .comment-content:after, .site-header:after, .site-content:after, .site-footer:after {
-  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\0000316}}
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+  clear: both;
+}
 
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000031}}
 .widget {
   margin: 0 0 1.5em;
-  /* Make sure select elements fit in widgets. */ }
-  .widget select {
-    max-width: 100%; }
+  /* Make sure select elements fit in widgets. */
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000035}}
+.widget select {
+  max-width: 100%;
+}
 
 /* Search widget. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\0000311}}
 .widget_search .search-submit {
-  display: none; }
+  display: none;
+}
 
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000033}}
+.line {
+  border-top: solid 5px black;
+  border-bottom: solid 5px #e6e6e6;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000312}}
+.menutext {
+  width: 15px;
+  float: right;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000317}}
+#primary-menu li {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000322}}
 #page {
-  background-color: blue;
-  max-width: 80rem;
+  max-width: 130%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  background: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+#page:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000322}}
+  #page {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
   #page:after {
     content: " ";
     display: block;
-    clear: both; }
+    clear: both;
+  }
+}
+@media (min-width: 63.8125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000322}}
+  #page {
+    max-width: 1200px;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+  #page:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
 
-#content {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+#comments, #colophon {
   width: 100%;
   float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-left: auto;
-  padding-right: auto;
-  background-color: white; }
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+  #comments, #colophon {
+    width: 87.34177%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 6.32911%;
+    margin-right: 6.32911%;
+  }
+}
+@media screen and (min-width: 48.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+  #comments, #colophon {
+    width: 87.34177%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 6.32911%;
+    margin-right: 6.32911%;
+  }
+}
+@media (min-width: 63.8125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+  #comments, #colophon {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3.16456%;
+    padding-right: 3.16456%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000340}}
+.site-branding {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000342}}
+.site-branding img {
+  max-height: 250px;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000340}}
+  .site-branding {
+    width: 42.02899%;
+    float: left;
+    margin-left: 28.98551%;
+    margin-right: -100%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000348}}
+.site-description {
+  position: relative;
+  padding-top: 10px;
+  padding-top: 0.6rem;
+  padding-bottom: 10px;
+  padding-bottom: 0.6rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000350}}
+.site-description:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNjUlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: -webkit-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000351}}
+.site-description:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNjUlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: -webkit-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+#masthead {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+  #masthead {
+    width: 87.34177%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 6.32911%;
+    margin-right: 6.32911%;
+  }
+}
+@media screen and (min-width: 48.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+  #masthead {
+    width: 87.34177%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 6.32911%;
+    margin-right: 6.32911%;
+  }
+}
+@media (min-width: 63.8125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+  #masthead {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3.16456%;
+    padding-right: 3.16456%;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+  #masthead {
+    height: 400px;
+    max-height: 400px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000365}}
+#content {
+  clear: both;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+.entry-header, .entry-content, .entry-footer {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+  .entry-header, .entry-content, .entry-footer {
+    width: 87.34177%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 6.32911%;
+    margin-right: 6.32911%;
+  }
+}
+@media screen and (min-width: 48.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+  .entry-header, .entry-content, .entry-footer {
+    width: 87.34177%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-left: 6.32911%;
+    margin-right: 6.32911%;
+  }
+}
+@media (min-width: 63.8125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+  .entry-header, .entry-content, .entry-footer {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 3.16456%;
+    padding-right: 3.16456%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000373}}
+#colophon {
+  background-color: black;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000376}}
+#colophon:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: 3px;
+  left: 3px;
+  right: 3px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNjUlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI2NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wNSIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: -webkit-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+  background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000380}}
+.site-info {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  text-align: right;
+  padding-top: 96px;
+  padding-top: 6rem;
+  padding-bottom: 32px;
+  padding-bottom: 2rem;
+  background-color: black;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000389}}
+.footer-main {
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000389}}
+  .footer-main {
+    width: 30.37975%;
+    float: left;
+    margin-right: 1.26582%;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000336}}
+#showsize {
+  position: fixed;
+  padding-left: 15px;
+  padding-left: 0.9375rem;
+  padding-right: 15px;
+  padding-right: 0.9375rem;
+  top: 0;
+  width: 40.67797%;
+  float: left;
+  margin-left: 42.37288%;
+  margin-right: -100%;
+  z-index: 9999999;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000343}}
+#showsize:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+}
+@media screen and (min-width: 20em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000345}}
+  #showsize::after {
+    content: '$smartphone-portrait';
+  }
+}
+@media screen and (min-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000350}}
+  #showsize::after {
+    content: '$smartphone-landscape';
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000355}}
+  #showsize::after {
+    content: '$tablet-portrait';
+    width: 11.39241%;
+    left: 11.39241%;
+    top: 11.39241%;
+  }
+}
+@media screen and (min-width: 48.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000363}}
+  #showsize::after {
+    content: '$tablet-landscape';
+  }
+}
+@media (min-width: 63.8125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000368}}
+  #showsize::after {
+    content: '$desktop';
+  }
+}
 
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000031}}
 .sticky {
-  display: block; }
+  display: block;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000035}}
 .hentry {
-  margin: 0 0 1.5em; }
+  margin: 0 0 1.5em;
+}
 
-.byline, .updated:not(.published) {
-  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000039}}
+.byline,
+.updated:not(.published) {
+  display: none;
+}
 
-.single .byline, .group-blog .byline {
-  display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000314}}
+.single .byline,
+.group-blog .byline {
+  display: inline;
+}
 
-.page-content, .entry-content, .entry-summary {
-  margin: 1.5em 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000319}}
+.page-content,
+.entry-content,
+.entry-summary {
+  margin: 1.5em 0 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000325}}
 .page-links {
   clear: both;
-  margin: 0 0 1.5em; }
+  margin: 0 0 1.5em;
+}
 
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
-.blog .format-aside .entry-title, .archive .format-aside .entry-title {
-  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_asides\.scss}line{font-family:\000031}}
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+  display: none;
+}
 
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000031}}
 .comment-content a {
-  word-wrap: break-word; }
+  word-wrap: break-word;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000034}}
 .bypostauthor {
-  display: block; }
+  display: block;
+}
 
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-.infinite-scroll .posts-navigation, .infinite-scroll.neverending .site-footer {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000032}}
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
-  display: none; }
+  display: none;
+}
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000038}}
 .infinity-end.neverending .site-footer {
-  display: block; }
+  display: block;
+}
 
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-.page-content .wp-smiley, .entry-content .wp-smiley, .comment-content .wp-smiley {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\000031}}
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
   border: none;
   margin-bottom: 0;
   margin-top: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /* Make sure embeds and iframes fit their containers. */
-embed, iframe, object {
-  max-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\0000311}}
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
 
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000031}}
 .wp-caption {
   margin-bottom: 1.5em;
-  max-width: 100%; }
-  .wp-caption img[class*="wp-image-"] {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
-  .wp-caption .wp-caption-text {
-    margin: 0.8075em 0; }
+  max-width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000035}}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000039}}
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\0000314}}
 .wp-caption-text {
-  text-align: center; }
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000031}}
 .gallery {
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.5em;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000035}}
 .gallery-item {
   display: inline-block;
   text-align: center;
   vertical-align: top;
-  width: 100%; }
+  width: 100%;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  clear: both;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-2 .gallery-item {
-    max-width: 50%; }
+    width: 44.44444%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-2 .gallery-item:nth-child(2n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-2 .gallery-item:nth-child(2n + 2) {
+    margin-left: 55.55556%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-3 .gallery-item {
-    max-width: 33.33%; }
+    width: 28.57143%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-3 .gallery-item:nth-child(3n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-3 .gallery-item:nth-child(3n + 2) {
+    margin-left: 35.71429%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-3 .gallery-item:nth-child(3n + 3) {
+    margin-left: 71.42857%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-4 .gallery-item {
-    max-width: 25%; }
+    width: 21.05263%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-4 .gallery-item:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-4 .gallery-item:nth-child(4n + 2) {
+    margin-left: 26.31579%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-4 .gallery-item:nth-child(4n + 3) {
+    margin-left: 52.63158%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-4 .gallery-item:nth-child(4n + 4) {
+    margin-left: 78.94737%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-5 .gallery-item {
-    max-width: 20%; }
+    width: 16.66667%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-5 .gallery-item:nth-child(5n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-5 .gallery-item:nth-child(5n + 2) {
+    margin-left: 20.83333%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-5 .gallery-item:nth-child(5n + 3) {
+    margin-left: 41.66667%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-5 .gallery-item:nth-child(5n + 4) {
+    margin-left: 62.5%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-5 .gallery-item:nth-child(5n + 5) {
+    margin-left: 83.33333%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-6 .gallery-item {
-    max-width: 16.66%; }
+    width: 13.7931%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-6 .gallery-item:nth-child(6n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-6 .gallery-item:nth-child(6n + 2) {
+    margin-left: 17.24138%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-6 .gallery-item:nth-child(6n + 3) {
+    margin-left: 34.48276%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-6 .gallery-item:nth-child(6n + 4) {
+    margin-left: 51.72414%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-6 .gallery-item:nth-child(6n + 5) {
+    margin-left: 68.96552%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-6 .gallery-item:nth-child(6n + 6) {
+    margin-left: 86.2069%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-7 .gallery-item {
-    max-width: 14.28%; }
+    width: 11.76471%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 2) {
+    margin-left: 14.70588%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 3) {
+    margin-left: 29.41176%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 4) {
+    margin-left: 44.11765%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 5) {
+    margin-left: 58.82353%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 6) {
+    margin-left: 73.52941%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-7 .gallery-item:nth-child(7n + 7) {
+    margin-left: 88.23529%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-8 .gallery-item {
-    max-width: 12.5%; }
+    width: 10.25641%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 2) {
+    margin-left: 12.82051%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 3) {
+    margin-left: 25.64103%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 4) {
+    margin-left: 38.46154%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 5) {
+    margin-left: 51.28205%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 6) {
+    margin-left: 64.10256%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 7) {
+    margin-left: 76.92308%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-8 .gallery-item:nth-child(8n + 8) {
+    margin-left: 89.74359%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+@media screen and (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-9 .gallery-item {
-    max-width: 11.11%; }
+    width: 9.09091%;
+    float: left;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 2) {
+    margin-left: 11.36364%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 3) {
+    margin-left: 22.72727%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 4) {
+    margin-left: 34.09091%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 5) {
+    margin-left: 45.45455%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 6) {
+    margin-left: 56.81818%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 7) {
+    margin-left: 68.18182%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 8) {
+    margin-left: 79.54545%;
+    margin-right: -100%;
+    clear: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+  .gallery-columns-9 .gallery-item:nth-child(9n + 9) {
+    margin-left: 90.90909%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000326}}
 .gallery-caption {
-  display: block; }
+  display: block;
+}
 
+@media screen and (min-width: 48.125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000330}}
+  .slidepush {
+    padding-left: 5.7971%;
+    padding-right: 5.7971%;
+  }
+}
+@media (min-width: 63.8125em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000330}}
+  .slidepush {
+    padding-left: 11.39241%;
+    padding-right: 11.39241%;
+  }
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9ub3JtYWxpemUuc2NzcyIsInR5cG9ncmFwaHkvX3R5cG9ncmFwaHkuc2NzcyIsInZhcmlhYmxlcy1zaXRlL19jb2xvcnMuc2NzcyIsInZhcmlhYmxlcy1zaXRlL190eXBvZ3JhcGh5LnNjc3MiLCJtaXhpbnMvX21peGlucy1tYXN0ZXIuc2NzcyIsInR5cG9ncmFwaHkvX2hlYWRpbmdzLnNjc3MiLCJ0eXBvZ3JhcGh5L19jb3B5LnNjc3MiLCJlbGVtZW50cy9fZWxlbWVudHMuc2NzcyIsImVsZW1lbnRzL19saXN0cy5zY3NzIiwiZWxlbWVudHMvX3RhYmxlcy5zY3NzIiwiZm9ybXMvX2J1dHRvbnMuc2NzcyIsImZvcm1zL19maWVsZHMuc2NzcyIsIm5hdmlnYXRpb24vX2xpbmtzLnNjc3MiLCJuYXZpZ2F0aW9uL19tZW51cy5zY3NzIiwibW9kdWxlcy9fYWNjZXNzaWJpbGl0eS5zY3NzIiwibW9kdWxlcy9fYWxpZ25tZW50cy5zY3NzIiwibW9kdWxlcy9fY2xlYXJpbmdzLnNjc3MiLCJzaXRlL3NlY29uZGFyeS9fd2lkZ2V0cy5zY3NzIiwibGF5b3V0L19ncmlkcy5zY3NzIiwiLi4vLi4vLi4vYm93ZXJfY29tcG9uZW50cy9zdXN5L3Nhc3Mvc3VzeS9sYW5ndWFnZS9zdXN5L19jb250YWluZXIuc2NzcyIsIi4uLy4uLy4uL2Jvd2VyX2NvbXBvbmVudHMvc3VzeS9zYXNzL3N1c3kvb3V0cHV0L3N1cHBvcnQvX3JlbS5zY3NzIiwiLi4vLi4vLi4vYm93ZXJfY29tcG9uZW50cy9zdXN5L3Nhc3Mvc3VzeS9vdXRwdXQvc2hhcmVkL19jb250YWluZXIuc2NzcyIsIi4uLy4uLy4uL2Jvd2VyX2NvbXBvbmVudHMvc3VzeS9zYXNzL3N1c3kvb3V0cHV0L3N1cHBvcnQvX2NsZWFyZml4LnNjc3MiLCIuLi8uLi8uLi9ib3dlcl9jb21wb25lbnRzL3N1c3kvc2Fzcy9zdXN5L2xhbmd1YWdlL3N1c3kvX3NwYW4uc2NzcyIsIi4uLy4uLy4uL2Jvd2VyX2NvbXBvbmVudHMvc3VzeS9zYXNzL3N1c3kvb3V0cHV0L2Zsb2F0L19zcGFuLnNjc3MiLCJzaXRlL3ByaW1hcnkvX3Bvc3RzLWFuZC1wYWdlcy5zY3NzIiwic2l0ZS9wcmltYXJ5L19hc2lkZXMuc2NzcyIsInNpdGUvcHJpbWFyeS9fY29tbWVudHMuc2NzcyIsIm1vZHVsZXMvX2luZmluaXRlLXNjcm9sbC5zY3NzIiwibWVkaWEvX21lZGlhLnNjc3MiLCJtZWRpYS9fY2FwdGlvbnMuc2NzcyIsIm1lZGlhL19nYWxsZXJpZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7RUFDQyxBQUFhO0VBQ2IsQUFBMEI7RUFDMUIsQUFBMEI7O0FBRzNCO0VBQ0MsQUFBUTs7QUFHVCxBQUFTLEFBQU8sQUFBUyxBQUFZLEFBQVEsQUFBUSxBQUFRLEFBQU0sQUFBTSxBQUFLLEFBQVM7RUFZdEYsQUFBUzs7QUFHVixBQUFPLEFBQVEsQUFBVTtFQUl4QixBQUFTO0VBQ1QsQUFBZ0I7O0FBR2pCLEFBQUssQUFBSztFQUNULEFBQVM7RUFDVCxBQUFROztBQUdULEFBQVU7RUFFVCxBQUFTOztBQUdWO0VBQ0MsQUFBa0I7O0FBR25CLEFBQUMsQUFBUyxBQUFDO0VBRVYsQUFBUzs7QUFHVixBQUFJO0VBQ0gsQUFBZTs7QUFHaEIsQUFBRztFQUVGLEFBQWE7O0FBR2Q7RUFDQyxBQUFZOztBQUdiO0VBQ0MsQUFBVztFQUNYLEFBQVE7O0FBR1Q7RUFDQyxBQUFZO0VBQ1osQUFBTzs7QUFHUjtFQUNDLEFBQVc7O0FBR1osQUFBSztFQUVKLEFBQVc7RUFDWCxBQUFhO0VBQ2IsQUFBVTtFQUNWLEFBQWdCOztBQUdqQjtFQUNDLEFBQUs7O0FBR047RUFDQyxBQUFROztBQUdUO0VBQ0MsQUFBUTs7QUFHVCxBQUFHLEFBQUs7RUFDUCxBQUFVOztBQUdYO0VBQ0MsQUFBUTs7QUFHVDtFQUNDLEFBQVk7RUFDWixBQUFROztBQUdUO0VBQ0MsQUFBVTs7QUFHWCxBQUFNLEFBQUssQUFBSztFQUlmLEFBQWE7RUFDYixBQUFXOztBQUdaLEFBQVEsQUFBTyxBQUFVLEFBQVE7RUFLaEMsQUFBTztFQUNQLEFBQU07RUFDTixBQUFROztBQUdUO0VBQ0MsQUFBVTs7QUFHWCxBQUFRO0VBRVAsQUFBZ0I7O0FBR2pCLEFBQVEsQUFBSyxBQUFLLEFBQWlCLEFBQUssQUFBZ0IsQUFBSztFQUk1RCxBQUFvQjtFQUNwQixBQUFROztBQUdULEFBQU0sQUFBWSxBQUFLLEFBQUs7RUFFM0IsQUFBUTs7QUFHVCxBQUFNLEFBQW9CLEFBQUs7RUFFOUIsQUFBUTtFQUNSLEFBQVM7O0FBR1Y7RUFDQyxBQUFhOztBQUdkLEFBQUssQUFBbUIsQUFBSztFQUU1QixBQUFZO0VBQ1osQUFBUzs7QUFHVixBQUFLLEFBQWUsQUFBNkIsQUFBSyxBQUFlO0VBRXBFLEFBQVE7O0FBR1QsQUFBSztFQUNKLEFBQW9CO0VBQ3BCLEFBQVk7O0FBR2IsQUFBSyxBQUFlLEFBQWdDLEFBQUssQUFBZTtFQUV2RSxBQUFvQjs7QUFHckI7RUFDQyxBQUFRO0VBQ1IsQUFBUTtFQUNSLEFBQVM7O0FBR1Y7RUFDQyxBQUFRO0VBQ1IsQUFBUzs7QUFHVjtFQUNDLEFBQVU7O0FBR1g7RUFDQyxBQUFhOztBQUdkO0VBQ0MsQUFBaUI7RUFDakIsQUFBZ0I7O0FBR2pCLEFBQUk7RUFFSCxBQUFTOzs7OztBQ3JOVixBQUFNLEFBQVEsQUFBTyxBQUFRO0VBSzVCLEFDUWtCO0VEUGxCLEFFTlk7RUNFWixBQUFZO0VBQ1osQUFBVztFSEtYLEFFTHdCOztBRUh6QixBQUFJLEFBQUksQUFBSSxBQUFJLEFBQUk7RUFDbkIsQUFBTzs7QUNEUjtFQUNDLEFBQWU7O0FBR2hCLEFBQUssQUFBTSxBQUFJO0VBQ2QsQUFBWTs7QUFHYjtFQUNDLEFBQVE7O0FBR1Q7RUFDQyxBQUFROztBQUdUO0VBQ0MsQUpidUI7RUljdkIsQUhoQlc7RUNBWCxBQUFZO0VBQ1osQUFBVztFRWlCWCxBSGhCdUI7RUdpQnZCLEFBQWU7RUFDZixBQUFXO0VBQ1gsQUFBVTtFQUNWLEFBQVM7O0FBR1YsQUFBTSxBQUFLLEFBQUk7RUFDZCxBSDNCWTtFQ0NaLEFBQVk7RUFDWixBQUFXOztBRTZCWixBQUFNO0VBQ0wsQUFBZTtFQUNmLEFBQVE7O0FBR1QsQUFBTTtFQUNMLEFKakN1QjtFSWtDdkIsQUFBaUI7O0FBR2xCO0VBQ0MsQUFBVzs7Ozs7QUMzQ1o7RUFDQyxBQUFZOztBQUdiLEFBQUcsQUFBQyxBQUFTLEFBQUM7O0VBR2IsQUFBWTs7QUFHYjtFQUNDLEFMWHdCOzs7QUtjekIsQUFBWTtFQUNYLEFBQVE7RUFFVCxBQUFVLEFBQVMsQUFBVSxBQUFRLEFBQUMsQUFBUyxBQUFDO0lBRTlDLEFBQVM7O0FBSVg7RUFDQyxBTHRCc0I7RUt1QnRCLEFBQVE7RUFDUixBQUFRO0VBQ1IsQUFBZTs7QUMzQmhCLEFBQUk7RUFDSCxBQUFROztBQUdUO0VBQ0MsQUFBWTs7QUFHYjtFQUNDLEFBQVk7O0FBR2IsQUFBSyxBQUFJLEFBQUs7RUFFYixBQUFlO0VBQ2YsQUFBYTs7QUFHZDtFQUNDLEFBQWE7O0FBR2Q7RUFDQyxBQUFROztBRFNUO0VBQ0MsQUFBUTs7RUFDUixBQUFXOzs7QUVsQ1o7RUFDQyxBQUFRO0VBQ1IsQUFBTzs7Ozs7QUNGUixBQUFRLEFBQUssQUFBaUIsQUFBSyxBQUFnQixBQUFLO0VBSXZELEFBQVE7RUFDUixBUlVzQjtFUVR0QixBQUFlO0VBQ2YsQVJKMEI7RVFLMUIsQUFBaUQ7RUFDakQsQUFBTztFTlBQLEFBQVk7RUFDWixBQUFXO0VNUVgsQUFBYTtFQUNiLEFBQVM7RUFDVCxBQUFhO0VBRWQsQUFBTSxBQUFRLEFBQUssQUFBZSxBQUFRLEFBQUssQUFBYyxBQUFRLEFBQUssQUFBZTtJQUN2RixBUkEyQjtJUUMzQixBQUFpRDtFQUduRCxBQUFNLEFBQVMsQUFBTSxBQUFRLEFBQUssQUFBZSxBQUFTLEFBQUssQUFBZSxBQUFRLEFBQUssQUFBYyxBQUFTLEFBQUssQUFBYyxBQUFRLEFBQUssQUFBZSxBQUFTLEFBQUssQUFBZTtJQUU1TCxBUkwyQjtJUU0zQixBQUFrRDs7QUN2QnBELEFBQUssQUFBZSxBQUFLLEFBQWdCLEFBQUssQUFBYyxBQUFLLEFBQW1CLEFBQUssQUFBaUI7RUFNekcsQVRFbUI7RVNEbkIsQUFBUTtFQUNSLEFBQWU7RUFFaEIsQUFBSyxBQUFhLEFBQVEsQUFBSyxBQUFjLEFBQVEsQUFBSyxBQUFZLEFBQVEsQUFBSyxBQUFpQixBQUFRLEFBQUssQUFBZSxBQUFRLEFBQVE7SUFDOUksQVRGd0I7O0FTTTFCLEFBQUssQUFBZSxBQUFLLEFBQWdCLEFBQUssQUFBYyxBQUFLLEFBQW1CLEFBQUs7RUFLeEYsQUFBUzs7QUFHVjtFQUNDLEFBQWM7RUFDZCxBQUFPOzs7Ozs7OztBQ3pCUjtFQUNDLEFWU2E7RVVQZCxBQUFDO0lBQ0MsQVZPb0I7RVVMdEIsQUFBQyxBQUFRLEFBQUMsQUFBUSxBQUFDO0lBR2pCLEFWR2tCO0VVRHBCLEFBQUM7SUFDQyxBQUFTO0VBRVgsQUFBQyxBQUFRLEFBQUM7SUFFUixBQUFTOzs7OztBQ2hCWDtFQUNDLEFBQU87RUFDUCxBQUFTO0VBQ1QsQUFBTztFQUNQLEFBQU87RUFFUixBQUFpQjtJQUNmLEFBQVM7SUFDVCxBQUFZO0lBQ1osQUFBUTtJQUNSLEFBQWM7SUFFaEIsQUFBaUIsQUFBRztNQUNqQixBQUFZO01BQ1osQUFBTztNQUNQLEFBQVU7TUFDVixBQUFLO01BQ0wsQUFBTTtNQUNOLEFBQVM7TUFFWixBQUFpQixBQUFHLEFBQUc7UUFDbkIsQUFBTTtRQUNOLEFBQUs7TUFJVCxBQUFpQixBQUFHLEFBQUcsQUFBRSxBQUFTLEFBQUksQUFBaUIsQUFBRyxBQUFHLEFBQUUsQUFBUztRQUVuRSxBQUFNO01BSVgsQUFBaUIsQUFBRyxBQUFHO1FBQ25CLEFBQU87SUFZWCxBQUFpQixBQUFHLEFBQUUsQUFBUyxBQUFJLEFBQWlCLEFBQUcsQUFBRSxBQUFTO01BRS9ELEFBQU07RUFHVCxBQUFpQjtJQUNmLEFBQU87SUFDUCxBQUFVO0VBTVosQUFBaUI7SUFDZixBQUFTO0lBQ1QsQUFBaUI7OztBQVVuQixBQUFjLEFBQWdCLEFBQVM7RUFFdEMsQUFBUzs7QUFHVjtFQUNBO0lBQ0UsQUFBUztFQUVYLEFBQWlCO0lBQ2YsQUFBUzs7QUFRWCxBQUFXLEFBQXFCLEFBQVcsQUFBbUIsQUFBVztFQUN2RSxBQUFRO0VBQ1IsQUFBVTtBQUdaLEFBQW9CLEFBQWUsQUFBa0IsQUFBZSxBQUFpQjtFQUNuRixBQUFPO0VBQ1AsQUFBTztBQUdULEFBQW9CLEFBQVcsQUFBa0IsQUFBVyxBQUFpQjtFQUMzRSxBQUFPO0VBQ1AsQUFBWTtFQUNaLEFBQU87Ozs7OztBQ3BHVDtFQUNDLEFBQU07RUFDTixBQUFVO0VBQ1YsQUFBUTtFQUNSLEFBQU87RUFDUCxBQUFVO0VBRVgsQUFBbUIsQUFBUSxBQUFtQixBQUFTLEFBQW1CO0lBR3hFLEFaVnlCO0lZV3pCLEFBQWU7SUFDZixBQUFZO0lBQ1osQUFBTTtJQUNOLEFaUm1CO0lZU25CLEFBQVM7SVZkVixBQUFZO0lBQ1osQUFBVztJVWVWLEFBQWE7SUFDYixBQUFRO0lBQ1IsQUFBTTtJQUNOLEFBQWE7SUFDYixBQUFTO0lBQ1QsQUFBaUI7SUFDakIsQUFBSztJQUNMLEFBQU87SUFDUCxBQUFTOzs7Ozs7QUMxQlg7RUFDQyxBQUFTO0VBQ1QsQUFBTztFQUNQLEFBQWM7O0FBR2Y7RUFDQyxBQUFTO0VBQ1QsQUFBTztFQUNQLEFBQWE7O0FBR2Q7RVhKQyxBQUFTO0VBQ1QsQUFBYTtFQUNiLEFBQWM7Ozs7O0FZVmYsQUFBTSxBQUFTLEFBQU0sQUFBUSxBQUFjLEFBQVMsQUFBYyxBQUFRLEFBQWdCLEFBQVMsQUFBZ0IsQUFBUSxBQUFZLEFBQVMsQUFBWSxBQUFRLEFBQWEsQUFBUyxBQUFhLEFBQVEsQUFBWSxBQUFTLEFBQVk7RVplL08sQUFBUztFQUNULEFBQVM7O0FZRFYsQUFBTSxBQUFRLEFBQWMsQUFBUSxBQUFnQixBQUFRLEFBQVksQUFBUSxBQUFhLEFBQVEsQUFBWTtFWk1oSCxBQUFPOzs7OztBYXJCUjtFQUNDLEFBQVE7O0VBR1QsQUFBUTtJQUNOLEFBQVc7OztBQUtiLEFBQWU7RUFDZCxBQUFTOzs7OztBQ1RWO0VBQ0MsQUFBa0I7RUNVSCxBQ01aO0VDSmEsQURJYjtFQ0hjLEFER2Q7RUVSSixBQUFLO0lBQ0MsQUFBUztJQUNULEFBQVM7SUFDVCxBQUFPOztBSlJiO0VLWWdCLEFIQ1o7RUdEWSxBSENaO0VHRFksQUhDWjtFR2lETSxBSGpETjtFSU9zQyxBSlB0QztFR3VEbUIsQUh2RG5CO0VHd0RrQixBSHhEbEI7RUZYSCxBQUFjO0VBQ2QsQUFBZTtFQUNmLEFBQWtCOzs7OztBT1ZuQjtFQUNDLEFBQVM7O0FBR1Y7RUFDQyxBQUFROztBQUdULEFBQVMsQUFBUSxBQUFLO0VBRXJCLEFBQVM7O0FBR1YsQUFBUSxBQUFTLEFBQVk7RUFFNUIsQUFBUzs7QUFHVixBQUFlLEFBQWdCO0VBRzlCLEFBQVE7O0FBR1Q7RUFDQyxBQUFPO0VBQ1AsQUFBUTs7Ozs7QUMxQlQsQUFBTSxBQUFjLEFBQWMsQUFBUyxBQUFjO0VBRXhELEFBQVM7Ozs7O0FDRlYsQUFBaUI7RUFDaEIsQUFBVzs7QUFFWjtFQUNDLEFBQVM7Ozs7OztBQ0hWLEFBQWlCLEFBQW1CLEFBQWdCLEFBQWE7O0VBRWhFLEFBQVM7OztBQUlWLEFBQWEsQUFBYTtFQUN6QixBQUFTOzs7OztBQ1JWLEFBQWMsQUFBWSxBQUFlLEFBQVksQUFBaUI7RUFHckUsQUFBUTtFQUNSLEFBQWU7RUFDZixBQUFZO0VBQ1osQUFBUzs7O0FBSVYsQUFBTyxBQUFRO0VBR2QsQUFBVzs7Ozs7QUNiWjtFQUNDLEFBQWU7RUFDZixBQUFXO0VBRVosQUFBWSxBQUFHO0kxQklkLEFBQVM7SUFDVCxBQUFhO0lBQ2IsQUFBYztFMEJGZixBQUFZO0lBQ1YsQUFBUTs7QUFJVjtFQUNDLEFBQVk7Ozs7O0FDZGI7RUFDQyxBQUFlOztBQUdoQjtFQUNDLEFBQVM7RUFDVCxBQUFZO0VBQ1osQUFBZ0I7RUFDaEIsQUFBTztFQUVSLEFBQW1CO0lBQ2pCLEFBQVc7RUFHYixBQUFtQjtJQUNqQixBQUFXO0VBR2IsQUFBbUI7SUFDakIsQUFBVztFQUdiLEFBQW1CO0lBQ2pCLEFBQVc7RUFHYixBQUFtQjtJQUNqQixBQUFXO0VBR2IsQUFBbUI7SUFDakIsQUFBVztFQUdiLEFBQW1CO0lBQ2pCLEFBQVc7RUFHYixBQUFtQjtJQUNqQixBQUFXOztBQUliO0VBQ0MsQUFBUyIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJodG1sIHtcblx0Zm9udC1mYW1pbHk6IHNhbnMtc2VyaWY7XG5cdC13ZWJraXQtdGV4dC1zaXplLWFkanVzdDogMTAwJTtcblx0LW1zLXRleHQtc2l6ZS1hZGp1c3Q6ICAgICAxMDAlO1xufVxuXG5ib2R5IHtcblx0bWFyZ2luOiAwO1xufVxuXG5hcnRpY2xlLFxuYXNpZGUsXG5kZXRhaWxzLFxuZmlnY2FwdGlvbixcbmZpZ3VyZSxcbmZvb3RlcixcbmhlYWRlcixcbm1haW4sXG5tZW51LFxubmF2LFxuc2VjdGlvbixcbnN1bW1hcnkge1xuXHRkaXNwbGF5OiBibG9jaztcbn1cblxuYXVkaW8sXG5jYW52YXMsXG5wcm9ncmVzcyxcbnZpZGVvIHtcblx0ZGlzcGxheTogaW5saW5lLWJsb2NrO1xuXHR2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG59XG5cbmF1ZGlvOm5vdChbY29udHJvbHNdKSB7XG5cdGRpc3BsYXk6IG5vbmU7XG5cdGhlaWdodDogMDtcbn1cblxuW2hpZGRlbl0sXG50ZW1wbGF0ZSB7XG5cdGRpc3BsYXk6IG5vbmU7XG59XG5cbmEge1xuXHRiYWNrZ3JvdW5kLWNvbG9yOiB0cmFuc3BhcmVudDtcbn1cblxuYTphY3RpdmUsXG5hOmhvdmVyIHtcblx0b3V0bGluZTogMDtcbn1cblxuYWJiclt0aXRsZV0ge1xuXHRib3JkZXItYm90dG9tOiAxcHggZG90dGVkO1xufVxuXG5iLFxuc3Ryb25nIHtcblx0Zm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbmRmbiB7XG5cdGZvbnQtc3R5bGU6IGl0YWxpYztcbn1cblxuaDEge1xuXHRmb250LXNpemU6IDJlbTtcblx0bWFyZ2luOiAwLjY3ZW0gMDtcbn1cblxubWFyayB7XG5cdGJhY2tncm91bmQ6ICNmZjA7XG5cdGNvbG9yOiAjMDAwO1xufVxuXG5zbWFsbCB7XG5cdGZvbnQtc2l6ZTogODAlO1xufVxuXG5zdWIsXG5zdXAge1xuXHRmb250LXNpemU6IDc1JTtcblx0bGluZS1oZWlnaHQ6IDA7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0dmVydGljYWwtYWxpZ246IGJhc2VsaW5lO1xufVxuXG5zdXAge1xuXHR0b3A6IC0wLjVlbTtcbn1cblxuc3ViIHtcblx0Ym90dG9tOiAtMC4yNWVtO1xufVxuXG5pbWcge1xuXHRib3JkZXI6IDA7XG59XG5cbnN2Zzpub3QoOnJvb3QpIHtcblx0b3ZlcmZsb3c6IGhpZGRlbjtcbn1cblxuZmlndXJlIHtcblx0bWFyZ2luOiAxZW0gNDBweDtcbn1cblxuaHIge1xuXHRib3gtc2l6aW5nOiBjb250ZW50LWJveDtcblx0aGVpZ2h0OiAwO1xufVxuXG5wcmUge1xuXHRvdmVyZmxvdzogYXV0bztcbn1cblxuY29kZSxcbmtiZCxcbnByZSxcbnNhbXAge1xuXHRmb250LWZhbWlseTogbW9ub3NwYWNlLCBtb25vc3BhY2U7XG5cdGZvbnQtc2l6ZTogMWVtO1xufVxuXG5idXR0b24sXG5pbnB1dCxcbm9wdGdyb3VwLFxuc2VsZWN0LFxudGV4dGFyZWEge1xuXHRjb2xvcjogaW5oZXJpdDtcblx0Zm9udDogaW5oZXJpdDtcblx0bWFyZ2luOiAwO1xufVxuXG5idXR0b24ge1xuXHRvdmVyZmxvdzogdmlzaWJsZTtcbn1cblxuYnV0dG9uLFxuc2VsZWN0IHtcblx0dGV4dC10cmFuc2Zvcm06IG5vbmU7XG59XG5cbmJ1dHRvbixcbmh0bWwgaW5wdXRbdHlwZT1cImJ1dHRvblwiXSxcbmlucHV0W3R5cGU9XCJyZXNldFwiXSxcbmlucHV0W3R5cGU9XCJzdWJtaXRcIl0ge1xuXHQtd2Via2l0LWFwcGVhcmFuY2U6IGJ1dHRvbjtcblx0Y3Vyc29yOiBwb2ludGVyO1xufVxuXG5idXR0b25bZGlzYWJsZWRdLFxuaHRtbCBpbnB1dFtkaXNhYmxlZF0ge1xuXHRjdXJzb3I6IGRlZmF1bHQ7XG59XG5cbmJ1dHRvbjo6LW1vei1mb2N1cy1pbm5lcixcbmlucHV0OjotbW96LWZvY3VzLWlubmVyIHtcblx0Ym9yZGVyOiAwO1xuXHRwYWRkaW5nOiAwO1xufVxuXG5pbnB1dCB7XG5cdGxpbmUtaGVpZ2h0OiBub3JtYWw7XG59XG5cbmlucHV0W3R5cGU9XCJjaGVja2JveFwiXSxcbmlucHV0W3R5cGU9XCJyYWRpb1wiXSB7XG5cdGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG5cdHBhZGRpbmc6IDA7XG59XG5cbmlucHV0W3R5cGU9XCJudW1iZXJcIl06Oi13ZWJraXQtaW5uZXItc3Bpbi1idXR0b24sXG5pbnB1dFt0eXBlPVwibnVtYmVyXCJdOjotd2Via2l0LW91dGVyLXNwaW4tYnV0dG9uIHtcblx0aGVpZ2h0OiBhdXRvO1xufVxuXG5pbnB1dFt0eXBlPVwic2VhcmNoXCJdIHtcblx0LXdlYmtpdC1hcHBlYXJhbmNlOiB0ZXh0ZmllbGQ7XG5cdGJveC1zaXppbmc6IGNvbnRlbnQtYm94O1xufVxuXG5pbnB1dFt0eXBlPVwic2VhcmNoXCJdOjotd2Via2l0LXNlYXJjaC1jYW5jZWwtYnV0dG9uLFxuaW5wdXRbdHlwZT1cInNlYXJjaFwiXTo6LXdlYmtpdC1zZWFyY2gtZGVjb3JhdGlvbiB7XG5cdC13ZWJraXQtYXBwZWFyYW5jZTogbm9uZTtcbn1cblxuZmllbGRzZXQge1xuXHRib3JkZXI6IDFweCBzb2xpZCAjYzBjMGMwO1xuXHRtYXJnaW46IDAgMnB4O1xuXHRwYWRkaW5nOiAwLjM1ZW0gMC42MjVlbSAwLjc1ZW07XG59XG5cbmxlZ2VuZCB7XG5cdGJvcmRlcjogMDtcblx0cGFkZGluZzogMDtcbn1cblxudGV4dGFyZWEge1xuXHRvdmVyZmxvdzogYXV0bztcbn1cblxub3B0Z3JvdXAge1xuXHRmb250LXdlaWdodDogYm9sZDtcbn1cblxudGFibGUge1xuXHRib3JkZXItY29sbGFwc2U6IGNvbGxhcHNlO1xuXHRib3JkZXItc3BhY2luZzogMDtcbn1cblxudGQsXG50aCB7XG5cdHBhZGRpbmc6IDA7XG59XG4iLCJib2R5LFxuYnV0dG9uLFxuaW5wdXQsXG5zZWxlY3QsXG50ZXh0YXJlYSB7XG5cdGNvbG9yOiAkY29sb3JfX3RleHQtbWFpbjtcblx0Zm9udC1mYW1pbHk6ICRmb250X19tYWluO1xuXHRAaW5jbHVkZSBmb250LXNpemUoMSk7XG5cdGxpbmUtaGVpZ2h0OiAkZm9udF9fbGluZS1oZWlnaHQtYm9keTtcbn1cblxuQGltcG9ydCBcImhlYWRpbmdzXCI7XG5cbkBpbXBvcnQgXCJjb3B5XCI7IiwiJGNvbG9yX19iYWNrZ3JvdW5kLWJvZHk6ICNmZmY7XG4kY29sb3JfX2JhY2tncm91bmQtc2NyZWVuOiAjZjFmMWYxO1xuJGNvbG9yX19iYWNrZ3JvdW5kLWhyOiAjY2NjO1xuJGNvbG9yX19iYWNrZ3JvdW5kLWJ1dHRvbjogI2U2ZTZlNjtcbiRjb2xvcl9fYmFja2dyb3VuZC1wcmU6ICNlZWU7XG4kY29sb3JfX2JhY2tncm91bmQtaW5zOiAjZmZmOWMwO1xuXG4kY29sb3JfX3RleHQtc2NyZWVuOiAjMjE3NTliO1xuJGNvbG9yX190ZXh0LWlucHV0OiAjNjY2O1xuJGNvbG9yX190ZXh0LWlucHV0LWZvY3VzOiAjMTExO1xuJGNvbG9yX19saW5rOiByb3lhbGJsdWU7XG4kY29sb3JfX2xpbmstdmlzaXRlZDogcHVycGxlO1xuJGNvbG9yX19saW5rLWhvdmVyOiBtaWRuaWdodGJsdWU7XG4kY29sb3JfX3RleHQtbWFpbjogIzQwNDA0MDtcblxuJGNvbG9yX19ib3JkZXItYnV0dG9uOiAjY2NjICNjY2MgI2JiYjtcbiRjb2xvcl9fYm9yZGVyLWJ1dHRvbi1ob3ZlcjogI2NjYyAjYmJiICNhYWE7XG4kY29sb3JfX2JvcmRlci1idXR0b24tZm9jdXM6ICNhYWEgI2JiYiAjYmJiO1xuJGNvbG9yX19ib3JkZXItaW5wdXQ6ICNjY2M7XG4kY29sb3JfX2JvcmRlci1hYmJyOiAjNjY2O1xuIiwiJGZvbnRfX21haW46IHNhbnMtc2VyaWY7XG4kZm9udF9fY29kZTogTW9uYWNvLCBDb25zb2xhcywgXCJBbmRhbGUgTW9ub1wiLCBcIkRlamFWdSBTYW5zIE1vbm9cIiwgbW9ub3NwYWNlO1xuJGZvbnRfX3ByZTogXCJDb3VyaWVyIDEwIFBpdGNoXCIsIENvdXJpZXIsIG1vbm9zcGFjZTtcbiRmb250X19saW5lLWhlaWdodC1ib2R5OiAxLjU7XG4kZm9udF9fbGluZS1oZWlnaHQtcHJlOiAxLjY7IiwiLy8gUmVtIG91dHB1dCB3aXRoIHB4IGZhbGxiYWNrXG5AbWl4aW4gZm9udC1zaXplKCRzaXplVmFsdWU6IDEpIHtcblx0Zm9udC1zaXplOiAoJHNpemVWYWx1ZSAqIDE2KSAqIDFweDtcblx0Zm9udC1zaXplOiAkc2l6ZVZhbHVlICogMXJlbTtcbn1cblxuLy8gQ2VudGVyIGJsb2NrXG5AbWl4aW4gY2VudGVyLWJsb2NrIHtcblx0ZGlzcGxheTogYmxvY2s7XG5cdG1hcmdpbi1sZWZ0OiBhdXRvO1xuXHRtYXJnaW4tcmlnaHQ6IGF1dG87XG59XG5cbi8vIENsZWFyZml4XG5AbWl4aW4gY2xlYXJmaXgoKSB7XG5cdGNvbnRlbnQ6IFwiXCI7XG5cdGRpc3BsYXk6IHRhYmxlO1xufVxuXG4vLyBDbGVhciBhZnRlciAobm90IGFsbCBjbGVhcmZpeCBuZWVkIHRoaXMgYWxzbylcbkBtaXhpbiBjbGVhcmZpeC1hZnRlcigpIHtcblx0Y2xlYXI6IGJvdGg7XG59XG4iLCJoMSwgaDIsIGgzLCBoNCwgaDUsIGg2IHtcblx0Y2xlYXI6IGJvdGg7XG59IiwicCB7XG5cdG1hcmdpbi1ib3R0b206IDEuNWVtO1xufVxuXG5kZm4sIGNpdGUsIGVtLCBpIHtcblx0Zm9udC1zdHlsZTogaXRhbGljO1xufVxuXG5ibG9ja3F1b3RlIHtcblx0bWFyZ2luOiAwIDEuNWVtO1xufVxuXG5hZGRyZXNzIHtcblx0bWFyZ2luOiAwIDAgMS41ZW07XG59XG5cbnByZSB7XG5cdGJhY2tncm91bmQ6ICRjb2xvcl9fYmFja2dyb3VuZC1wcmU7XG5cdGZvbnQtZmFtaWx5OiAkZm9udF9fcHJlO1xuXHRAaW5jbHVkZSBmb250LXNpemUoMC45Mzc1KTtcblx0bGluZS1oZWlnaHQ6ICRmb250X19saW5lLWhlaWdodC1wcmU7XG5cdG1hcmdpbi1ib3R0b206IDEuNmVtO1xuXHRtYXgtd2lkdGg6IDEwMCU7XG5cdG92ZXJmbG93OiBhdXRvO1xuXHRwYWRkaW5nOiAxLjZlbTtcbn1cblxuY29kZSwga2JkLCB0dCwgdmFyIHtcblx0Zm9udC1mYW1pbHk6ICRmb250X19jb2RlO1xuXHRAaW5jbHVkZSBmb250LXNpemUoMC45Mzc1KTtcbn1cblxuYWJiciwgYWNyb255bSB7XG5cdGJvcmRlci1ib3R0b206IDFweCBkb3R0ZWQgJGNvbG9yX19ib3JkZXItYWJicjtcblx0Y3Vyc29yOiBoZWxwO1xufVxuXG5tYXJrLCBpbnMge1xuXHRiYWNrZ3JvdW5kOiAkY29sb3JfX2JhY2tncm91bmQtaW5zO1xuXHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5cbmJpZyB7XG5cdGZvbnQtc2l6ZTogMTI1JTtcbn0iLCJodG1sIHtcblx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcbn1cblxuKixcbio6YmVmb3JlLFxuKjphZnRlciB7IC8qIEluaGVyaXQgYm94LXNpemluZyB0byBtYWtlIGl0IGVhc2llciB0byBjaGFuZ2UgdGhlIHByb3BlcnR5IGZvciBjb21wb25lbnRzIHRoYXQgbGV2ZXJhZ2Ugb3RoZXIgYmVoYXZpb3I7IHNlZSBodHRwOi8vY3NzLXRyaWNrcy5jb20vaW5oZXJpdGluZy1ib3gtc2l6aW5nLXByb2JhYmx5LXNsaWdodGx5LWJldHRlci1iZXN0LXByYWN0aWNlLyAqL1xuXHRib3gtc2l6aW5nOiBpbmhlcml0O1xufVxuXG5ib2R5IHtcblx0YmFja2dyb3VuZDogJGNvbG9yX19iYWNrZ3JvdW5kLWJvZHk7IC8qIEZhbGxiYWNrIGZvciB3aGVuIHRoZXJlIGlzIG5vIGN1c3RvbSBiYWNrZ3JvdW5kIGNvbG9yIGRlZmluZWQuICovXG59XG5cbmJsb2NrcXVvdGUsIHEge1xuXHRxdW90ZXM6IFwiXCIgXCJcIjtcblxuXHQmOmJlZm9yZSxcblx0JjphZnRlciB7XG5cdFx0Y29udGVudDogXCJcIjtcblx0fVxufVxuXG5ociB7XG5cdGJhY2tncm91bmQtY29sb3I6ICRjb2xvcl9fYmFja2dyb3VuZC1ocjtcblx0Ym9yZGVyOiAwO1xuXHRoZWlnaHQ6IDFweDtcblx0bWFyZ2luLWJvdHRvbTogMS41ZW07XG59XG5cbkBpbXBvcnQgXCJsaXN0c1wiO1xuXG5pbWcge1xuXHRoZWlnaHQ6IGF1dG87IC8qIE1ha2Ugc3VyZSBpbWFnZXMgYXJlIHNjYWxlZCBjb3JyZWN0bHkuICovXG5cdG1heC13aWR0aDogMTAwJTsgLyogQWRoZXJlIHRvIGNvbnRhaW5lciB3aWR0aC4gKi9cbn1cblxuQGltcG9ydCBcInRhYmxlc1wiOyIsInVsLCBvbCB7XG5cdG1hcmdpbjogMCAwIDEuNWVtIDNlbTtcbn1cblxudWwge1xuXHRsaXN0LXN0eWxlOiBkaXNjO1xufVxuXG5vbCB7XG5cdGxpc3Qtc3R5bGU6IGRlY2ltYWw7XG59XG5cbmxpID4gdWwsXG5saSA+IG9sIHtcblx0bWFyZ2luLWJvdHRvbTogMDtcblx0bWFyZ2luLWxlZnQ6IDEuNWVtO1xufVxuXG5kdCB7XG5cdGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG5kZCB7XG5cdG1hcmdpbjogMCAxLjVlbSAxLjVlbTtcbn0iLCJ0YWJsZSB7XG5cdG1hcmdpbjogMCAwIDEuNWVtO1xuXHR3aWR0aDogMTAwJTtcbn0iLCJidXR0b24sXG5pbnB1dFt0eXBlPVwiYnV0dG9uXCJdLFxuaW5wdXRbdHlwZT1cInJlc2V0XCJdLFxuaW5wdXRbdHlwZT1cInN1Ym1pdFwiXSB7XG5cdGJvcmRlcjogMXB4IHNvbGlkO1xuXHRib3JkZXItY29sb3I6ICRjb2xvcl9fYm9yZGVyLWJ1dHRvbjtcblx0Ym9yZGVyLXJhZGl1czogM3B4O1xuXHRiYWNrZ3JvdW5kOiAkY29sb3JfX2JhY2tncm91bmQtYnV0dG9uO1xuXHRib3gtc2hhZG93OiBpbnNldCAwIDFweCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC41KSwgaW5zZXQgMCAxNXB4IDE3cHggcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjUpLCBpbnNldCAwIC01cHggMTJweCByZ2JhKDAsIDAsIDAsIDAuMDUpO1xuXHRjb2xvcjogcmdiYSgwLCAwLCAwLCAuOCk7XG5cdEBpbmNsdWRlIGZvbnQtc2l6ZSgwLjc1KTtcblx0bGluZS1oZWlnaHQ6IDE7XG5cdHBhZGRpbmc6IC42ZW0gMWVtIC40ZW07XG5cdHRleHQtc2hhZG93OiAwIDFweCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC44KTtcblxuXHQmOmhvdmVyIHtcblx0XHRib3JkZXItY29sb3I6ICRjb2xvcl9fYm9yZGVyLWJ1dHRvbi1ob3Zlcjtcblx0XHRib3gtc2hhZG93OiBpbnNldCAwIDFweCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC44KSwgaW5zZXQgMCAxNXB4IDE3cHggcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjgpLCBpbnNldCAwIC01cHggMTJweCByZ2JhKDAsIDAsIDAsIDAuMDIpO1xuXHR9XG5cblx0JjphY3RpdmUsXG5cdCY6Zm9jdXMge1xuXHRcdGJvcmRlci1jb2xvcjogJGNvbG9yX19ib3JkZXItYnV0dG9uLWZvY3VzO1xuXHRcdGJveC1zaGFkb3c6IGluc2V0IDAgLTFweCAwIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC41KSwgaW5zZXQgMCAycHggNXB4IHJnYmEoMCwgMCwgMCwgMC4xNSk7XG5cdH1cbn0iLCJpbnB1dFt0eXBlPVwidGV4dFwiXSxcbmlucHV0W3R5cGU9XCJlbWFpbFwiXSxcbmlucHV0W3R5cGU9XCJ1cmxcIl0sXG5pbnB1dFt0eXBlPVwicGFzc3dvcmRcIl0sXG5pbnB1dFt0eXBlPVwic2VhcmNoXCJdLFxudGV4dGFyZWEge1xuXHRjb2xvcjogJGNvbG9yX190ZXh0LWlucHV0O1xuXHRib3JkZXI6IDFweCBzb2xpZCAkY29sb3JfX2JvcmRlci1pbnB1dDtcblx0Ym9yZGVyLXJhZGl1czogM3B4O1xuXG5cdCY6Zm9jdXMge1xuXHRcdGNvbG9yOiAkY29sb3JfX3RleHQtaW5wdXQtZm9jdXM7XG5cdH1cbn1cblxuaW5wdXRbdHlwZT1cInRleHRcIl0sXG5pbnB1dFt0eXBlPVwiZW1haWxcIl0sXG5pbnB1dFt0eXBlPVwidXJsXCJdLFxuaW5wdXRbdHlwZT1cInBhc3N3b3JkXCJdLFxuaW5wdXRbdHlwZT1cInNlYXJjaFwiXSB7XG5cdHBhZGRpbmc6IDNweDtcbn1cblxudGV4dGFyZWEge1xuXHRwYWRkaW5nLWxlZnQ6IDNweDtcblx0d2lkdGg6IDEwMCU7XG59IiwiYSB7XG5cdGNvbG9yOiAkY29sb3JfX2xpbms7XG5cblx0Jjp2aXNpdGVkIHtcblx0XHRjb2xvcjogJGNvbG9yX19saW5rLXZpc2l0ZWQ7XG5cdH1cblx0Jjpob3Zlcixcblx0Jjpmb2N1cyxcblx0JjphY3RpdmUge1xuXHRcdGNvbG9yOiAkY29sb3JfX2xpbmstaG92ZXI7XG5cdH1cblx0Jjpmb2N1cyB7XG5cdFx0b3V0bGluZTogdGhpbiBkb3R0ZWQ7XG5cdH1cblx0Jjpob3Zlcixcblx0JjphY3RpdmUge1xuXHRcdG91dGxpbmU6IDA7XG5cdH1cbn0iLCIubWFpbi1uYXZpZ2F0aW9uIHtcblx0Y2xlYXI6IGJvdGg7XG5cdGRpc3BsYXk6IGJsb2NrO1xuXHRmbG9hdDogbGVmdDtcblx0d2lkdGg6IDEwMCU7XG5cblx0dWwge1xuXHRcdGRpc3BsYXk6IG5vbmU7XG5cdFx0bGlzdC1zdHlsZTogbm9uZTtcblx0XHRtYXJnaW46IDA7XG5cdFx0cGFkZGluZy1sZWZ0OiAwO1xuXG5cdFx0dWwge1xuXHRcdFx0Ym94LXNoYWRvdzogMCAzcHggM3B4IHJnYmEoMCwgMCwgMCwgMC4yKTtcblx0XHRcdGZsb2F0OiBsZWZ0O1xuXHRcdFx0cG9zaXRpb246IGFic29sdXRlO1xuXHRcdFx0dG9wOiAxLjVlbTtcblx0XHRcdGxlZnQ6IC05OTllbTtcblx0XHRcdHotaW5kZXg6IDk5OTk5O1xuXG5cdFx0XHR1bCB7XG5cdFx0XHRcdGxlZnQ6IC05OTllbTtcblx0XHRcdFx0dG9wOiAwO1xuXHRcdFx0fVxuXG5cdFx0XHRsaSB7XG5cdFx0XHRcdCY6aG92ZXIgPiB1bCxcblx0XHRcdFx0Ji5mb2N1cyA+IHVsIHtcblx0XHRcdFx0XHRsZWZ0OiAxMDAlO1xuXHRcdFx0XHR9XG5cdFx0XHR9XG5cblx0XHRcdGEge1xuXHRcdFx0XHR3aWR0aDogMjAwcHg7XG5cdFx0XHR9XG5cblx0XHRcdDpob3ZlciA+IGEsXG5cdFx0XHQuZm9jdXMgPiBhIHtcblx0XHRcdH1cblxuXHRcdFx0YTpob3Zlcixcblx0XHRcdGEuZm9jdXMge1xuXHRcdFx0fVxuXHRcdH1cblxuXHRcdGxpOmhvdmVyID4gdWwsXG5cdFx0bGkuZm9jdXMgPiB1bCB7XG5cdFx0XHRsZWZ0OiBhdXRvO1xuXHRcdH1cblx0fVxuXHRsaSB7XG5cdFx0ZmxvYXQ6IGxlZnQ7XG5cdFx0cG9zaXRpb246IHJlbGF0aXZlO1xuXG5cdFx0Jjpob3ZlciA+IGEsXG5cdFx0Ji5mb2N1cyA+IGEge1xuXHRcdH1cblx0fVxuXHRhIHtcblx0XHRkaXNwbGF5OiBibG9jaztcblx0XHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdH1cblxuXHQuY3VycmVudF9wYWdlX2l0ZW0gPiBhLFxuXHQuY3VycmVudC1tZW51LWl0ZW0gPiBhLFxuXHQuY3VycmVudF9wYWdlX2FuY2VzdG9yID4gYSB7XG5cdH1cbn1cblxuLyogU21hbGwgbWVudS4gKi9cbi5tZW51LXRvZ2dsZSxcbi5tYWluLW5hdmlnYXRpb24udG9nZ2xlZCB1bCB7XG5cdGRpc3BsYXk6IGJsb2NrO1xufVxuXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiAzNy41ZW0pIHtcblx0Lm1lbnUtdG9nZ2xlIHtcblx0XHRkaXNwbGF5OiBub25lO1xuXHR9XG5cdC5tYWluLW5hdmlnYXRpb24gdWwge1xuXHRcdGRpc3BsYXk6IGJsb2NrO1xuXHR9XG59XG5cbi5jb21tZW50LW5hdmlnYXRpb24sXG4ucG9zdHMtbmF2aWdhdGlvbixcbi5wb3N0LW5hdmlnYXRpb24ge1xuXG5cdC5zaXRlLW1haW4gJiB7XG5cdFx0bWFyZ2luOiAwIDAgMS41ZW07XG5cdFx0b3ZlcmZsb3c6IGhpZGRlbjtcblx0fVxuXG5cdCYgLm5hdi1wcmV2aW91cyB7XG5cdFx0ZmxvYXQ6IGxlZnQ7XG5cdFx0d2lkdGg6IDUwJTtcblx0fVxuXG5cdCYgLm5hdi1uZXh0IHtcblx0XHRmbG9hdDogcmlnaHQ7XG5cdFx0dGV4dC1hbGlnbjogcmlnaHQ7XG5cdFx0d2lkdGg6IDUwJTtcblx0fVxufVxuIiwiLyogVGV4dCBtZWFudCBvbmx5IGZvciBzY3JlZW4gcmVhZGVycy4gKi9cbi5zY3JlZW4tcmVhZGVyLXRleHQge1xuXHRjbGlwOiByZWN0KDFweCwgMXB4LCAxcHgsIDFweCk7XG5cdHBvc2l0aW9uOiBhYnNvbHV0ZSAhaW1wb3J0YW50O1xuXHRoZWlnaHQ6IDFweDtcblx0d2lkdGg6IDFweDtcblx0b3ZlcmZsb3c6IGhpZGRlbjtcblxuXHQmOmhvdmVyLFxuXHQmOmFjdGl2ZSxcblx0Jjpmb2N1cyB7XG5cdFx0YmFja2dyb3VuZC1jb2xvcjogJGNvbG9yX19iYWNrZ3JvdW5kLXNjcmVlbjtcblx0XHRib3JkZXItcmFkaXVzOiAzcHg7XG5cdFx0Ym94LXNoYWRvdzogMCAwIDJweCAycHggcmdiYSgwLCAwLCAwLCAwLjYpO1xuXHRcdGNsaXA6IGF1dG8gIWltcG9ydGFudDtcblx0XHRjb2xvcjogJGNvbG9yX190ZXh0LXNjcmVlbjtcblx0XHRkaXNwbGF5OiBibG9jaztcblx0XHRAaW5jbHVkZSBmb250LXNpemUoMC44NzUpO1xuXHRcdGZvbnQtd2VpZ2h0OiBib2xkO1xuXHRcdGhlaWdodDogYXV0bztcblx0XHRsZWZ0OiA1cHg7XG5cdFx0bGluZS1oZWlnaHQ6IG5vcm1hbDtcblx0XHRwYWRkaW5nOiAxNXB4IDIzcHggMTRweDtcblx0XHR0ZXh0LWRlY29yYXRpb246IG5vbmU7XG5cdFx0dG9wOiA1cHg7XG5cdFx0d2lkdGg6IGF1dG87XG5cdFx0ei1pbmRleDogMTAwMDAwOyAvKiBBYm92ZSBXUCB0b29sYmFyLiAqL1xuXHR9XG59IiwiLmFsaWdubGVmdCB7XG5cdGRpc3BsYXk6IGlubGluZTtcblx0ZmxvYXQ6IGxlZnQ7XG5cdG1hcmdpbi1yaWdodDogMS41ZW07XG59XG5cbi5hbGlnbnJpZ2h0IHtcblx0ZGlzcGxheTogaW5saW5lO1xuXHRmbG9hdDogcmlnaHQ7XG5cdG1hcmdpbi1sZWZ0OiAxLjVlbTtcbn1cblxuLmFsaWduY2VudGVyIHtcblx0QGluY2x1ZGUgY2VudGVyLWJsb2NrO1xufSIsIi5jbGVhcjpiZWZvcmUsXG4uY2xlYXI6YWZ0ZXIsXG4uZW50cnktY29udGVudDpiZWZvcmUsXG4uZW50cnktY29udGVudDphZnRlcixcbi5jb21tZW50LWNvbnRlbnQ6YmVmb3JlLFxuLmNvbW1lbnQtY29udGVudDphZnRlcixcbi5zaXRlLWhlYWRlcjpiZWZvcmUsXG4uc2l0ZS1oZWFkZXI6YWZ0ZXIsXG4uc2l0ZS1jb250ZW50OmJlZm9yZSxcbi5zaXRlLWNvbnRlbnQ6YWZ0ZXIsXG4uc2l0ZS1mb290ZXI6YmVmb3JlLFxuLnNpdGUtZm9vdGVyOmFmdGVyIHtcblx0QGluY2x1ZGUgY2xlYXJmaXg7XG59XG5cbi5jbGVhcjphZnRlcixcbi5lbnRyeS1jb250ZW50OmFmdGVyLFxuLmNvbW1lbnQtY29udGVudDphZnRlcixcbi5zaXRlLWhlYWRlcjphZnRlcixcbi5zaXRlLWNvbnRlbnQ6YWZ0ZXIsXG4uc2l0ZS1mb290ZXI6YWZ0ZXIge1xuXHRAaW5jbHVkZSBjbGVhcmZpeC1hZnRlcjtcbn0iLCIud2lkZ2V0IHtcblx0bWFyZ2luOiAwIDAgMS41ZW07XG5cblx0LyogTWFrZSBzdXJlIHNlbGVjdCBlbGVtZW50cyBmaXQgaW4gd2lkZ2V0cy4gKi9cblx0c2VsZWN0IHtcblx0XHRtYXgtd2lkdGg6IDEwMCU7XG5cdH1cbn1cblxuLyogU2VhcmNoIHdpZGdldC4gKi9cbi53aWRnZXRfc2VhcmNoIC5zZWFyY2gtc3VibWl0IHtcblx0ZGlzcGxheTogbm9uZTtcbn0iLCJAaW1wb3J0IFwiLi4vLi4vLi4vLi4vYm93ZXJfY29tcG9uZW50cy9zdXN5L3Nhc3Mvc3VzeVwiO1xuXG4jcGFnZSB7XG5cdGJhY2tncm91bmQtY29sb3I6IGJsdWU7XG5cdEBpbmNsdWRlIGNvbnRhaW5lcig4MHJlbSk7XG59O1xuI2NvbnRlbnQge1xuXHRAaW5jbHVkZSBzcGFuKDUgb2YgNSBpbnNpZGUpO1xuXHRwYWRkaW5nLWxlZnQ6IGF1dG87XG5cdHBhZGRpbmctcmlnaHQ6IGF1dG87XG5cdGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xufVxuIiwiLy8gQ29udGFpbmVyIFN5bnRheFxuLy8gPT09PT09PT09PT09PT09PVxuXG4vLyBDb250YWluZXIgW21peGluXVxuLy8gLS0tLS0tLS0tLS0tLS0tLS1cbi8vIFNldCBhIGNvbnRhaW5lciBlbGVtZW50XG4vLyAtIFskbGF5b3V0XSAgOiA8c2V0dGluZ3M+XG5AbWl4aW4gY29udGFpbmVyKFxuICAkbGF5b3V0OiAkc3VzeVxuKSB7XG4gICRpbnNwZWN0ICAgIDogJGxheW91dDtcbiAgJGxheW91dCAgICAgOiBwYXJzZS1ncmlkKCRsYXlvdXQpO1xuXG4gICRfd2lkdGggICAgIDogZ2V0LWNvbnRhaW5lci13aWR0aCgkbGF5b3V0KTtcbiAgJF9qdXN0aWZ5ICAgOiBwYXJzZS1jb250YWluZXItcG9zaXRpb24oc3VzeS1nZXQoY29udGFpbmVyLXBvc2l0aW9uLCAkbGF5b3V0KSk7XG4gICRfcHJvcGVydHkgIDogaWYoc3VzeS1nZXQobWF0aCwgJGxheW91dCkgPT0gc3RhdGljLCB3aWR0aCwgbWF4LXdpZHRoKTtcblxuICAkX2JveCAgICAgICA6IHN1c3ktZ2V0KGJveC1zaXppbmcsICRsYXlvdXQpO1xuXG4gIEBpZiAkX2JveCB7XG4gICAgQGluY2x1ZGUgb3V0cHV0KChib3gtc2l6aW5nOiAkX2JveCkpO1xuICB9XG5cbiAgQGluY2x1ZGUgc3VzeS1pbnNwZWN0KGNvbnRhaW5lciwgJGluc3BlY3QpO1xuICBAaW5jbHVkZSBmbG9hdC1jb250YWluZXIoJF93aWR0aCwgJF9qdXN0aWZ5LCAkX3Byb3BlcnR5KTtcbiAgQGluY2x1ZGUgc2hvdy1ncmlkKCRsYXlvdXQpO1xufVxuXG4vLyBDb250YWluZXIgW2Z1bmN0aW9uXVxuLy8gLS0tLS0tLS0tLS0tLS0tLS0tLS1cbi8vIFJldHVybiBjb250YWluZXIgd2lkdGhcbi8vIC0gWyRsYXlvdXRdICA6IDxzZXR0aW5ncz5cbkBmdW5jdGlvbiBjb250YWluZXIoXG4gICRsYXlvdXQ6ICRzdXN5XG4pIHtcbiAgJGxheW91dDogcGFyc2UtZ3JpZCgkbGF5b3V0KTtcbiAgQHJldHVybiBnZXQtY29udGFpbmVyLXdpZHRoKCRsYXlvdXQpO1xufVxuXG4vLyBHZXQgQ29udGFpbmVyIFdpZHRoXG4vLyAtLS0tLS0tLS0tLS0tLS0tLS0tXG4vLyBDYWxjdWxhdGUgdGhlIGNvbnRhaW5lciB3aWR0aFxuLy8gLSBbJGxheW91dF06IDxzZXR0aW5ncz5cbkBmdW5jdGlvbiBnZXQtY29udGFpbmVyLXdpZHRoKFxuICAkbGF5b3V0OiAkc3VzeVxuKSB7XG4gICRsYXlvdXQgICAgICAgICA6IHBhcnNlLWdyaWQoJGxheW91dCk7XG4gICRfd2lkdGggICAgICAgICA6IHN1c3ktZ2V0KGNvbnRhaW5lciwgJGxheW91dCk7XG4gICRfY29sdW1uLXdpZHRoICA6IHN1c3ktZ2V0KGNvbHVtbi13aWR0aCwgJGxheW91dCk7XG4gICRfbWF0aCAgICAgICAgICA6IHN1c3ktZ2V0KG1hdGgsICRsYXlvdXQpO1xuXG4gIEBpZiBub3QoJF93aWR0aCkgb3IgJF93aWR0aCA9PSBhdXRvIHtcbiAgICBAaWYgdmFsaWQtY29sdW1uLW1hdGgoJF9tYXRoLCAkX2NvbHVtbi13aWR0aCkge1xuICAgICAgJF9jb2x1bW5zICAgOiBzdXN5LWdldChjb2x1bW5zLCAkbGF5b3V0KTtcbiAgICAgICRfZ3V0dGVycyAgIDogc3VzeS1nZXQoZ3V0dGVycywgJGxheW91dCk7XG4gICAgICAkX3NwcmVhZCAgICA6IGlmKGlzLXNwbGl0KCRsYXlvdXQpLCB3aWRlLCBuYXJyb3cpO1xuICAgICAgJF93aWR0aCAgICAgOiBzdXN5LXN1bSgkX2NvbHVtbnMsICRfZ3V0dGVycywgJF9zcHJlYWQpICogJF9jb2x1bW4td2lkdGg7XG4gICAgfSBAZWxzZSB7XG4gICAgICAkX3dpZHRoOiAxMDAlO1xuICAgIH1cbiAgfVxuXG4gIEByZXR1cm4gJF93aWR0aDtcbn1cblxuLy8gUGFyc2UgQ29udGFpbmVyIFBvc2l0aW9uXG4vLyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS1cbi8vIFBhcnNlIHRoZSAkY29udGFpbmVyLXBvc2l0aW9uIGludG8gbWFyZ2luIHZhbHVlcy5cbi8vIC0gWyRqdXN0aWZ5XSAgIDogbGVmdCB8IGNlbnRlciB8IHJpZ2h0IHwgPGxlbmd0aD4gWzxsZW5ndGg+XVxuQGZ1bmN0aW9uIHBhcnNlLWNvbnRhaW5lci1wb3NpdGlvbihcbiAgJGp1c3RpZnk6IG1hcC1nZXQoJHN1c3ktZGVmYXVsdHMsIGNvbnRhaW5lci1wb3NpdGlvbilcbikge1xuICAkX3JldHVybjogaWYoJGp1c3RpZnkgPT0gbGVmdCwgMCwgYXV0bykgaWYoJGp1c3RpZnkgPT0gcmlnaHQsIDAsIGF1dG8pO1xuXG4gIEBpZiBub3QoaW5kZXgobGVmdCByaWdodCBjZW50ZXIsICRqdXN0aWZ5KSkge1xuICAgICRfcmV0dXJuOiBudGgoJGp1c3RpZnksIDEpO1xuICAgICRfcmV0dXJuOiAkX3JldHVybiBpZihsZW5ndGgoJGp1c3RpZnkpID4gMSwgbnRoKCRqdXN0aWZ5LCAyKSwgJF9yZXR1cm4pO1xuICB9XG5cbiAgQHJldHVybiAkX3JldHVybjtcbn1cbiIsIi8vIHJlbSBTdXBwb3J0XG4vLyA9PT09PT09PT09PVxuXG4vLyByZW1cbi8vIC0tLVxuLy8gQ2hlY2sgZm9yIGFuIGV4aXN0aW5nIHN1cHBvcnQgbWl4aW4sIG9yIG91dHB1dCBkaXJlY3RseS5cbi8vIC0gJHByb3AgIDogPGNzcyBwcm9wZXJ0eT5cbi8vIC0gJHZhbCAgIDogPGNzcyB2YWx1ZT5cbkBtaXhpbiBzdXN5LXJlbShcbiAgJHByb3AsXG4gICR2YWxcbikge1xuICAkX3JlcXM6IChcbiAgICB2YXJpYWJsZTogcmh5dGhtLXVuaXQgcmVtLXdpdGgtcHgtZmFsbGJhY2ssXG4gICAgbWl4aW46IHJlbSxcbiAgKTtcbiAgQGlmIHN1c3ktc3VwcG9ydChyZW0sICRfcmVxcywgJHdhcm46IGZhbHNlKSBhbmQgJHJoeXRobS11bml0ID09IHJlbSB7XG4gICAgQGluY2x1ZGUgcmVtKCRwcm9wLCAkdmFsKTtcbiAgfSBAZWxzZSB7XG4gICAgI3skcHJvcH06ICR2YWw7XG4gIH1cbn1cbiIsIi8vIFNoYXJlZCBDb250YWluZXIgQVBJXG4vLyA9PT09PT09PT09PT09PT09PT09PVxuXG4vLyBDb250YWluZXIgT3V0cHV0XG4vLyAtLS0tLS0tLS0tLS0tLS0tXG4vLyAtIFskd2lkdGhdICAgICAgICAgOiA8bGVuZ3RoPlxuLy8gLSBbJGp1c3RpZnldICAgICAgIDogbGVmdCB8IGNlbnRlciB8IHJpZ2h0XG4vLyAtIFskbWF0aF0gICAgICAgICAgOiBmbHVpZCB8IHN0YXRpY1xuQG1peGluIGNvbnRhaW5lci1vdXRwdXQoXG4gICR3aWR0aCxcbiAgJGp1c3RpZnk6IGF1dG8gYXV0byxcbiAgJHByb3BlcnR5OiBtYXgtd2lkdGhcbikge1xuICAkb3V0cHV0OiAoXG4gICAgI3skcHJvcGVydHl9OiAkd2lkdGggb3IgMTAwJSxcbiAgICBtYXJnaW4tbGVmdDogbnRoKCRqdXN0aWZ5LCAxKSxcbiAgICBtYXJnaW4tcmlnaHQ6IG50aCgkanVzdGlmeSwgMiksXG4gICk7XG5cbiAgQGluY2x1ZGUgb3V0cHV0KCRvdXRwdXQpO1xufVxuIiwiLy8gU3VzeSBGYWxsYmFjayBDbGVhcmZpeFxuLy8gPT09PT09PT09PT09PT09PT09PT09PVxuXG5cbi8vIENsZWFyZml4XG4vLyAtLS0tLS0tLVxuLy8gQ2hlY2sgZm9yIGFuIGV4aXN0aW5nIHN1cHBvcnQgbWl4aW4sIG9yIHByb3ZpZGUgYSBzaW1wbGUgZmFsbGJhY2suXG5AbWl4aW4gc3VzeS1jbGVhcmZpeCB7XG4gIEBpZiBzdXN5LXN1cHBvcnQoY2xlYXJmaXgsIChtaXhpbjogY2xlYXJmaXgpKSB7XG4gICAgQGluY2x1ZGUgY2xlYXJmaXg7XG4gIH0gQGVsc2Uge1xuICAgICY6YWZ0ZXIge1xuICAgICAgY29udGVudDogXCIgXCI7XG4gICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgIGNsZWFyOiBib3RoO1xuICAgIH1cbiAgfVxufVxuIiwiLy8gU3BhbiBTeW50YXhcbi8vID09PT09PT09PT09XG5cbi8vIFNwYW4gW21peGluXVxuLy8gLS0tLS0tLS0tLS0tXG4vLyBTZXQgYSBzcGFubmluZyBlbGVtZW50IHVzaW5nIHNob3J0aGFuZCBzeW50YXguXG4vLyAtICRzcGFuICA6IDxzcGFuPlxuQG1peGluIHNwYW4oXG4gICRzcGFuXG4pIHtcbiAgJGluc3BlY3Q6ICRzcGFuO1xuICAkc3BhbjogcGFyc2Utc3Bhbigkc3Bhbik7XG4gICRvdXRwdXQ6IHNwYW4tbWF0aCgkc3Bhbik7XG4gICRuZXN0aW5nOiBzdXN5LWdldChzcGFuLCAkc3Bhbik7XG4gICRjbGVhcjogc3VzeS1nZXQoY2xlYXIsICRzcGFuKTtcblxuICAkYm94OiBzdXN5LWdldChib3gtc2l6aW5nLCAkc3Bhbik7XG4gICRjb250ZW50LWJveDogaWYoc3VzeS1nZXQoZ2xvYmFsLWJveC1zaXppbmcpICE9ICdib3JkZXItYm94JywgdHJ1ZSwgZmFsc2UpO1xuICAkYm94OiAkYm94IG9yIGlmKGlzLWluc2lkZSgkc3BhbikgYW5kICRjb250ZW50LWJveCwgYm9yZGVyLWJveCwgbnVsbCk7XG5cbiAgQGlmICRjbGVhciA9PSBicmVhayB7XG4gICAgQGluY2x1ZGUgYnJlYWs7XG4gIH0gQGVsc2UgaWYgJGNsZWFyID09IG5vYnJlYWsge1xuICAgIEBpbmNsdWRlIG5vYnJlYWs7XG4gIH1cblxuICBAaW5jbHVkZSBzdXN5LWluc3BlY3Qoc3BhbiwgJGluc3BlY3QpO1xuICBAaW5jbHVkZSBvdXRwdXQoKGJveC1zaXppbmc6ICRib3gpKTtcbiAgQGluY2x1ZGUgZmxvYXQtc3Bhbi1vdXRwdXQoJG91dHB1dC4uLik7XG5cbiAgQGlmIHZhbGlkLWNvbHVtbnMoJG5lc3RpbmcsIHNpbGVudCkge1xuICAgIEBpbmNsdWRlIG5lc3RlZCgkc3BhbikgeyBAY29udGVudDsgfVxuICB9IEBlbHNlIHtcbiAgICBAY29udGVudDtcbiAgfVxufVxuXG4vLyBTcGFuIFtmdW5jdGlvbl1cbi8vIC0tLS0tLS0tLS0tLS0tLVxuLy8gUmV0dXJuIHRoZSB3aWR0aCBvZiBhIHNwYW4uXG4vLyAtICRzcGFuICA6IDxzcGFuPlxuQGZ1bmN0aW9uIHNwYW4oXG4gICRzcGFuXG4pIHtcbiAgQHJldHVybiBnZXQtc3Bhbi13aWR0aCgkc3Bhbik7XG59XG5cbi8vIFNwYW4gTWF0aFxuLy8gLS0tLS0tLS0tXG4vLyBHZXQgYWxsIHRoZSBzcGFuIHJlc3VsdHMuXG4vLyAtICRzcGFuOiA8bWFwPlxuQGZ1bmN0aW9uIHNwYW4tbWF0aChcbiAgJHNwYW5cbikge1xuICAkbmVzdCAgICAgICAgICAgICA6IGlmKHN1c3ktZ2V0KHJvbGUsICRzcGFuKSA9PSBuZXN0LCB0cnVlLCBmYWxzZSk7XG4gICRzcGxpdC1uZXN0ICAgICAgIDogaWYoaXMtc3BsaXQoJHNwYW4pIGFuZCAkbmVzdCwgdHJ1ZSwgZmFsc2UpO1xuICAkZWRnZSAgICAgICAgICAgICA6IGdldC1lZGdlKCRzcGFuKTtcbiAgJGxvY2F0aW9uICAgICAgICAgOiBnZXQtbG9jYXRpb24oJHNwYW4pO1xuXG4gICRmbG9hdCAgICAgICAgICAgIDogZnJvbTtcbiAgJHBhZGRpbmctYmVmb3JlICAgOiBudWxsO1xuICAkcGFkZGluZy1hZnRlciAgICA6IG51bGw7XG4gICRtYXJnaW4tYmVmb3JlICAgIDogbnVsbDtcbiAgJG1hcmdpbi1hZnRlciAgICAgOiBudWxsO1xuXG4gIC8vIGNhbGN1bGF0ZSB3aWR0aHNcbiAgJHNwcmVhZDogaW5kZXgobWFwLXZhbHVlcygkc3BhbiksIHNwcmVhZCk7XG4gICRzcGFuOiBpZigkc3BsaXQtbmVzdCBhbmQgbm90KCRzcHJlYWQpLCBtYXAtbWVyZ2UoJHNwYW4sIChzcHJlYWQ6IHdpZGUpKSwgJHNwYW4pO1xuICAkd2lkdGg6IGdldC1zcGFuLXdpZHRoKCRzcGFuKTtcbiAgJGd1dHRlcnM6IGdldC1ndXR0ZXJzKCRzcGFuKTtcblxuICAvLyBhcHBseSBndXR0ZXJzXG4gIEBpZiBpcy1pbnNpZGUoJHNwYW4pIHtcbiAgICBAaWYgbm90KHN1c3ktZ2V0KHJvbGUsICRzcGFuKSkge1xuICAgICAgJHBhZGRpbmctYmVmb3JlOiBtYXAtZ2V0KCRndXR0ZXJzLCBiZWZvcmUpO1xuICAgICAgJHBhZGRpbmctYWZ0ZXI6IG1hcC1nZXQoJGd1dHRlcnMsIGFmdGVyKTtcbiAgICB9XG4gIH0gQGVsc2Uge1xuICAgIEBpZiBub3QoJHNwbGl0LW5lc3QpIHtcbiAgICAgICRtYXJnaW4tYmVmb3JlOiBtYXAtZ2V0KCRndXR0ZXJzLCBiZWZvcmUpO1xuICAgICAgJG1hcmdpbi1hZnRlcjogbWFwLWdldCgkZ3V0dGVycywgYWZ0ZXIpO1xuICAgIH1cbiAgfVxuXG4gIC8vIHNwZWNpYWwgbWFyZ2luIGhhbmRsaW5nXG4gIEBpZiBzdXN5LWdldChvdXRwdXQsICRzcGFuKSA9PSBpc29sYXRlIGFuZCAkbG9jYXRpb24ge1xuICAgICRtYXJnaW4tYmVmb3JlOiBnZXQtaXNvbGF0aW9uKCRzcGFuKTtcbiAgICAkbWFyZ2luLWFmdGVyOiAtMTAwJTtcbiAgfSBAZWxzZSBpZiAkZWRnZSB7XG4gICAgJGlzLXNwbGl0OiBpcy1zcGxpdCgkc3Bhbik7XG4gICAgJHBvczogc3VzeS1nZXQoZ3V0dGVyLXBvc2l0aW9uLCAkc3Bhbik7XG5cbiAgICBAaWYgJGVkZ2UgPT0gbGFzdCB7XG4gICAgICAkZmxvYXQ6IHN1c3ktZ2V0KGxhc3QtZmxvdywgJHNwYW4pO1xuICAgIH1cblxuICAgIEBpZiBub3QoJGlzLXNwbGl0KSB7XG4gICAgICBAaWYgJGVkZ2UgPT0gZnVsbCBvciAoJGVkZ2UgPT0gZmlyc3QgYW5kICRwb3MgPT0gYmVmb3JlKSB7XG4gICAgICAgICRtYXJnaW4tYmVmb3JlOiAwO1xuICAgICAgfVxuICAgICAgQGlmICRlZGdlID09IGZ1bGwgb3IgKCRlZGdlID09IGxhc3QgYW5kICRwb3MgPT0gYWZ0ZXIpIHtcbiAgICAgICAgJG1hcmdpbi1hZnRlcjogMDtcbiAgICAgIH1cbiAgICB9XG5cbiAgfVxuXG4gIEByZXR1cm4gKFxuICAgIHdpZHRoICAgICAgICAgICA6ICR3aWR0aCxcbiAgICBmbG9hdCAgICAgICAgICAgOiAkZmxvYXQsXG4gICAgbWFyZ2luLWJlZm9yZSAgIDogJG1hcmdpbi1iZWZvcmUsXG4gICAgbWFyZ2luLWFmdGVyICAgIDogJG1hcmdpbi1hZnRlcixcbiAgICBwYWRkaW5nLWJlZm9yZSAgOiAkcGFkZGluZy1iZWZvcmUsXG4gICAgcGFkZGluZy1hZnRlciAgIDogJHBhZGRpbmctYWZ0ZXIsXG4gICAgZmxvdyAgICAgICAgICAgIDogc3VzeS1nZXQoZmxvdywgJHNwYW4pLFxuICApO1xufVxuXG4vLyBHZXQgU3BhbiBXaWR0aFxuLy8gLS0tLS0tLS0tLS0tLS1cbi8vIFJldHVybiBzcGFuIHdpZHRoLlxuLy8gLSAkc3BhbjogPG1hcD5cbkBmdW5jdGlvbiBnZXQtc3Bhbi13aWR0aChcbiAgJHNwYW5cbikge1xuICAkc3BhbiAgICAgOiBwYXJzZS1zcGFuKCRzcGFuKTtcblxuICAkbiAgICAgICAgOiBzdXN5LWdldChzcGFuLCAkc3Bhbik7XG4gICRsb2NhdGlvbiA6IGdldC1sb2NhdGlvbigkc3Bhbik7XG4gICRjb2x1bW5zICA6IHN1c3ktZ2V0KGNvbHVtbnMsICRzcGFuKTtcbiAgJGd1dHRlcnMgIDogc3VzeS1nZXQoZ3V0dGVycywgJHNwYW4pO1xuICAkc3ByZWFkICAgOiBzdXN5LWdldChzcHJlYWQsICRzcGFuKTtcblxuICAkY29udGV4dCAgOiBudWxsO1xuICAkc3Bhbi1zdW0gOiBudWxsO1xuICAkd2lkdGggICAgOiBudWxsO1xuXG4gIEBpZiAkbiA9PSAnZnVsbCcge1xuICAgICRwb3M6IHN1c3ktZ2V0KGd1dHRlci1wb3NpdGlvbiwgJHNwYW4pO1xuICAgICRyb2xlOiBzdXN5LWdldChyb2xlLCAkc3Bhbik7XG4gICAgJG46IGlmKCRwb3MgPT0gc3BsaXQgYW5kICRyb2xlICE9IG5lc3QsIHN1c3ktY291bnQoJGNvbHVtbnMpLCAxMDAlKTtcbiAgfVxuXG4gIEBpZiB0eXBlLW9mKCRuKSAhPSBudW1iZXIge1xuICAgIEB3YXJuIFwiKCN7dHlwZS1vZigkbil9KSAjeyRufSBpcyBub3QgYSB2YWxpZCBzcGFuLlwiO1xuICB9IEBlbHNlIGlmIHVuaXRsZXNzKCRuKSB7XG4gICAgJGNvbnRleHQ6IHN1c3ktc3VtKCRjb2x1bW5zLCAkZ3V0dGVycywgaWYoaXMtc3BsaXQoJHNwYW4pLCB3aWRlLCBuYXJyb3cpKTtcbiAgICAkc3ByZWFkOiBpZihpcy1pbnNpZGUoJHNwYW4pLCAkc3ByZWFkIG9yIHdpZGUsICRzcHJlYWQpO1xuICAgICRzcGFuLXN1bTogc3VzeSgkbiwgJGxvY2F0aW9uLCAkY29sdW1ucywgJGd1dHRlcnMsICRzcHJlYWQpO1xuXG4gICAgJF9tYXRoOiBzdXN5LWdldChtYXRoLCAkc3Bhbik7XG4gICAgJF9jb2x1bW4td2lkdGg6IHN1c3ktZ2V0KGNvbHVtbi13aWR0aCwgJHNwYW4pO1xuICAgIEBpZiAkX21hdGggPT0gc3RhdGljIHtcbiAgICAgICR3aWR0aDogJHNwYW4tc3VtICogdmFsaWQtY29sdW1uLW1hdGgoJF9tYXRoLCAkX2NvbHVtbi13aWR0aCk7XG4gICAgfSBAZWxzZSB7XG4gICAgICAkd2lkdGg6IHBlcmNlbnRhZ2UoJHNwYW4tc3VtIC8gJGNvbnRleHQpO1xuICAgIH1cbiAgfSBAZWxzZSB7XG4gICAgJHdpZHRoOiAkbjtcbiAgfVxuXG4gIEByZXR1cm4gJHdpZHRoO1xufVxuIiwiLy8gRmxvYXQgU3BhbiBBUElcbi8vID09PT09PT09PT09PT09XG5cbi8vIEZsb2F0IFNwYW4gT3V0cHV0XG4vLyAtLS0tLS0tLS0tLS0tLS0tLVxuLy8gLSAkd2lkdGggICAgICAgICAgICAgOiA8bGVuZ3RoPlxuLy8gLSBbJGZsb2F0XSAgICAgICAgICAgOiBmcm9tIHwgdG9cbi8vIC0gWyRtYXJnaW4tYmVmb3JlXSAgIDogPGxlbmd0aD5cbi8vIC0gWyRtYXJnaW4tYWZ0ZXJdICAgIDogPGxlbmd0aD5cbi8vIC0gWyRwYWRkaW5nLWJlZm9yZV0gIDogPGxlbmd0aD5cbi8vIC0gWyRwYWRkaW5nLWFmdGVyXSAgIDogPGxlbmd0aD5cbi8vIC0gWyRmbG93XSAgICAgICAgICAgIDogbHRyIHwgcnRsXG5AbWl4aW4gZmxvYXQtc3Bhbi1vdXRwdXQoXG4gICR3aWR0aCxcbiAgJGZsb2F0ICAgICAgICAgICAgOiBmcm9tLFxuICAkbWFyZ2luLWJlZm9yZSAgICA6IG51bGwsXG4gICRtYXJnaW4tYWZ0ZXIgICAgIDogbnVsbCxcbiAgJHBhZGRpbmctYmVmb3JlICAgOiBudWxsLFxuICAkcGFkZGluZy1hZnRlciAgICA6IG51bGwsXG4gICRmbG93ICAgICAgICAgICAgIDogbWFwLWdldCgkc3VzeS1kZWZhdWx0cywgZmxvdylcbikge1xuICAkdG8gICAgIDogdG8oJGZsb3cpO1xuICAkZnJvbSAgIDogZnJvbSgkZmxvdyk7XG5cbiAgJG91dHB1dDogKFxuICAgIHdpZHRoOiAkd2lkdGgsXG4gICAgZmxvYXQ6IGlmKCRmbG9hdCA9PSB0bywgJHRvLCBudWxsKSBvciBpZigkZmxvYXQgPT0gZnJvbSwgJGZyb20sIG51bGwpLFxuICAgIG1hcmdpbi0jeyRmcm9tfTogJG1hcmdpbi1iZWZvcmUsXG4gICAgbWFyZ2luLSN7JHRvfTogJG1hcmdpbi1hZnRlcixcbiAgICBwYWRkaW5nLSN7JGZyb219OiAkcGFkZGluZy1iZWZvcmUsXG4gICAgcGFkZGluZy0jeyR0b306ICRwYWRkaW5nLWFmdGVyLFxuICApO1xuXG4gIEBpbmNsdWRlIG91dHB1dCgkb3V0cHV0KTtcbn1cbiIsIi5zdGlja3kge1xuXHRkaXNwbGF5OiBibG9jaztcbn1cblxuLmhlbnRyeSB7XG5cdG1hcmdpbjogMCAwIDEuNWVtO1xufVxuXG4uYnlsaW5lLFxuLnVwZGF0ZWQ6bm90KC5wdWJsaXNoZWQpe1xuXHRkaXNwbGF5OiBub25lO1xufVxuXG4uc2luZ2xlIC5ieWxpbmUsXG4uZ3JvdXAtYmxvZyAuYnlsaW5lIHtcblx0ZGlzcGxheTogaW5saW5lO1xufVxuXG4ucGFnZS1jb250ZW50LFxuLmVudHJ5LWNvbnRlbnQsXG4uZW50cnktc3VtbWFyeSB7XG5cdG1hcmdpbjogMS41ZW0gMCAwO1xufVxuXG4ucGFnZS1saW5rcyB7XG5cdGNsZWFyOiBib3RoO1xuXHRtYXJnaW46IDAgMCAxLjVlbTtcbn0iLCIuYmxvZyAuZm9ybWF0LWFzaWRlIC5lbnRyeS10aXRsZSxcbi5hcmNoaXZlIC5mb3JtYXQtYXNpZGUgLmVudHJ5LXRpdGxlIHtcblx0ZGlzcGxheTogbm9uZTtcbn0iLCIuY29tbWVudC1jb250ZW50IGEge1xuXHR3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG59XG4uYnlwb3N0YXV0aG9yIHtcblx0ZGlzcGxheTogYmxvY2s7XG59XG4iLCIvKiBHbG9iYWxseSBoaWRkZW4gZWxlbWVudHMgd2hlbiBJbmZpbml0ZSBTY3JvbGwgaXMgc3VwcG9ydGVkIGFuZCBpbiB1c2UuICovXG4uaW5maW5pdGUtc2Nyb2xsIC5wb3N0cy1uYXZpZ2F0aW9uLCAvKiBPbGRlciAvIE5ld2VyIFBvc3RzIE5hdmlnYXRpb24gKGFsd2F5cyBoaWRkZW4pICovXG4uaW5maW5pdGUtc2Nyb2xsLm5ldmVyZW5kaW5nIC5zaXRlLWZvb3RlciB7IC8qIFRoZW1lIEZvb3RlciAod2hlbiBzZXQgdG8gc2Nyb2xsaW5nKSAqL1xuXHRkaXNwbGF5OiBub25lO1xufVxuXG4vKiBXaGVuIEluZmluaXRlIFNjcm9sbCBoYXMgcmVhY2hlZCBpdHMgZW5kIHdlIG5lZWQgdG8gcmUtZGlzcGxheSBlbGVtZW50cyB0aGF0IHdlcmUgaGlkZGVuICh2aWEgLm5ldmVyZW5kaW5nKSBiZWZvcmUuICovXG4uaW5maW5pdHktZW5kLm5ldmVyZW5kaW5nIC5zaXRlLWZvb3RlciB7XG5cdGRpc3BsYXk6IGJsb2NrO1xufSIsIi5wYWdlLWNvbnRlbnQgLndwLXNtaWxleSxcbi5lbnRyeS1jb250ZW50IC53cC1zbWlsZXksXG4uY29tbWVudC1jb250ZW50IC53cC1zbWlsZXkge1xuXHRib3JkZXI6IG5vbmU7XG5cdG1hcmdpbi1ib3R0b206IDA7XG5cdG1hcmdpbi10b3A6IDA7XG5cdHBhZGRpbmc6IDA7XG59XG5cbi8qIE1ha2Ugc3VyZSBlbWJlZHMgYW5kIGlmcmFtZXMgZml0IHRoZWlyIGNvbnRhaW5lcnMuICovXG5lbWJlZCxcbmlmcmFtZSxcbm9iamVjdCB7XG5cdG1heC13aWR0aDogMTAwJTtcbn1cblxuLyotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLVxuIyMgQ2FwdGlvbnNcbi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKi9cbkBpbXBvcnQgXCJjYXB0aW9uc1wiO1xuXG4vKi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tXG4jIyBHYWxsZXJpZXNcbi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tKi9cbkBpbXBvcnQgXCJnYWxsZXJpZXNcIjsiLCIud3AtY2FwdGlvbiB7XG5cdG1hcmdpbi1ib3R0b206IDEuNWVtO1xuXHRtYXgtd2lkdGg6IDEwMCU7XG5cblx0aW1nW2NsYXNzKj1cIndwLWltYWdlLVwiXSB7XG5cdFx0QGluY2x1ZGUgY2VudGVyLWJsb2NrO1xuXHR9XG5cblx0LndwLWNhcHRpb24tdGV4dCB7XG5cdFx0bWFyZ2luOiAwLjgwNzVlbSAwO1xuXHR9XG59XG5cbi53cC1jYXB0aW9uLXRleHQge1xuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XG59IiwiLmdhbGxlcnkge1xuXHRtYXJnaW4tYm90dG9tOiAxLjVlbTtcbn1cblxuLmdhbGxlcnktaXRlbSB7XG5cdGRpc3BsYXk6IGlubGluZS1ibG9jaztcblx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHR2ZXJ0aWNhbC1hbGlnbjogdG9wO1xuXHR3aWR0aDogMTAwJTtcblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTIgJiB7XG5cdFx0bWF4LXdpZHRoOiA1MCU7XG5cdH1cblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTMgJiB7XG5cdFx0bWF4LXdpZHRoOiAzMy4zMyU7XG5cdH1cblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTQgJiB7XG5cdFx0bWF4LXdpZHRoOiAyNSU7XG5cdH1cblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTUgJiB7XG5cdFx0bWF4LXdpZHRoOiAyMCU7XG5cdH1cblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTYgJiB7XG5cdFx0bWF4LXdpZHRoOiAxNi42NiU7XG5cdH1cblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTcgJiB7XG5cdFx0bWF4LXdpZHRoOiAxNC4yOCU7XG5cdH1cblxuXHQuZ2FsbGVyeS1jb2x1bW5zLTggJiB7XG5cdFx0bWF4LXdpZHRoOiAxMi41JTtcblx0fVxuXG5cdC5nYWxsZXJ5LWNvbHVtbnMtOSAmIHtcblx0XHRtYXgtd2lkdGg6IDExLjExJTtcblx0fVxufVxuXG4uZ2FsbGVyeS1jYXB0aW9uIHtcblx0ZGlzcGxheTogYmxvY2s7XG59Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */
+/*# sourceMappingURL=style.css.map */

@@ -13,7 +13,9 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "susy": "~2.2.2"
+  "devDependencies": {
+    "susy": "~2.2.2",
+    "sass-web-fonts": "~1.1.0",
+    "breakpoint": "~4.6.4"
   }
 }
