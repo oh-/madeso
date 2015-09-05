@@ -1,3 +1,4 @@
+var siteurl = 'base.theme';
 // Site vars
 
 var gulp = require('gulp');
@@ -21,7 +22,7 @@ var paths = {
 //  browsersync config
 var config = {
 	files: ['app/theme/style.css', 'app/theme/*.php'],
-    proxy: 'base.theme', // change this to your site url
+    proxy: siteurl, // change this to your site url
     notify: 'false',
     browser: "FirefoxDeveloperEdition",
     open: false,
@@ -34,7 +35,7 @@ var config = {
 };
 var configo = {
 	files: ['app/theme/style.css', 'app/theme/*.php'],
-    proxy: 'base.theme', // change this to your site url
+    proxy: siteurl , // change this to your site url
     notify: 'false',
     browser: "FirefoxDeveloperEdition",
     open: true,
