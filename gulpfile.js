@@ -1,32 +1,32 @@
-var siteurl = 'base.theme';
 // Site vars
 
 var gulp = require('gulp');
 var watch = require('gulp-watch');
 var compass = require('gulp-compass');
-var plumber = require('gulp-plumber')
+var sass = require('gulp-sass')
+var plumber = require('gulp-plumber');
 var sourcemaps = require('gulp-sourcemaps');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 
 
+var theme = {
+  dir: 'app/theme/',
+  url: 'base.theme'
+};
 var paths = {
-  theme: {
-    dir: './app/theme/',
-    url: 'base.theme'
-  },
 	styles: {
-		src: paths.theme.dir . '{,*/}*.{scss,sass}',
-		sass: paths.theme.dir . 'sass/',
-		dest: paths.theme.dir,
+		src: theme.dir + '{,*/}*.{scss,sass}',
+		sass: theme.dir + 'sass/',
+		dest: theme.dir,
 		bower: './bower_components/',
 		build: './app/temp/'
 		}
 };
 //  browsersync config
 var config = {
-	files: [paths.theme.dir . 'style.css', paths.theme.dir .'*.php'],
-    proxy: paths.theme.url, // change this to your site url
+	files: [theme.dir + 'style.css', theme.dir + '*.php'],
+    proxy: theme.url, // change this to your site url
     notify: 'false',
     browser: "FirefoxDeveloperEdition",
     open: false,
@@ -38,8 +38,8 @@ var config = {
 // }
 };
 var configo = {
-	files: [paths.theme.dir . 'style.css', paths.theme.dir .'*.php'],
-    proxy: paths.theme.url, // change this to your site url
+	files: [theme.dir + 'style.css', theme.dir + '*.php'],
+    proxy: theme.url, // change this to your site url
     notify: 'false',
     browser: "FirefoxDeveloperEdition",
     open: true,
@@ -48,61 +48,65 @@ var configo = {
 
 
 gulp.task('compass', function() {
-  gulp.src(paths.styles.src)
+  gulp.src('./' + paths.styles.src)
 	.pipe(plumber({
 		errorHandler: function (error) {
 			console.log(error.message);
 			this.emit('end');
-		}
-	}))
-    .pipe(compass({
-		import_path: paths.styles.bower,
-		config_file: './config.rb',
-		require: 'susy',
-		require: 'breakpoint',
-		css: paths.styles.dest,
-		sass: paths.styles.sass,
-		sourcemap: 'true'
+  }}))
+  .pipe(compass({
+		// import_path: paths.styles.bower,
+		require: ['susy', 'breakpoint'],
+		css: 'css',
+		sass: 'sass',
+    image: 'img'
     }))
 	.on('error', function(err) {
 		//would like to catch the error here
 	})
     .pipe(gulp.dest(paths.styles.build))
-    .pipe(reload({ stream:true }));
+    .pipe(browserSync.stream({match: ['**/*.css', '**/*.php']}));
 });
 
 
+// Static Server + watching scss/html files
+gulp.task('serve', ['sass'], function() {
 
-// // Gulp Sass Task - if you would prefer Sass to Compass
-// gulp.task('sass', function() {
-//   gulp.src('./app/theme/sass/{,*/}*.{scss,sass}')
-//    	.pipe(sourcemaps.init())
-//    	.pipe(sass({
-//       errLogToConsole: true
-//     }))
-//     .pipe(sourcemaps.write())
-//     .pipe(gulp.dest('./app/theme'))
-//     .pipe(reload({ stream:true }));
+    browserSync.init(browserSync(config));
+    gulp.watch( paths.styles.src, ['sass']);
+    gulp.watch(theme.dir + '*.{php,scss}').on('change', browserSync.reload);
+});
+
+// Compile sass into CSS & auto-inject into browsers
+gulp.task('sass', function() {
+    return gulp.src(paths.styles.src)
+        .pipe(sass())
+        .pipe(gulp.dest(paths.styles.dest))
+        .pipe(browserSync.stream());
+});
+
+gulp.task('default', ['serve']);
+
+
+
+// gulp.task('oldserve', function() {
+// 	browserSync(config);
+// 	gulp.watch('paths.styles.src', ['compass']);
 // });
-
-
-
-
-gulp.task('serve', function() {
-	browserSync(config);
-	gulp.watch('paths.styles.src', ['compass']);
-});
-gulp.task('serveo', function() {
-	browserSync(configo);
-	gulp.watch('paths.styles.src', ['compass']);
-});
-
-gulp.task('o', ['compass', 'serveo'], function() {
-	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
-	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
-});
-
-gulp.task('default', ['compass', 'serve'], function() {
-	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
-	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
-});
+// gulp.task('serve', ['compass'], function() {
+//   browserSync.init(config);
+// 	gulp.watch('paths.styles.src', ['compass']);
+// });
+// gulp.task('serveo', function() {
+// 	browserSync(configo);
+// 	gulp.watch('paths.styles.src', ['compass']);
+// });
+//
+// gulp.task('o', ['compass', 'serveo'], function() {
+// 	gulp.watch( paths.styles.src , ['compass']);
+// 	// gulp.watch('./app/theme/sass/{,|)}>#}*.{scss,sass}', ['sass']);
+// });
+//
+// gulp.task('default', ['compass', 'serve'], function() {
+// 	gulp.watch( paths.styles.src , ['compass']);
+// });

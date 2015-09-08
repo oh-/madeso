@@ -54,19 +54,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000031}}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\000037}}
 body {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000311}}
 article,
 aside,
 details,
@@ -82,7 +82,7 @@ summary {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000326}}
 audio,
 canvas,
 progress,
@@ -91,63 +91,63 @@ video {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000334}}
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000339}}
 [hidden],
 template {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000344}}
 a {
   background-color: transparent;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000348}}
 a:active,
 a:hover {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000353}}
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000357}}
 b,
 strong {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000362}}
 dfn {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000366}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000371}}
 mark {
   background: #ff0;
   color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000376}}
 small {
   font-size: 80%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000380}}
 sub,
 sup {
   font-size: 75%;
@@ -156,43 +156,43 @@ sup {
   vertical-align: baseline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000388}}
 sup {
   top: -0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000392}}
 sub {
   bottom: -0.25em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\0000396}}
 img {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003100}}
 svg:not(:root) {
   overflow: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003104}}
 figure {
   margin: 1em 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003108}}
 hr {
   box-sizing: content-box;
   height: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003113}}
 pre {
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003117}}
 code,
 kbd,
 pre,
@@ -201,7 +201,7 @@ samp {
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003125}}
 button,
 input,
 optgroup,
@@ -212,18 +212,18 @@ textarea {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003135}}
 button {
   overflow: visible;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003139}}
 button,
 select {
   text-transform: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003144}}
 button,
 html input[type="button"],
 input[type="reset"],
@@ -232,79 +232,79 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003152}}
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003157}}
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003163}}
 input {
   line-height: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003167}}
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003173}}
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003178}}
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003183}}
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003188}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003194}}
 legend {
   border: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003199}}
 textarea {
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003203}}
 optgroup {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003207}}
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/_normalize\.scss}line{font-family:\00003212}}
 td,
 th {
   padding: 0;
@@ -313,7 +313,7 @@ th {
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_typography\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_typography\.scss}line{font-family:\000037}}
 body,
 button,
 input,
@@ -325,7 +325,7 @@ textarea {
   font-weight: 300;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_headings\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_headings\.scss}line{font-family:\000031}}
 h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-weight: 700;
@@ -333,27 +333,27 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000031}}
 p {
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000035}}
 dfn, cite, em, i {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\000039}}
 blockquote {
   margin: 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000313}}
 address {
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000317}}
 pre {
   background: #eee;
   font-family: "Courier 10 Pitch", Courier, monospace;
@@ -366,31 +366,31 @@ pre {
   padding: 1.6em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000328}}
 code, kbd, tt, var {
   font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: 15px;
   font-size: 0.9375rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000333}}
 abbr, acronym {
   border-bottom: 1px dotted #666;
   cursor: help;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000338}}
 mark, ins {
   background: #fff9c0;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000343}}
 strong, b {
   font-weight: 400;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/typography\/_copy\.scss}line{font-family:\0000346}}
 big {
   font-size: 125%;
 }
@@ -398,12 +398,12 @@ big {
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000031}}
 html {
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\000035}}
 *,
 *:before,
 *:after {
@@ -411,22 +411,22 @@ html {
   box-sizing: inherit;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000311}}
 body {
   background: black;
   /* Fallback for when there is no custom background color defined. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000315}}
 blockquote, q {
   quotes: "" "";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000318}}
 blockquote:before, blockquote:after, q:before, q:after {
   content: "";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000324}}
 hr {
   background-color: #ccc;
   border: 0;
@@ -434,39 +434,39 @@ hr {
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000031}}
 ul, ol {
   margin: 0 0 1.5em 3em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000035}}
 ul {
   list-style: disc;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\000039}}
 ol {
   list-style: decimal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000313}}
 li > ul,
 li > ol {
   margin-bottom: 0;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000319}}
 dt {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_lists\.scss}line{font-family:\0000323}}
 dd {
   margin: 0 1.5em 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_elements\.scss}line{font-family:\0000333}}
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
@@ -474,7 +474,7 @@ img {
   /* Adhere to container width. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/elements\/_tables\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/elements\/_tables\.scss}line{font-family:\000031}}
 table {
   margin: 0 0 1.5em;
   width: 100%;
@@ -483,7 +483,7 @@ table {
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\000031}}
 button,
 input[type="button"],
 input[type="reset"],
@@ -500,7 +500,7 @@ input[type="submit"] {
   padding: .6em 1em .4em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000316}}
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
@@ -508,7 +508,7 @@ input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_buttons\.scss}line{font-family:\0000321}}
 button:active, button:focus,
 input[type="button"]:active,
 input[type="button"]:focus,
@@ -520,7 +520,7 @@ input[type="submit"]:focus {
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\000031}}
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -531,7 +531,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000311}}
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="url"]:focus,
@@ -541,7 +541,7 @@ textarea:focus {
   color: #111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000316}}
 input[type="text"],
 input[type="email"],
 input[type="url"],
@@ -550,7 +550,7 @@ input[type="search"] {
   padding: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/forms\/_fields\.scss}line{font-family:\0000324}}
 textarea {
   padding-left: 3px;
   width: 100%;
@@ -562,39 +562,39 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000031}}
 a {
   text-align: center;
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000035}}
 a:visited {
   color: #d9d9d9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\000038}}
 a:hover, a:focus, a:active {
   color: lightblue;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000313}}
 a:focus {
   outline: thin dotted;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000316}}
 a:hover, a:active {
   outline: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000321}}
 .theme-auth {
   text-decoration: none;
   background-color: clear !important;
   color: #2b2b2b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000324}}
 .theme-auth:visited {
   color: #2b2b2b;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_links\.scss}line{font-family:\0000325}}
 .theme-auth:hover {
   color: #4d4d4d !important;
 }
@@ -602,13 +602,13 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000031}}
 .main-navigation {
   background-color: black;
   clear: both;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\000036}}
 .main-navigation ul {
   display: none;
   list-style: none;
@@ -616,7 +616,7 @@ a:hover, a:active {
   padding-left: 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000313}}
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -624,12 +624,12 @@ a:hover, a:active {
   left: -999em;
   z-index: 99999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000321}}
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000326}}
 .main-navigation ul ul li {
   background-color: #1a1a1a;
   padding-left: 0%;
@@ -642,20 +642,20 @@ a:hover, a:active {
   margin-left: 0.625rem;
   margin-right: -100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000332}}
 .main-navigation ul ul li a {
   border: solid 1px #333333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000334}}
 .main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   left: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000352}}
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000357}}
 .main-navigation li {
                /*
 		 * All menu items, including submenu items (li) 
@@ -670,7 +670,7 @@ a:hover, a:active {
   padding-left: 5.26316%;
   padding-right: 15.78947%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000375}}
 .main-navigation a {
   border: solid 1px #333333;
   display: block;
@@ -680,19 +680,19 @@ a:hover, a:active {
   line-height: 32px;
   line-height: 2rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000388}}
 .main-navigation li.current-menu-item {
   position: relative;
 }
 
 /* Small menu. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\0000396}}
 .menu-toggle,
 .main-navigation.toggled ul {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003101}}
 .menu-toggle {
   width: 40px;
   background: black;
@@ -712,7 +712,7 @@ a:hover, a:active {
 }
 
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003115}}
   #masthead {
     margin-top: 0px;
     margin-top: 0rem;
@@ -721,14 +721,14 @@ a:hover, a:active {
     /*pushes the main content underneath the #masthead to make space for the height of the menu */
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003116}}
   .main-navigation {
     position: absolute;
     top: 400px;
     left: 0;
     right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003121}}
   .main-navigation .menu > li {
                         /*
 			 * Hopefully only the top level menu
@@ -736,38 +736,38 @@ a:hover, a:active {
     width: 16.66667%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .main-navigation .menu > li:nth-child(5n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .main-navigation .menu > li:nth-child(5n + 2) {
     margin-left: 20.83333%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .main-navigation .menu > li:nth-child(5n + 3) {
     margin-left: 41.66667%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .main-navigation .menu > li:nth-child(5n + 4) {
     margin-left: 62.5%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .main-navigation .menu > li:nth-child(5n + 5) {
     margin-left: 83.33333%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003127}}
   .main-navigation li {
                         /*
 			 * All menu items, tablet-portrait size and up including submenu
@@ -775,7 +775,7 @@ a:hover, a:active {
     padding-left: 0%;
     padding-right: 0%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003132}}
   .main-navigation li > a {
     margin-top: 0px;
     margin-top: 0rem;
@@ -786,7 +786,7 @@ a:hover, a:active {
     margin-bottom: 0px;
     margin-bottom: 0rem;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003134}}
   .main-navigation .menu > li > ul::before {
     content: "^";
     position: absolute;
@@ -795,7 +795,7 @@ a:hover, a:active {
     margin-left: 50%;
     margin-right: 50%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003141}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003141}}
   .main-navigation .sub-menu > li {
     clear: both;
     width: 100%;
@@ -803,40 +803,40 @@ a:hover, a:active {
     margin-left: 0;
     margin-right: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003144}}
   .main-navigation ul {
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003152}}
   .main-navigation a {
     border: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003154}}
   .menu-toggle {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003157}}
   .main-navigation ul {
     display: block;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003166}}
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003171}}
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   float: left;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003176}}
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -845,14 +845,14 @@ a:hover, a:active {
   width: 50%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003182}}
 #site-navigation {
   padding-top: 16px;
   padding-top: 1rem;
   padding-bottom: 16px;
   padding-bottom: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003184}}
 #site-navigation:before {
   position: absolute;
   content: "";
@@ -867,7 +867,7 @@ a:hover, a:active {
   background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
   z-index: 1000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/navigation\/_menus\.scss}line{font-family:\00003185}}
 #site-navigation:after {
   position: absolute;
   content: "";
@@ -887,7 +887,7 @@ a:hover, a:active {
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000032}}
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
@@ -895,7 +895,7 @@ a:hover, a:active {
   width: 1px;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_accessibility\.scss}line{font-family:\000039}}
 .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
   background-color: black;
   border-radius: 3px;
@@ -920,21 +920,21 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Alignments
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000031}}
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\000037}}
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_alignments\.scss}line{font-family:\0000313}}
 .aligncenter {
   display: block;
   margin-left: auto;
@@ -944,7 +944,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Clearings
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\000031}}
 .clear:before,
 .clear:after,
 .entry-content:before,
@@ -961,7 +961,7 @@ a:hover, a:active {
   display: table;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_clearings\.scss}line{font-family:\0000316}}
 .clear:after,
 .entry-content:after,
 .comment-content:after,
@@ -974,18 +974,18 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000031}}
 .widget {
   margin: 0 0 1.5em;
   /* Make sure select elements fit in widgets. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\000035}}
 .widget select {
   max-width: 100%;
 }
 
 /* Search widget. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/secondary\/_widgets\.scss}line{font-family:\0000311}}
 .widget_search .search-submit {
   display: none;
 }
@@ -993,46 +993,51 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000033}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000033}}
 .line {
   border-top: solid 5px black;
   border-bottom: solid 5px #e6e6e6;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\000039}}
+.menubutton {
+  background: yellow  !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000313}}
 .menutext {
   width: 15px;
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000318}}
 #primary-menu li {
   text-transform: uppercase;
   letter-spacing: 0.25rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000323}}
 #page {
   max-width: 130%;
   margin-left: auto;
   margin-right: auto;
   background: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
 #page:after {
   content: " ";
   display: block;
   clear: both;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000323}}
   #page {
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
   #page:after {
     content: " ";
     display: block;
@@ -1040,14 +1045,14 @@ a:hover, a:active {
   }
 }
 @media (min-width: 63.8125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000323}}
   #page {
     max-width: 1200px;
     max-width: 75rem;
     margin-left: auto;
     margin-right: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/output\/support\/_clearfix\.scss}line{font-family:\0000312}}
   #page:after {
     content: " ";
     display: block;
@@ -1055,7 +1060,7 @@ a:hover, a:active {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000337}}
 #comments, #colophon {
   width: 100%;
   float: left;
@@ -1063,7 +1068,7 @@ a:hover, a:active {
   margin-right: 0;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000337}}
   #comments, #colophon {
     width: 87.34177%;
     float: left;
@@ -1073,7 +1078,7 @@ a:hover, a:active {
   }
 }
 @media screen and (min-width: 48.125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000337}}
   #comments, #colophon {
     width: 87.34177%;
     float: left;
@@ -1083,7 +1088,7 @@ a:hover, a:active {
   }
 }
 @media (min-width: 63.8125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000337}}
   #comments, #colophon {
     width: 100%;
     float: left;
@@ -1094,7 +1099,7 @@ a:hover, a:active {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000341}}
 .site-branding {
   text-align: center;
   width: 100%;
@@ -1102,12 +1107,12 @@ a:hover, a:active {
   margin-left: 0;
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000343}}
 .site-branding img {
   max-height: 250px;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000341}}
   .site-branding {
     width: 42.02899%;
     float: left;
@@ -1116,7 +1121,7 @@ a:hover, a:active {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000349}}
 .site-description {
   position: relative;
   padding-top: 10px;
@@ -1124,7 +1129,7 @@ a:hover, a:active {
   padding-bottom: 10px;
   padding-bottom: 0.6rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000351}}
 .site-description:before {
   position: absolute;
   content: "";
@@ -1138,7 +1143,7 @@ a:hover, a:active {
   background-image: -webkit-radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
   background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000352}}
 .site-description:after {
   position: absolute;
   content: "";
@@ -1153,7 +1158,7 @@ a:hover, a:active {
   background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000357}}
 #masthead {
   width: 100%;
   float: left;
@@ -1162,7 +1167,7 @@ a:hover, a:active {
   position: relative;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000357}}
   #masthead {
     width: 87.34177%;
     float: left;
@@ -1172,7 +1177,7 @@ a:hover, a:active {
   }
 }
 @media screen and (min-width: 48.125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000357}}
   #masthead {
     width: 87.34177%;
     float: left;
@@ -1182,7 +1187,7 @@ a:hover, a:active {
   }
 }
 @media (min-width: 63.8125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000357}}
   #masthead {
     width: 100%;
     float: left;
@@ -1193,19 +1198,19 @@ a:hover, a:active {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000357}}
   #masthead {
     height: 400px;
     max-height: 400px;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000366}}
 #content {
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000369}}
 .entry-header, .entry-content, .entry-footer {
   width: 100%;
   float: left;
@@ -1213,7 +1218,7 @@ a:hover, a:active {
   margin-right: 0;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000369}}
   .entry-header, .entry-content, .entry-footer {
     width: 87.34177%;
     float: left;
@@ -1223,7 +1228,7 @@ a:hover, a:active {
   }
 }
 @media screen and (min-width: 48.125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000369}}
   .entry-header, .entry-content, .entry-footer {
     width: 87.34177%;
     float: left;
@@ -1233,7 +1238,7 @@ a:hover, a:active {
   }
 }
 @media (min-width: 63.8125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000369}}
   .entry-header, .entry-content, .entry-footer {
     width: 100%;
     float: left;
@@ -1244,12 +1249,12 @@ a:hover, a:active {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000374}}
 #colophon {
   background-color: black;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000377}}
 #colophon:after {
   position: absolute;
   content: "";
@@ -1264,7 +1269,7 @@ a:hover, a:active {
   background-image: radial-gradient(#ffffff, rgba(0, 0, 0, 0.05) 65%);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000381}}
 .site-info {
   width: 100%;
   float: right;
@@ -1277,7 +1282,7 @@ a:hover, a:active {
   background-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000390}}
 .footer-main {
   clear: both;
   width: 100%;
@@ -1286,7 +1291,7 @@ a:hover, a:active {
   margin-right: 0;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/layout\/_grids\.scss}line{font-family:\0000390}}
   .footer-main {
     width: 30.37975%;
     float: left;
@@ -1294,7 +1299,7 @@ a:hover, a:active {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000336}}
 #showsize {
   position: fixed;
   padding-left: 15px;
@@ -1311,25 +1316,25 @@ a:hover, a:active {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000343}}
 #showsize:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
 @media screen and (min-width: 20em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000345}}
   #showsize::after {
     content: '$smartphone-portrait';
   }
 }
 @media screen and (min-width: 30em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000350}}
   #showsize::after {
     content: '$smartphone-landscape';
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000355}}
   #showsize::after {
     content: '$tablet-portrait';
     width: 11.39241%;
@@ -1338,13 +1343,13 @@ a:hover, a:active {
   }
 }
 @media screen and (min-width: 48.125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000363}}
   #showsize::after {
     content: '$tablet-landscape';
   }
 }
 @media (min-width: 63.8125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/mixins\/_mixins-master\.scss}line{font-family:\0000368}}
   #showsize::after {
     content: '$desktop';
   }
@@ -1353,36 +1358,36 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000031}}
 .sticky {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000035}}
 .hentry {
   margin: 0 0 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\000039}}
 .byline,
 .updated:not(.published) {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000314}}
 .single .byline,
 .group-blog .byline {
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000319}}
 .page-content,
 .entry-content,
 .entry-summary {
   margin: 1.5em 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_posts-and-pages\.scss}line{font-family:\0000325}}
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -1391,7 +1396,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_asides\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_asides\.scss}line{font-family:\000031}}
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none;
@@ -1400,12 +1405,12 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000031}}
 .comment-content a {
   word-wrap: break-word;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/site\/primary\/_comments\.scss}line{font-family:\000034}}
 .bypostauthor {
   display: block;
 }
@@ -1414,7 +1419,7 @@ a:hover, a:active {
 # Infinite scroll
 --------------------------------------------------------------*/
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000032}}
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   /* Theme Footer (when set to scrolling) */
@@ -1422,7 +1427,7 @@ a:hover, a:active {
 }
 
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/modules\/_infinite-scroll\.scss}line{font-family:\000038}}
 .infinity-end.neverending .site-footer {
   display: block;
 }
@@ -1430,7 +1435,7 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\000031}}
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1441,7 +1446,7 @@ a:hover, a:active {
 }
 
 /* Make sure embeds and iframes fit their containers. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_media\.scss}line{font-family:\0000311}}
 embed,
 iframe,
 object {
@@ -1451,23 +1456,23 @@ object {
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000031}}
 .wp-caption {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000035}}
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\000039}}
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_captions\.scss}line{font-family:\0000314}}
 .wp-caption-text {
   text-align: center;
 }
@@ -1475,12 +1480,12 @@ object {
 /*--------------------------------------------------------------
 ## Galleries
 --------------------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000031}}
 .gallery {
   margin-bottom: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\000035}}
 .gallery-item {
   display: inline-block;
   text-align: center;
@@ -1528,19 +1533,19 @@ object {
   margin-right: 0;
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-2 .gallery-item {
     width: 44.44444%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-2 .gallery-item:nth-child(2n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-2 .gallery-item:nth-child(2n + 2) {
     margin-left: 55.55556%;
     margin-right: -100%;
@@ -1548,25 +1553,25 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-3 .gallery-item {
     width: 28.57143%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-3 .gallery-item:nth-child(3n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-3 .gallery-item:nth-child(3n + 2) {
     margin-left: 35.71429%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-3 .gallery-item:nth-child(3n + 3) {
     margin-left: 71.42857%;
     margin-right: -100%;
@@ -1574,31 +1579,31 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-4 .gallery-item {
     width: 21.05263%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-4 .gallery-item:nth-child(4n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-4 .gallery-item:nth-child(4n + 2) {
     margin-left: 26.31579%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-4 .gallery-item:nth-child(4n + 3) {
     margin-left: 52.63158%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-4 .gallery-item:nth-child(4n + 4) {
     margin-left: 78.94737%;
     margin-right: -100%;
@@ -1606,37 +1611,37 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-5 .gallery-item {
     width: 16.66667%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-5 .gallery-item:nth-child(5n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-5 .gallery-item:nth-child(5n + 2) {
     margin-left: 20.83333%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-5 .gallery-item:nth-child(5n + 3) {
     margin-left: 41.66667%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-5 .gallery-item:nth-child(5n + 4) {
     margin-left: 62.5%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-5 .gallery-item:nth-child(5n + 5) {
     margin-left: 83.33333%;
     margin-right: -100%;
@@ -1644,43 +1649,43 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-6 .gallery-item {
     width: 13.7931%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-6 .gallery-item:nth-child(6n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-6 .gallery-item:nth-child(6n + 2) {
     margin-left: 17.24138%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-6 .gallery-item:nth-child(6n + 3) {
     margin-left: 34.48276%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-6 .gallery-item:nth-child(6n + 4) {
     margin-left: 51.72414%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-6 .gallery-item:nth-child(6n + 5) {
     margin-left: 68.96552%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-6 .gallery-item:nth-child(6n + 6) {
     margin-left: 86.2069%;
     margin-right: -100%;
@@ -1688,49 +1693,49 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-7 .gallery-item {
     width: 11.76471%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 2) {
     margin-left: 14.70588%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 3) {
     margin-left: 29.41176%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 4) {
     margin-left: 44.11765%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 5) {
     margin-left: 58.82353%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 6) {
     margin-left: 73.52941%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-7 .gallery-item:nth-child(7n + 7) {
     margin-left: 88.23529%;
     margin-right: -100%;
@@ -1738,55 +1743,55 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-8 .gallery-item {
     width: 10.25641%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 2) {
     margin-left: 12.82051%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 3) {
     margin-left: 25.64103%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 4) {
     margin-left: 38.46154%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 5) {
     margin-left: 51.28205%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 6) {
     margin-left: 64.10256%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 7) {
     margin-left: 76.92308%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-8 .gallery-item:nth-child(8n + 8) {
     margin-left: 89.74359%;
     margin-right: -100%;
@@ -1794,61 +1799,61 @@ object {
   }
 }
 @media screen and (min-width: 40em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000319}}
   .gallery-columns-9 .gallery-item {
     width: 9.09091%;
     float: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
     margin-left: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 2) {
     margin-left: 11.36364%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 3) {
     margin-left: 22.72727%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 4) {
     margin-left: 34.09091%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 5) {
     margin-left: 45.45455%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 6) {
     margin-left: 56.81818%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 7) {
     margin-left: 68.18182%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 8) {
     margin-left: 79.54545%;
     margin-right: -100%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/bower_components\/susy\/sass\/susy\/language\/susy\/_gallery\.scss}line{font-family:\0000366}}
   .gallery-columns-9 .gallery-item:nth-child(9n + 9) {
     margin-left: 90.90909%;
     margin-right: -100%;
@@ -1856,24 +1861,22 @@ object {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000326}}
 .gallery-caption {
   display: block;
 }
 
 @media screen and (min-width: 48.125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000330}}
   .slidepush {
     padding-left: 5.7971%;
     padding-right: 5.7971%;
   }
 }
 @media (min-width: 63.8125em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/themes\/base\/madeso-base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/samuel\/Work\/VCS\%20Assist\/base\/app\/theme\/sass\/media\/_galleries\.scss}line{font-family:\0000330}}
   .slidepush {
     padding-left: 11.39241%;
     padding-right: 11.39241%;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
