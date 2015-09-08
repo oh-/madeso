@@ -11,18 +11,22 @@ var reload = browserSync.reload;
 
 
 var paths = {
+  theme: {
+    dir: './app/theme/',
+    url: 'base.theme'
+  },
 	styles: {
-		src: './app/theme/sass/{,*/}*.{scss,sass}',
-		sass: './app/theme/sass/',
-		dest: './app/theme/',
+		src: paths.theme.dir . '{,*/}*.{scss,sass}',
+		sass: paths.theme.dir . 'sass/',
+		dest: paths.theme.dir,
 		bower: './bower_components/',
 		build: './app/temp/'
 		}
 };
 //  browsersync config
 var config = {
-	files: ['app/theme/style.css', 'app/theme/*.php'],
-    proxy: siteurl, // change this to your site url
+	files: [paths.theme.dir . 'style.css', paths.theme.dir .'*.php'],
+    proxy: paths.theme.url, // change this to your site url
     notify: 'false',
     browser: "FirefoxDeveloperEdition",
     open: false,
@@ -34,8 +38,8 @@ var config = {
 // }
 };
 var configo = {
-	files: ['app/theme/style.css', 'app/theme/*.php'],
-    proxy: siteurl , // change this to your site url
+	files: [paths.theme.dir . 'style.css', paths.theme.dir .'*.php'],
+    proxy: paths.theme.url, // change this to your site url
     notify: 'false',
     browser: "FirefoxDeveloperEdition",
     open: true,
