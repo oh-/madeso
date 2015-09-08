@@ -1,3 +1,4 @@
+var siteurl = 'base.theme';
 // Site vars
 
 var gulp = require('gulp');
@@ -10,11 +11,6 @@ var reload = browserSync.reload;
 
 
 var paths = {
-       	SassFiles : {
-		soc: 'app/theme/sass/style.scss',
-		dst: 'app/theme/',
-		sf: './app/theme/sass/{,*/}*.{scss,sass}'
-	},
 	styles: {
 		src: './app/theme/sass/{,*/}*.{scss,sass}',
 		sass: './app/theme/sass/',
@@ -22,9 +18,31 @@ var paths = {
 		bower: './bower_components/',
 		build: './app/temp/'
 		}
-}
+};
+//  browsersync config
+var config = {
+	files: ['app/theme/style.css', 'app/theme/*.php'],
+    proxy: siteurl, // change this to your site url
+    notify: 'false',
+    browser: "FirefoxDeveloperEdition",
+    open: false,
+    ghostMode: false
+// : {
+//     clicks: true,
+//     forms: true,
+//     scroll: false
+// }
+};
+var configo = {
+	files: ['app/theme/style.css', 'app/theme/*.php'],
+    proxy: siteurl , // change this to your site url
+    notify: 'false',
+    browser: "FirefoxDeveloperEdition",
+    open: true,
+    ghostMode: false
+};
 
- 
+
 gulp.task('compass', function() {
   gulp.src(paths.styles.src)
 	.pipe(plumber({
@@ -37,8 +55,10 @@ gulp.task('compass', function() {
 		import_path: paths.styles.bower,
 		config_file: './config.rb',
 		require: 'susy',
-		css: paths.styles.dest ,
-		sass: paths.styles.sass
+		require: 'breakpoint',
+		css: paths.styles.dest,
+		sass: paths.styles.sass,
+		sourcemap: 'true'
     }))
 	.on('error', function(err) {
 		//would like to catch the error here
@@ -49,7 +69,7 @@ gulp.task('compass', function() {
 
 
 
-// // Gulp Sass Task
+// // Gulp Sass Task - if you would prefer Sass to Compass
 // gulp.task('sass', function() {
 //   gulp.src('./app/theme/sass/{,*/}*.{scss,sass}')
 //    	.pipe(sourcemaps.init())
@@ -63,16 +83,19 @@ gulp.task('compass', function() {
 
 
 
-//  browsersync config
-var config = {
-	files: ['app/theme/style.css', 'app/theme/*.php'],
-	proxy: "localhost/ecostage/",
-	notify: "false"
-};
 
 gulp.task('serve', function() {
 	browserSync(config);
-	gulp.watch('app/theme/**.scss', ['sass']);
+	gulp.watch('paths.styles.src', ['compass']);
+});
+gulp.task('serveo', function() {
+	browserSync(configo);
+	gulp.watch('paths.styles.src', ['compass']);
+});
+
+gulp.task('o', ['compass', 'serveo'], function() {
+	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
+	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
 });
 
 gulp.task('default', ['compass', 'serve'], function() {
