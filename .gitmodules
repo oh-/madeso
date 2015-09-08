@@ -1,0 +1,3 @@
+[submodule "app/theme"]
+	path = app/theme
+	url = https://github.com/madeso-uk/vcsassist.git
