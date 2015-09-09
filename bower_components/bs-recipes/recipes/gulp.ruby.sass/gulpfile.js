@@ -6,22 +6,22 @@ var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
 
 var src = {
-    scss: 'app/theme/**/*.scss',
-    css:  'app/theme',
-    php: 'app/theme/*.php'
+    scss: 'app/scss/*.scss',
+    css:  'app/css',
+    html: 'app/*.html'
 };
 
 /**
  * Kick off the sass stream with source maps + error handling
  */
 function sassStream () {
-    return sass('app/theme/sass', {sourcemap: true})
+    return sass('app/scss', {sourcemap: true})
         .on('error', function (err) {
             console.error('Error!', err.message);
         })
         .pipe(sourcemaps.write('./', {
             includeContent: false,
-            sourceRoot: '/app/theme/sass'
+            sourceRoot: '/app/scss'
         }));
 }
 
@@ -31,9 +31,7 @@ function sassStream () {
 gulp.task('serve', ['sass'], function() {
 
     browserSync({
-        // server: "./app/theme"
-        proxy: 'vcs.dev', // change this to your site url
-        // open: false
+        server: "./app"
     });
 
     gulp.watch(src.scss, ['sass']);

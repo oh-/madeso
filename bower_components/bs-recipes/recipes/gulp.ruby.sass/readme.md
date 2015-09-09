@@ -1,3 +1,40 @@
+#Browsersync - Gulp &amp; Ruby SASS
+
+## Installation/Usage:
+
+To try this example, follow these 4 simple steps. 
+
+**Step 1**: Clone this entire repo
+```bash
+$ git clone https://github.com/Browsersync/recipes.git bs-recipes
+```
+
+**Step 2**: Move into the directory containing this example
+```bash
+$ cd bs-recipes/recipes/gulp.ruby.sass
+```
+
+**Step 3**: Install dependencies
+```bash
+$ npm install
+```
+
+**Step 4**: Run the example
+```bash
+$ npm start
+```
+
+### Additional Info:
+
+
+
+This example highlights both the stream support for injecting CSS, aswell
+as the support for calling `reload` directly following html changes. 
+
+We also need to filter out any source maps created by ruby-sass.
+
+### Preview of `gulpfile.js`:
+```js
 var gulp         = require('gulp');
 var browserSync  = require('browser-sync');
 var filter       = require('gulp-filter');
@@ -6,22 +43,22 @@ var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
 
 var src = {
-    scss: 'app/theme/**/*.scss',
-    css:  'app/theme',
-    php: 'app/theme/*.php'
+    scss: 'app/scss/*.scss',
+    css:  'app/css',
+    html: 'app/*.html'
 };
 
 /**
  * Kick off the sass stream with source maps + error handling
  */
 function sassStream () {
-    return sass('app/theme/sass', {sourcemap: true})
+    return sass('app/scss', {sourcemap: true})
         .on('error', function (err) {
             console.error('Error!', err.message);
         })
         .pipe(sourcemaps.write('./', {
             includeContent: false,
-            sourceRoot: '/app/theme/sass'
+            sourceRoot: '/app/scss'
         }));
 }
 
@@ -31,9 +68,7 @@ function sassStream () {
 gulp.task('serve', ['sass'], function() {
 
     browserSync({
-        // server: "./app/theme"
-        proxy: 'vcs.dev', // change this to your site url
-        // open: false
+        server: "./app"
     });
 
     gulp.watch(src.scss, ['sass']);
@@ -54,3 +89,5 @@ gulp.task('sass', function() {
  * Default task
  */
 gulp.task('default', ['serve']);
+```
+
