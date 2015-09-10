@@ -4,24 +4,27 @@ var filter       = require('gulp-filter');
 var sass         = require('gulp-ruby-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
-
+var theme = {
+    url: 'vcs.dev',
+    dir: 'app/vcstheme'
+}
 var src = {
-    scss: 'app/theme/**/*.scss',
-    css:  'app/theme',
-    php: 'app/theme/*.php'
+    scss: theme.dir+'/**/*.scss',
+    css:  theme.dir,
+    php: theme.dir+'*.php'
 };
 
 /**
  * Kick off the sass stream with source maps + error handling
  */
 function sassStream () {
-    return sass('app/theme/sass', {sourcemap: true})
+    return sass(theme.dir+'/sass', {sourcemap: true})
         .on('error', function (err) {
             console.error('Error!', err.message);
         })
         .pipe(sourcemaps.write('./', {
             includeContent: false,
-            sourceRoot: '/app/theme/sass'
+            sourceRoot: theme.dir+'/sass'
         }));
 }
 
@@ -32,12 +35,12 @@ gulp.task('serve', ['sass'], function() {
 
     browserSync({
         // server: "./app/theme"
-        proxy: 'vcs.dev', // change this to your site url
-        // open: false
+        proxy: theme.url , // change this to your site url
+        open: false
     });
 
     gulp.watch(src.scss, ['sass']);
-    gulp.watch(src.html).on('change', reload);
+    gulp.watch(src.php).on('change', reload);
 });
 
 /**

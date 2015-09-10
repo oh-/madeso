@@ -114,6 +114,7 @@ $smartphone-landscape: "screen" $phone-l + 1px;
 $tablet-portrait: "screen" $tab-p + 1px;
 $tablet-landscape: "screen" $tab-l + 1px;
 $desktop: $desk + 1px, "no-query" ".lt-ie9";
+$desktop: $desk + 1px;
 
 // use
 //  $breakpoint-no-queries: true
@@ -145,7 +146,7 @@ $mobile-device: "screen" max-width $desk;
 $mobile-hi-res: "screen" (max-width $desk) $hidpi;
 $desk-hi-res: "screen" (min-width $desk) $hidpi;
 
-//Bonus: Mixin for >IE9 *only* with no media queries
+// Bonus: Mixin for >IE9 *only* with no media queries
 @mixin fallback {
   @if $breakpoint-no-queries == true {
     .lt-ie9 & {
