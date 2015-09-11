@@ -1,6 +1,6 @@
 @mixin box-sizing($value) {
--moz-box-sizing: $value;
-box-sizing: $value;
+  -moz-box-sizing: $value;
+  box-sizing: $value;
 }
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
@@ -26,6 +26,19 @@ box-sizing: $value;
 	clear: both;
 }
 
+@mixin widget-outline {
+	@include border-radius(4px, 4px);
+	border: 1px solid $color__widget-border;
+	box-sizing: border-box;
+}
+@mixin widgetify {
+	@include widget-outline;
+	background-color: $color__background-widget;
+	list-style: outside none none;
+	overflow: hidden;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
 /*
  * Development helpers
  */

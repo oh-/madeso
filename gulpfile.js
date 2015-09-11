@@ -4,21 +4,35 @@ var filter       = require('gulp-filter');
 var sass         = require('gulp-ruby-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
-var theme = {
-    url: 'vcs.dev',
-    dir: 'app/vcstheme'
-}
-var src = {
+theme = {
+  url: 'vcs.dev',
+  dir: 'app/vcstheme',
+  bower: 'bower_components/'
+};
+var config = {
+  src: {
     scss: theme.dir+'/**/*.scss',
     css:  theme.dir,
     php: theme.dir+'*.php'
+  },
+
+  sassloadpath: [
+    theme.bower + 'compass-mixins/lib/',
+    // theme.bower + 'bower-compass-core/compass/stylesheets/',
+    theme.bower + 'vertical-rhythms-without-compass/',
+    theme.bower + 'susy/sass/',
+    theme.bower + 'sass-web-fonts/'
+  ]
 };
 
 /**
  * Kick off the sass stream with source maps + error handling
  */
 function sassStream () {
-    return sass(theme.dir+'/sass', {sourcemap: true})
+    return sass(theme.dir+'/sass', {
+      sourcemap: true,
+      loadPath: config.sassloadpath
+    })
         .on('error', function (err) {
             console.error('Error!', err.message);
         })
@@ -39,8 +53,8 @@ gulp.task('serve', ['sass'], function() {
         open: false
     });
 
-    gulp.watch(src.scss, ['sass']);
-    gulp.watch(src.php).on('change', reload);
+    gulp.watch(config.src.scss, ['sass']);
+    gulp.watch(config.src.php).on('change', reload);
 });
 
 /**
@@ -48,7 +62,7 @@ gulp.task('serve', ['sass'], function() {
  */
 gulp.task('sass', function() {
     return sassStream()
-        .pipe(gulp.dest(src.css))
+        .pipe(gulp.dest(config.src.css))
         .pipe(filter("**/*.css"))
         .pipe(reload({stream: true}));
 });
