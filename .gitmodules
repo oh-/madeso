@@ -1,3 +1,7 @@
 [submodule "app/vcstheme"]
 	path = app/vcstheme
 	url = https://github.com/madeso-uk/vcsassist.git
+[submodule "ecoscore"]
+	path = app/ecoscore
+	url = https://github.com/oh-/ecostage.git
+	branch = master
