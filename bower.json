@@ -20,5 +20,8 @@
     "sass-web-fonts": "~1.1.0",
     "susy": "~2.2.2",
     "vertical-rhythms-without-compass": "~1.0.1"
+  },
+  "dependencies": {
+    "sass-web-fonts": "~2.0.0"
   }
 }

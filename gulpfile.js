@@ -5,8 +5,8 @@ var sass         = require('gulp-ruby-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
 theme = {
-  url: 'vcs.dev',
-  dir: 'app/vcstheme',
+  url: 'eco.dev',
+  dir: 'app/ecoscore',
   bower: 'bower_components/'
 };
 var config = {
