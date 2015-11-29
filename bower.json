@@ -19,7 +19,8 @@
     "compass-mixins": "~1.0.2",
     "sass-web-fonts": "~1.1.0",
     "susy": "~2.2.2",
-    "vertical-rhythms-without-compass": "~1.0.1"
+    "vertical-rhythms-without-compass": "~1.0.1",
+    "_s": "https://github.com/Automattic/_s.git"
   },
   "dependencies": {
     "sass-web-fonts": "~2.0.0"
