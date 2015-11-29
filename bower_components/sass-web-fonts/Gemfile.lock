@@ -1,13 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    commander (4.3.5)
-      highline (~> 1.7.2)
-    highline (1.7.8)
-    minitest (5.8.2)
-    sass (3.4.19)
-    sassunit (1.0.0)
-      commander
+    minitest (5.4.3)
+    sass (3.3.14)
+    sassunit (0.0.2)
       minitest
       sass
 
@@ -15,5 +11,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sass (~> 3.3)
+  sass (~> 3.3.0)
   sassunit

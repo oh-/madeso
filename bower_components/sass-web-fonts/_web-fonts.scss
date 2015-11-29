@@ -106,9 +106,9 @@
   @return wf-query-string-encode($params);
 }
 
-@function web-fonts-url($fonts...) {
+@mixin web-fonts($fonts...) {
   $protocol: wf-protocol();
   $query-string: wf-params-string($fonts);
   $url: "#{$protocol}//fonts.googleapis.com/css?#{$query-string}";
-  @return $url;
+  @import url($url);
 }
