@@ -3,6 +3,7 @@ var browserSync  = require('browser-sync');
 var sass         = require('gulp-ruby-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
+
 var theme = {
   url: 'base.dev',
   dir: 'app/theme',
