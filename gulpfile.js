@@ -50,8 +50,7 @@ function sassStream () {
 gulp.task('serve', ['sass'], function() {
 
     browserSync({
-        // server: "./app/theme"
-        proxy: theme.url , // change this to your site url
+        proxy: theme.url ,
         open: false
     });
 
