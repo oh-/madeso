@@ -1,12 +1,11 @@
 var gulp         = require('gulp');
 var browserSync  = require('browser-sync');
-var filter       = require('gulp-filter');
 var sass         = require('gulp-ruby-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var reload       = browserSync.reload;
 var theme = {
-  url: 'eco.dev',
-  dir: 'app/ecoscore',
+  url: 'base.dev',
+  dir: 'app/theme',
   bower: 'bower_components/'
 };
 var config = {
