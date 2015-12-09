@@ -4,12 +4,13 @@
   "description": "Build tool to use as an _s starter theme builder",
   "main": "index.js",
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-plumber": "^1.0.0",
-    "gulp-watch": "^4.2.4",
     "browser-sync": "^2.6.4",
+    "gulp": "^3.8.11",
     "gulp-compass": "^2.0.4",
-    "gulp-sourcemaps": "^1.5.2"
+    "gulp-plumber": "^1.0.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-watch": "^4.2.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

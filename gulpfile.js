@@ -1,108 +1,81 @@
-var siteurl = 'base.theme';
-// Site vars
-
-var gulp = require('gulp');
-var watch = require('gulp-watch');
-var compass = require('gulp-compass');
-var plumber = require('gulp-plumber')
-var sourcemaps = require('gulp-sourcemaps');
-var browserSync = require('browser-sync');
-var reload = browserSync.reload;
-
-
-var paths = {
-  theme: {
-    dir: './app/theme/',
-    url: 'base.theme'
-  },
-	styles: {
-		src: paths.theme.dir . '{,*/}*.{scss,sass}',
-		sass: paths.theme.dir . 'sass/',
-		dest: paths.theme.dir,
-		bower: './bower_components/',
-		build: './app/temp/'
-		}
+var gulp         = require('gulp');
+var browserSync  = require('browser-sync');
+var filter       = require('gulp-filter');
+var sass         = require('gulp-ruby-sass');
+var sourcemaps   = require('gulp-sourcemaps');
+var reload       = browserSync.reload;
+var theme = {
+  url: 'eco.dev',
+  dir: 'app/ecoscore',
+  bower: 'bower_components/'
 };
-//  browsersync config
 var config = {
-	files: [paths.theme.dir . 'style.css', paths.theme.dir .'*.php'],
-    proxy: paths.theme.url, // change this to your site url
-    notify: 'false',
-    browser: "FirefoxDeveloperEdition",
-    open: false,
-    ghostMode: false
-// : {
-//     clicks: true,
-//     forms: true,
-//     scroll: false
-// }
-};
-var configo = {
-	files: [paths.theme.dir . 'style.css', paths.theme.dir .'*.php'],
-    proxy: paths.theme.url, // change this to your site url
-    notify: 'false',
-    browser: "FirefoxDeveloperEdition",
-    open: true,
-    ghostMode: false
+  src: {
+    scss: theme.dir+'/**/*.scss',
+    css:  theme.dir,
+    php: theme.dir+'*.php'
+  },
+
+  sassloadpath: [
+    theme.bower + 'compass-mixins/lib/',
+    // theme.bower + 'bower-compass-core/compass/stylesheets/',
+    theme.bower + 'vertical-rhythms-without-compass/',
+    theme.bower + 'susy/sass/',
+    theme.bower + 'sass-web-fonts/'
+  ]
 };
 
+/**
+ * Kick off the sass stream with source maps + error handling
+ */
+// tempDir = './app/tmp/';
+function sassStream () {
+    return sass(theme.dir+'/sass', {
+      sourcemap: true,
+      // cacheLocation: tempDir,
+      loadPath: config.sassloadpath
+    })
+        .on('error', function (err) {
+            console.error('Error!', err.message);
+        })
+        .pipe(sourcemaps.write('./', {
+            includeContent: false,
+            sourceRoot: theme.dir+'/sass'
+        }));
+}
 
-gulp.task('compass', function() {
-  gulp.src(paths.styles.src)
-	.pipe(plumber({
-		errorHandler: function (error) {
-			console.log(error.message);
-			this.emit('end');
-		}
-	}))
-    .pipe(compass({
-		import_path: paths.styles.bower,
-		config_file: './config.rb',
-		require: 'susy',
-		require: 'breakpoint',
-		css: paths.styles.dest,
-		sass: paths.styles.sass,
-		sourcemap: 'true'
-    }))
-	.on('error', function(err) {
-		//would like to catch the error here
-	})
-    .pipe(gulp.dest(paths.styles.build))
-    .pipe(reload({ stream:true }));
+/**
+ * Start the Browsersync Static Server + Watch files
+ */
+gulp.task('serve', ['sass'], function() {
+
+    browserSync({
+        // server: "./app/theme"
+        proxy: theme.url , // change this to your site url
+        open: false
+    });
+
+    gulp.watch(config.src.scss, ['sass']);
+    gulp.watch(config.src.php).on('change', reload);
 });
 
-
-
-// // Gulp Sass Task - if you would prefer Sass to Compass
-// gulp.task('sass', function() {
-//   gulp.src('./app/theme/sass/{,*/}*.{scss,sass}')
-//    	.pipe(sourcemaps.init())
-//    	.pipe(sass({
-//       errLogToConsole: true
-//     }))
-//     .pipe(sourcemaps.write())
-//     .pipe(gulp.dest('./app/theme'))
-//     .pipe(reload({ stream:true }));
-// });
-
-
-
-
-gulp.task('serve', function() {
-	browserSync(config);
-	gulp.watch('paths.styles.src', ['compass']);
-});
-gulp.task('serveo', function() {
-	browserSync(configo);
-	gulp.watch('paths.styles.src', ['compass']);
+/**
+ * Compile sass, filter the results, inject CSS into all browsers
+ */
+gulp.task('sass', function() {
+    return sassStream()
+        .pipe(gulp.dest(config.src.css))
+        .pipe(filter("**/*.css"))
+        .pipe(reload({stream: true}));
 });
 
-gulp.task('o', ['compass', 'serveo'], function() {
-	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
-	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
-});
-
-gulp.task('default', ['compass', 'serve'], function() {
-	gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}' , ['compass']);
-	// gulp.watch('./app/theme/sass/{,*/}*.{scss,sass}', ['sass']);
-});
+/*
+ * cleaning away the dirty files
+ */
+gulp.task('clear', function() {
+  return sass.clearCache();
+})
+/**
+ * Default task
+ */
+gulp.task('default', ['serve']);
