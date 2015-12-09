@@ -15,8 +15,8 @@
   ],
   "devDependencies": {
     "susy": "~2.2.2",
-    "sass-web-fonts": "~1.1.0",
     "breakpoint": "~4.6.4",
-    "_s": "https://github.com/Automattic/_s.git"
+    "_s": "https://github.com/Automattic/_s.git",
+    "sass-web-fonts": "~2.0.0"
   }
 }
