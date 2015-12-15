@@ -1,6 +1,6 @@
 @mixin box-sizing($value) {
--moz-box-sizing: $value;
-box-sizing: $value;
+  -moz-box-sizing: $value;
+  box-sizing: $value;
 }
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
@@ -26,6 +26,19 @@ box-sizing: $value;
 	clear: both;
 }
 
+@mixin widget-outline {
+	@include border-radius(4px, 4px);
+	border: 1px solid $color__widget-border;
+	box-sizing: border-box;
+}
+@mixin widgetify {
+	@include widget-outline;
+	background-color: $color__background-widget;
+	list-style: outside none none;
+	overflow: hidden;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
 /*
  * Development helpers
  */
@@ -41,17 +54,17 @@ box-sizing: $value;
 		z-index: 9999999;
 		@include border-radius(10px);
 		&:hover{ @include opacity(0.8);}
-		@include breakpoint($smartphone-portrait) {
+		@include susy-breakpoint($smartphone-portrait) {
 		&::after {	
 			content: '$smartphone-portrait';
 		}
 		};
-		@include breakpoint($smartphone-landscape) {
+		@include susy-breakpoint($smartphone-landscape) {
 		&::after {	
 			content: '$smartphone-landscape';
 		}
 		};
-		@include breakpoint($tablet-portrait) {
+		@include susy-breakpoint($tablet-portrait) {
 		&::after {	
 			content: '$tablet-portrait';
 			width: span(2 of 16);
@@ -59,12 +72,12 @@ box-sizing: $value;
 			top:  span(2 of 16);
 		}
 		};
-		@include breakpoint($tablet-landscape) {
+		@include susy-breakpoint($tablet-landscape) {
 		&::after {	
 			content: '$tablet-landscape';
 		}
 		};
-		@include breakpoint($desktop) {
+		@include susy-breakpoint($desktop) {
 		&::after {	
 			content: '$desktop';
 		}
@@ -78,17 +91,17 @@ box-sizing: $value;
 @mixin page {
 	@include span(full);
 	//up to tablet landscap
-	@include breakpoint($tablet-portrait) {
+	@include susy-breakpoint($tablet-portrait) {
 		// Tablet-portrait and up
 		@include span(14 of 16 nest);
 		@include squish(1 of 16);
 	};
-	@include breakpoint($tablet-landscape) {
+	@include susy-breakpoint($tablet-landscape) {
 		// Tablet-portrait and up
 		@include span(14 of 16 nest);
 		@include squish(1 of 16);
 	};
-	@include breakpoint($desktop) {
+	@include susy-breakpoint($desktop) {
 		@include span(16 of 16 nest);
 		@include pad(0.5 of 16);
 	}
