@@ -1,5 +1,4 @@
-#_s with a few tweeks
-WP starter theme bundle
+WP `_s` starter theme bundle builder
 
 Included tweeks:
 * browsersync

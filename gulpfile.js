@@ -13,15 +13,15 @@ var reload       = browserSync.reload;
 
 var theme = {
   url: 'base.dev',
-  dir: 'app/theme',
+  dir: 'app/build',
   tmp: 'app/tmp',
 };
 
 
 var config = {
   src: {
-    scss: theme.dir + '/**/*.scss',
-    css:  theme.dir,
+    scss: theme.dir + '/sass/**/*.scss',
+    css:  theme.dir + '/',
     php: theme.dir + '/**/*.php',
     bower: 'bower_components/',
     _s: 'bower_components/_s/'
@@ -52,20 +52,20 @@ var config = {
  * Kick off the sass stream with source maps + error handling
  */
 // tempDir = './app/tmp/';
-function sassStream () {
+function sassStream() {
     return sass(config.src.scss, {
       sourcemap: true,
-      // cacheLocation: tempDir,
+      cacheLocation: theme.tmp,
       loadPath: config.sassloadpath
     })
-        .on('error', function (err) {
-            console.error('Error!', err.message);
-        })
-        .pipe(sourcemaps.write('./', {
-            includeContent: false,
-            sourceRoot: config.src.scss
-        }));
-}
+    .on('error', function (err) { 
+      console.error('Error!', err.message); })
+    .pipe(sourcemaps.write(theme.dir, {
+      includeContent: false,
+      sourceRoot: config.src.scss
+    }))
+    .pipe(gulp.dest(config.src.css));
+};
 
 /**
  * Start the Browsersync Static Server + Watch files
@@ -129,10 +129,6 @@ function Rename (tn, td) {
   .pipe(replace(config.WordFrom[1], td + "_"))
   .pipe(replace(config.WordFrom[3], " " + tn ))
   .pipe(replace(config.WordFrom[4], td + "-"))
-  // .pipe(replace( new RegExp("'_s'", "'" + td + "'")))
-  // .pipe(replace( new RegExp("_s_",  td + "_")))
-  // .pipe(replace( new RegExp(" _s", " " + tn )))
-  // .pipe(replace( new RegExp("_s-",  td + "-")))
   .pipe(gulp.dest('app/' + td +'/'));
 }
 
