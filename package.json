@@ -1,8 +1,8 @@
 {
-  "name": "wp-base-builder",
+  "name": "wptheme-base-builder",
   "version": "1.0.0",
   "description": "Build tool to use as an _s starter theme builder",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "devDependencies": {
     "browser-sync": "^2.6.4",
     "gulp": "^3.8.11",
