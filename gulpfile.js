@@ -13,16 +13,16 @@ var theme = {
   url: 'base.dev',
   dir: 'app/theme',
   tmp: 'app/tmp',
-  bower: 'bower_components/',
-  _s: 'bower_components/_s/'
 };
 
 
 var config = {
   src: {
-    scss: theme.dir+'/**/*.scss',
+    scss: theme.dir + '/**/*.scss',
     css:  theme.dir,
-    php: theme.dir+'*.php'
+    php: theme.dir + '/**/*.php',
+    bower: 'bower_components/',
+    _s: 'bower_components/_s/'
   },
   WordFrom: [
     // Search for '_s' (inside single quotations) to capture the text domain.
@@ -51,7 +51,7 @@ var config = {
  */
 // tempDir = './app/tmp/';
 function sassStream () {
-    return sass(theme.dir+'/sass', {
+    return sass(config.src.scss, {
       sourcemap: true,
       // cacheLocation: tempDir,
       loadPath: config.sassloadpath
@@ -61,7 +61,7 @@ function sassStream () {
         })
         .pipe(sourcemaps.write('./', {
             includeContent: false,
-            sourceRoot: theme.dir+'/sass'
+            sourceRoot: config.src.scss
         }));
 }
 
@@ -98,7 +98,7 @@ gulp.task('clear', function() {
 /**
  * Default task
  */
-// gulp.task('default', ['serve']);
+gulp.task('default', ['serve']);
 
 var ThemeName = '';
 var textdomain = '';
@@ -120,7 +120,7 @@ console.log('you must Specifiy a name using --name SingleWordName');
 // console.log(newstr);  // Smith, John
 
 function Rename (tn, td) {
-  gulp.src([ theme._s + '**/*' ])
+  gulp.src([ config.src._s + '**/*' ])
   // .pipe(replace( new RegExp("'_s'", "'" + td + "'")))
   
   .pipe(replace(config.WordFrom[0], "'" + td + "'"))
