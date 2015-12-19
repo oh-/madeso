@@ -60,7 +60,7 @@ function sassStream() {
     })
     .on('error', function (err) { 
       console.error('Error!', err.message); })
-    .pipe(sourcemaps.write(theme.dir, {
+    .pipe(sourcemaps.write('.', {
       includeContent: false,
       sourceRoot: config.src.scss
     }))
