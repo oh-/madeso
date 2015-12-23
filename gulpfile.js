@@ -15,6 +15,7 @@ var theme = {
   url: 'base.dev',
   dir: 'app/build',
   tmp: 'app/tmp',
+  bower: 'bower_components/',
 };
 
 
@@ -42,6 +43,7 @@ var config = {
   sassloadpath: [
     theme.bower + 'compass-mixins/lib/',
     // theme.bower + 'bower-compass-core/compass/stylesheets/',
+    theme.bower + 'breakpoint/breakpoint',
     theme.bower + 'vertical-rhythms-without-compass/',
     theme.bower + 'susy/sass/',
     theme.bower + 'sass-web-fonts/'
