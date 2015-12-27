@@ -4,16 +4,20 @@
   "description": "Build tool to use as an _s starter theme builder",
   "main": "gulpfile.js",
   "devDependencies": {
+    "autoprefixer": "^6.2.1",
+    "breakpoint-sass": "^2.6.1",
     "browser-sync": "^2.6.4",
     "gulp": "^3.8.11",
     "gulp-compass": "^2.0.4",
     "gulp-filter": "^3.0.1",
     "gulp-plumber": "^1.0.0",
+    "gulp-postcss": "^6.0.1",
     "gulp-replace": "^0.5.4",
     "gulp-ruby-sass": "^2.0.6",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-util": "^3.0.7",
-    "gulp-watch": "^4.2.4"
+    "gulp-watch": "^4.2.4",
+    "xsass": "^1.5.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

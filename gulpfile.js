@@ -41,12 +41,11 @@ var config = {
   ],
 
   sassloadpath: [
-    theme.bower + 'compass-mixins/lib/',
-    // theme.bower + 'bower-compass-core/compass/stylesheets/',
-    theme.bower + 'breakpoint/breakpoint',
+    theme.bower + 'bower-compass-core/compass/stylesheets/',
     theme.bower + 'vertical-rhythms-without-compass/',
     theme.bower + 'susy/sass/',
-    theme.bower + 'sass-web-fonts/'
+    theme.bower + 'sass-web-fonts/',
+    'node_modules/breakpoint-sass/stylesheets/'
   ]
 };
 

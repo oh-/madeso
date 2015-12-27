@@ -13,15 +13,17 @@
     "test",
     "tests"
   ],
+  "deletethese": {
+    "breakpoint": "~4.6.4",
+    "compass-mixins": "~1.0.2",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1"
+  },
   "devDependencies": {
     "_s": "https://github.com/Automattic/_s.git",
     "bower-compass-core": "~1.0.2",
-    "breakpoint": "~4.6.4",
-    "compass-mixins": "~1.0.2",
     "sass-web-fonts": "~2.0.0",
     "susy": "~2.2.2",
-    "vertical-rhythms-without-compass": "~1.0.1",
-    "compass-breakpoint": "breakpoint-sass#~2.6.1"
+    "vertical-rhythms-without-compass": "~1.0.1"
   },
   "dependencies": {}
 }
