@@ -67,7 +67,7 @@ function sassStream() {
       sourceRoot: config.src.scss
     }))
  		.pipe(autoprefixer())
- 		.pipe(concat('all.css'))
+ 		.pipe(concat('style.css'))
  		.pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(config.src.css));
 };
