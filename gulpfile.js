@@ -15,7 +15,7 @@ var reload       = browserSync.reload;
 
 var theme = {
   url: 'base.dev',
-  dir: 'app/test',
+  dir: 'app/base',
   tmp: 'app/tmp',
   bower: 'bower_components/',
 };
