@@ -4,6 +4,8 @@ var gulp         = require('gulp');
 var util         = require('gulp-util');
 var replace      = require('gulp-replace');
 var sass         = require('gulp-ruby-sass');
+var autoprefixer = require('gulp-autoprefixer');
+var concat       = require('gulp-concat');
 var filter       = require('gulp-filter');
 var sourcemaps   = require('gulp-sourcemaps');
 var browserSync  = require('browser-sync');
@@ -13,8 +15,9 @@ var reload       = browserSync.reload;
 
 var theme = {
   url: 'base.dev',
-  dir: 'app/build',
+  dir: 'app/base',
   tmp: 'app/tmp',
+  bower: 'bower_components/',
 };
 
 
@@ -40,18 +43,17 @@ var config = {
   ],
 
   sassloadpath: [
-    theme.bower + 'compass-mixins/lib/',
-    // theme.bower + 'bower-compass-core/compass/stylesheets/',
+    theme.bower + 'bower-compass-core/compass/stylesheets/',
     theme.bower + 'vertical-rhythms-without-compass/',
     theme.bower + 'susy/sass/',
-    theme.bower + 'sass-web-fonts/'
+    theme.bower + 'sass-web-fonts/',
+    'node_modules/breakpoint-sass/stylesheets/'
   ]
 };
 
 /**
  * Kick off the sass stream with source maps + error handling
  */
-// tempDir = './app/tmp/';
 function sassStream() {
     return sass(config.src.scss, {
       sourcemap: true,
@@ -60,10 +62,13 @@ function sassStream() {
     })
     .on('error', function (err) { 
       console.error('Error!', err.message); })
-    .pipe(sourcemaps.write('.', {
+    .pipe(sourcemaps.init('.', {
       includeContent: false,
       sourceRoot: config.src.scss
     }))
+ 		.pipe(autoprefixer())
+ 		.pipe(concat('style.css'))
+ 		.pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(config.src.css));
 };
 
