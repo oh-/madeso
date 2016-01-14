@@ -1,11 +1,11 @@
 {
   "name": "_s",
   "homepage": "https://github.com/Automattic/_s",
-  "_release": "cdd101e16c",
+  "_release": "d40faf1e45",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "cdd101e16c5fa30e15130a6a16b1714cea350bc6"
+    "commit": "d40faf1e4517173d9745b7697cffcac2fb61a22b"
   },
   "_source": "https://github.com/Automattic/_s.git",
   "_target": "*",
